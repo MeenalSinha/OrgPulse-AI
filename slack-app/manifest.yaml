@@ -3,6 +3,10 @@ display_information:
   description: The AI that remembers your company, understands how work flows, and prevents delays before they happen.
   background_color: "#2f5233"
 features:
+  assistant_view:
+    home_tab_enabled: true
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
   bot_user:
     display_name: OrgPulse
     always_online: true
@@ -18,12 +22,19 @@ oauth_config:
       - commands
       - channels:history
       - im:history
+      - im:write
       - users:read
+      - assistant:write
 settings:
   event_subscriptions:
     bot_events:
       - app_mention
       - app_home_opened
+      - assistant_thread_started
+      - assistant_thread_context_changed
+      - message.im
   interactivity:
     is_enabled: true
   socket_mode_enabled: true
+  org_deploy_enabled: false
+  token_rotation_enabled: false

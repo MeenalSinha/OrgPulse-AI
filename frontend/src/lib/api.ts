@@ -72,6 +72,9 @@ export const api = {
   incidentTrend: () => get("/api/analytics/incident-trend", []),
 
   integrations: () => get("/api/integrations", []),
+  integrationTools: (id: string) => get<any>(`/api/integrations/${id}/tools`, { connector: id, mode: "mock", tools: [] }),
+  callMcpTool: (id: string, tool_name: string, arguments_: Record<string, unknown>) =>
+    post<any>(`/api/integrations/${id}/call`, { tool_name, arguments: arguments_ }, { result: [] }),
 
   chat: (query: string) =>
     post("/api/chat", { query }, {

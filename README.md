@@ -1,17 +1,57 @@
-# OrgPulse AI - The Organizational Intelligence Graph
+# OrgPulse AI — The Organizational Intelligence Graph
 
 **The AI that remembers your company, understands how work flows, and prevents delays before they happen.**
 
-Built for the Slack Hack / Devpost competition. OrgPulse combines an
-**Organizational Memory Graph** (why did we decide X, who worked on Y) with a
-**Cross-Team Dependency Graph** (what blocks what, what breaks if X breaks) so
-that instead of keyword search, the AI reasons over relationships.
-
-This repository is a complete, runnable prototype: Next.js frontend, FastAPI
-backend, a Slack Bolt app, an MCP connector layer, and a realistic mock
-dataset large enough to demonstrate every feature immediately.
+Built for the **Slack Hack / Devpost** competition.
 
 ---
+
+## 🏆 Technology Proof — For Judges
+
+> These are the **required Slack Hack technologies**, with direct links to the implementation files.
+
+| Technology | Status | Proof |
+|---|---|---|
+| **MCP (Model Context Protocol)** | ✅ Implemented | [`mcp_connectors/base.py`](mcp_connectors/base.py) — `live_list_tools()` / `live_call_tool()` using `mcp.client.sse.sse_client` + `ClientSession` · [`backend/app/routers/integrations.py`](backend/app/routers/integrations.py) — `/api/integrations/{id}/tools` and `/api/integrations/{id}/call` MCP endpoints |
+| **Slack AI (Assistants API)** | ✅ Implemented | [`slack-app/handlers/mentions.py`](slack-app/handlers/mentions.py) — `assistant_threads_setTitle` + `assistant_threads_setStatus` · [`slack-app/manifest.yaml`](slack-app/manifest.yaml) — `assistant_view`, `assistant:write` scope, `assistant_thread_started` event |
+| **Slack Agent Builder** | ✅ Implemented | [`slack-app/handlers/mentions.py`](slack-app/handlers/mentions.py) — 3-step agentic loop: intent detection → tool selection → synthesis with provenance · slash commands, App Home, Block Kit, thread replies, Socket Mode |
+| **MCP Tool Browser UI** | ✅ Implemented | [`frontend/src/app/(dashboard)/integrations/page.tsx`](frontend/src/app/(dashboard)/integrations/page.tsx) — live `list_tools()` browser + interactive `call_tool()` invocation panel |
+
+### MCP — How to see it working
+
+```bash
+# Mock mode (always works, no credentials needed):
+curl http://localhost:8000/api/integrations/github/tools
+# Returns: MCP tool list with mcp_protocol: "list_tools (simulated)"
+
+# Live mode (with a real MCP server):
+GITHUB_MCP_URL=http://your-mcp-server MCP_MODE=live uvicorn app.main:app
+curl http://localhost:8000/api/integrations/github/tools
+# Calls session.initialize() + session.list_tools() for real
+```
+
+### Slack Agent — How the agentic loop works
+
+When you `@OrgPulse can we ship the Mobile App on Friday?` in Slack:
+
+1. **Intent detection** (`detect_intent()`) classifies as `release_readiness`
+2. **Tool selection** posts `:hourglass: calling tool release_readiness_check…`
+3. Calls `/api/chat` → graph service → dependency chain analysis
+4. **Synthesis** posts rich Block Kit verdict with agent provenance:
+   `🤖 OrgPulse Agent — intent: release_readiness · tools called: release_readiness_check`
+5. Calls `assistant_threads_setTitle` + `assistant_threads_setStatus` to register as a **Slack AI** participant
+
+---
+
+OrgPulse combines an **Organizational Memory Graph** (why did we decide X, who worked on Y) with a
+**Cross-Team Dependency Graph** (what blocks what, what breaks if X breaks) so that instead of
+keyword search, the AI reasons over relationships.
+
+This repository is a complete, runnable prototype: Next.js frontend, FastAPI backend, a Slack Bolt
+Agent, an MCP connector layer with 11 source systems, and a realistic mock dataset large enough to
+demonstrate every feature immediately.
+
+
 
 ## Quickstart (Docker, recommended)
 
@@ -74,8 +114,8 @@ This is a hackathon prototype, built to be honest about what's real:
 | Organizational memory retrieval + citations | **Real** hybrid lexical + graph-grounded retrieval. Synthesis uses a deterministic, fully-cited template by default; wire `ANTHROPIC_API_KEY` to have Claude compose the final answer from the same retrieved evidence |
 | REST API (17 route groups) | **Real** - FastAPI, fully wired to the frontend |
 | Frontend (20 routes, marketing + app + interactive graph explorers) | **Real** - Next.js 15 + React Flow + Recharts, builds cleanly, includes landing page, features page, dark mode toggle, loading skeletons, and empty states |
-| Slack app (@mentions, slash command, App Home) | **Real** Bolt app, calls the live backend |
-| MCP connectors (11 sources) | **Interface is real**; each connector ships in mock mode by default and is written so flipping `MCP_MODE=live` + setting a server URL swaps in a real MCP session with zero changes to routers, graph builder, or Slack app |
+| Slack app — Agentic tool loop | **Real** — `mentions.py` implements 3-step agent: intent detection → tool selection with "Thinking…" posts → synthesis with provenance block. Slack Assistants API (`assistant_threads_setTitle`, `assistant_threads_setStatus`) marks OrgPulse as a Slack AI participant |
+| MCP connectors (11 sources) | **Real MCP** — `mcp_connectors/base.py` uses `mcp.client.sse.sse_client` + `ClientSession` for `list_tools()` / `call_tool()`. New `/api/integrations/{id}/tools` and `/api/integrations/{id}/call` endpoints perform real MCP protocol calls in live mode; representative mock stubs in mock mode for credential-free demo |
 | Neo4j / pgvector / Qdrant | **Architected for, not wired.** The prototype uses JSON fixtures behind a single `DataStore` facade (`backend/app/services/data_loader.py`) specifically so swapping in real graph/vector stores only touches one file. See `docs/ARCHITECTURE.md` |
 | Auth | JWT issuing works end to end; Slack OAuth callback is a stub that needs real `SLACK_CLIENT_ID/SECRET` to exchange a code |
 
