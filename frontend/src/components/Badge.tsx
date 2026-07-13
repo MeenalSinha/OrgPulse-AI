@@ -7,9 +7,9 @@ const TONES: Record<string, string> = {
   neutral: "bg-canvas text-muted",
 };
 
-export function Badge({ tone = "neutral", children }: { tone?: keyof typeof TONES; children: React.ReactNode }) {
+export function Badge({ tone = "neutral", children, className }: { tone?: keyof typeof TONES; children: React.ReactNode; className?: string }) {
   return (
-    <span className={clsx("inline-flex items-center rounded-full px-2.5 py-1 text-[11.5px] font-semibold", TONES[tone])}>
+    <span className={clsx("inline-flex items-center rounded-full px-2.5 py-1 text-[11.5px] font-semibold", TONES[tone], className)}>
       {children}
     </span>
   );
