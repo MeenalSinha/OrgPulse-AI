@@ -1,0 +1,1158 @@
+[
+  {
+    "id": "conv-001",
+    "channel": "#platform",
+    "summary": "Discussion about Feature Flag Service design tradeoffs.",
+    "participant_ids": [
+      "emp-014",
+      "emp-091",
+      "emp-067",
+      "emp-082"
+    ],
+    "timestamp": "2025-08-28"
+  },
+  {
+    "id": "conv-002",
+    "channel": "#architecture",
+    "summary": "Discussion about Recommendation Engine rollout.",
+    "participant_ids": [
+      "emp-049",
+      "emp-084",
+      "emp-047"
+    ],
+    "timestamp": "2025-09-29"
+  },
+  {
+    "id": "conv-003",
+    "channel": "#devops",
+    "summary": "Discussion about Mobile Gateway design tradeoffs.",
+    "participant_ids": [
+      "emp-049",
+      "emp-117",
+      "emp-029",
+      "emp-067"
+    ],
+    "timestamp": "2025-10-14"
+  },
+  {
+    "id": "conv-004",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Auth Service incident.",
+    "participant_ids": [
+      "emp-114",
+      "emp-078",
+      "emp-001",
+      "emp-065",
+      "emp-113"
+    ],
+    "timestamp": "2026-02-23"
+  },
+  {
+    "id": "conv-005",
+    "channel": "#platform",
+    "summary": "Discussion about Analytics Pipeline incident.",
+    "participant_ids": [
+      "emp-066",
+      "emp-083"
+    ],
+    "timestamp": "2026-03-17"
+  },
+  {
+    "id": "conv-006",
+    "channel": "#backend-core",
+    "summary": "Discussion about Recommendation Engine incident.",
+    "participant_ids": [
+      "emp-047",
+      "emp-078",
+      "emp-092"
+    ],
+    "timestamp": "2025-11-20"
+  },
+  {
+    "id": "conv-007",
+    "channel": "#growth",
+    "summary": "Discussion about Auth Service incident.",
+    "participant_ids": [
+      "emp-093",
+      "emp-015",
+      "emp-062",
+      "emp-087"
+    ],
+    "timestamp": "2026-03-30"
+  },
+  {
+    "id": "conv-008",
+    "channel": "#architecture",
+    "summary": "Discussion about Security Review Service incident.",
+    "participant_ids": [
+      "emp-003",
+      "emp-032",
+      "emp-006",
+      "emp-017",
+      "emp-074"
+    ],
+    "timestamp": "2025-10-01"
+  },
+  {
+    "id": "conv-009",
+    "channel": "#mobile-team",
+    "summary": "Discussion about User Service incident.",
+    "participant_ids": [
+      "emp-115",
+      "emp-074"
+    ],
+    "timestamp": "2026-02-08"
+  },
+  {
+    "id": "conv-010",
+    "channel": "#architecture",
+    "summary": "Discussion about Recommendation Engine rollout.",
+    "participant_ids": [
+      "emp-067",
+      "emp-052",
+      "emp-077"
+    ],
+    "timestamp": "2026-01-26"
+  },
+  {
+    "id": "conv-011",
+    "channel": "#architecture",
+    "summary": "Discussion about Auth Service ownership.",
+    "participant_ids": [
+      "emp-028",
+      "emp-058"
+    ],
+    "timestamp": "2026-03-25"
+  },
+  {
+    "id": "conv-012",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Reporting Service on-call handoff.",
+    "participant_ids": [
+      "emp-107",
+      "emp-053",
+      "emp-077"
+    ],
+    "timestamp": "2026-03-19"
+  },
+  {
+    "id": "conv-013",
+    "channel": "#growth",
+    "summary": "Discussion about Search Service on-call handoff.",
+    "participant_ids": [
+      "emp-022",
+      "emp-093",
+      "emp-088",
+      "emp-044"
+    ],
+    "timestamp": "2026-05-16"
+  },
+  {
+    "id": "conv-014",
+    "channel": "#backend-core",
+    "summary": "Discussion about User Service incident.",
+    "participant_ids": [
+      "emp-049",
+      "emp-050",
+      "emp-017"
+    ],
+    "timestamp": "2025-09-26"
+  },
+  {
+    "id": "conv-015",
+    "channel": "#growth",
+    "summary": "Discussion about Search Service on-call handoff.",
+    "participant_ids": [
+      "emp-106",
+      "emp-020",
+      "emp-078",
+      "emp-013",
+      "emp-023"
+    ],
+    "timestamp": "2026-06-01"
+  },
+  {
+    "id": "conv-016",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Search Service on-call handoff.",
+    "participant_ids": [
+      "emp-012",
+      "emp-062"
+    ],
+    "timestamp": "2026-06-20"
+  },
+  {
+    "id": "conv-017",
+    "channel": "#incidents",
+    "summary": "Discussion about Notification Service incident.",
+    "participant_ids": [
+      "emp-067",
+      "emp-054",
+      "emp-048",
+      "emp-112",
+      "emp-006"
+    ],
+    "timestamp": "2025-10-17"
+  },
+  {
+    "id": "conv-018",
+    "channel": "#architecture",
+    "summary": "Discussion about Payments API ownership.",
+    "participant_ids": [
+      "emp-045",
+      "emp-076",
+      "emp-103",
+      "emp-095",
+      "emp-117"
+    ],
+    "timestamp": "2026-04-13"
+  },
+  {
+    "id": "conv-019",
+    "channel": "#backend-core",
+    "summary": "Discussion about Database Migration Tool on-call handoff.",
+    "participant_ids": [
+      "emp-062",
+      "emp-099",
+      "emp-030",
+      "emp-117"
+    ],
+    "timestamp": "2025-09-15"
+  },
+  {
+    "id": "conv-020",
+    "channel": "#payments",
+    "summary": "Discussion about Search Service on-call handoff.",
+    "participant_ids": [
+      "emp-033",
+      "emp-025",
+      "emp-001",
+      "emp-091",
+      "emp-096"
+    ],
+    "timestamp": "2026-04-21"
+  },
+  {
+    "id": "conv-021",
+    "channel": "#security",
+    "summary": "Discussion about Cloud Migration Layer design tradeoffs.",
+    "participant_ids": [
+      "emp-049",
+      "emp-084"
+    ],
+    "timestamp": "2025-11-23"
+  },
+  {
+    "id": "conv-022",
+    "channel": "#architecture",
+    "summary": "Discussion about Database Migration Tool design tradeoffs.",
+    "participant_ids": [
+      "emp-014",
+      "emp-020",
+      "emp-055",
+      "emp-084"
+    ],
+    "timestamp": "2025-09-19"
+  },
+  {
+    "id": "conv-023",
+    "channel": "#devops",
+    "summary": "Discussion about Reporting Service incident.",
+    "participant_ids": [
+      "emp-073",
+      "emp-047",
+      "emp-079",
+      "emp-036",
+      "emp-088"
+    ],
+    "timestamp": "2025-11-21"
+  },
+  {
+    "id": "conv-024",
+    "channel": "#platform",
+    "summary": "Discussion about Search Service design tradeoffs.",
+    "participant_ids": [
+      "emp-023",
+      "emp-048",
+      "emp-072",
+      "emp-062",
+      "emp-033"
+    ],
+    "timestamp": "2025-11-29"
+  },
+  {
+    "id": "conv-025",
+    "channel": "#backend-core",
+    "summary": "Discussion about Cloud Migration Layer incident.",
+    "participant_ids": [
+      "emp-110",
+      "emp-111",
+      "emp-085"
+    ],
+    "timestamp": "2025-11-04"
+  },
+  {
+    "id": "conv-026",
+    "channel": "#devops",
+    "summary": "Discussion about Reporting Service design tradeoffs.",
+    "participant_ids": [
+      "emp-013",
+      "emp-028",
+      "emp-066"
+    ],
+    "timestamp": "2025-09-12"
+  },
+  {
+    "id": "conv-027",
+    "channel": "#payments",
+    "summary": "Discussion about Reporting Service rollout.",
+    "participant_ids": [
+      "emp-021",
+      "emp-050"
+    ],
+    "timestamp": "2026-04-07"
+  },
+  {
+    "id": "conv-028",
+    "channel": "#platform",
+    "summary": "Discussion about Analytics Pipeline design tradeoffs.",
+    "participant_ids": [
+      "emp-119",
+      "emp-077",
+      "emp-056",
+      "emp-012",
+      "emp-009"
+    ],
+    "timestamp": "2026-05-11"
+  },
+  {
+    "id": "conv-029",
+    "channel": "#devops",
+    "summary": "Discussion about Search Service on-call handoff.",
+    "participant_ids": [
+      "emp-093",
+      "emp-050"
+    ],
+    "timestamp": "2026-01-25"
+  },
+  {
+    "id": "conv-030",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Recommendation Engine ownership.",
+    "participant_ids": [
+      "emp-100",
+      "emp-105"
+    ],
+    "timestamp": "2025-11-08"
+  },
+  {
+    "id": "conv-031",
+    "channel": "#incidents",
+    "summary": "Discussion about Database Migration Tool incident.",
+    "participant_ids": [
+      "emp-026",
+      "emp-109"
+    ],
+    "timestamp": "2026-06-03"
+  },
+  {
+    "id": "conv-032",
+    "channel": "#payments",
+    "summary": "Discussion about Mobile Gateway incident.",
+    "participant_ids": [
+      "emp-079",
+      "emp-022",
+      "emp-087"
+    ],
+    "timestamp": "2026-06-20"
+  },
+  {
+    "id": "conv-033",
+    "channel": "#devops",
+    "summary": "Discussion about Mobile Gateway ownership.",
+    "participant_ids": [
+      "emp-012",
+      "emp-036",
+      "emp-100"
+    ],
+    "timestamp": "2025-11-25"
+  },
+  {
+    "id": "conv-034",
+    "channel": "#backend-core",
+    "summary": "Discussion about Payments API on-call handoff.",
+    "participant_ids": [
+      "emp-067",
+      "emp-002",
+      "emp-095"
+    ],
+    "timestamp": "2026-01-26"
+  },
+  {
+    "id": "conv-035",
+    "channel": "#architecture",
+    "summary": "Discussion about Analytics Pipeline ownership.",
+    "participant_ids": [
+      "emp-045",
+      "emp-105",
+      "emp-036",
+      "emp-029"
+    ],
+    "timestamp": "2025-11-26"
+  },
+  {
+    "id": "conv-036",
+    "channel": "#devops",
+    "summary": "Discussion about Billing Service rollout.",
+    "participant_ids": [
+      "emp-034",
+      "emp-023"
+    ],
+    "timestamp": "2025-09-07"
+  },
+  {
+    "id": "conv-037",
+    "channel": "#analytics",
+    "summary": "Discussion about Payments API on-call handoff.",
+    "participant_ids": [
+      "emp-065",
+      "emp-038"
+    ],
+    "timestamp": "2026-02-09"
+  },
+  {
+    "id": "conv-038",
+    "channel": "#growth",
+    "summary": "Discussion about Reporting Service incident.",
+    "participant_ids": [
+      "emp-089",
+      "emp-057",
+      "emp-049",
+      "emp-073"
+    ],
+    "timestamp": "2025-12-29"
+  },
+  {
+    "id": "conv-039",
+    "channel": "#payments",
+    "summary": "Discussion about Auth Service rollout.",
+    "participant_ids": [
+      "emp-088",
+      "emp-059",
+      "emp-115",
+      "emp-076",
+      "emp-111"
+    ],
+    "timestamp": "2026-02-08"
+  },
+  {
+    "id": "conv-040",
+    "channel": "#security",
+    "summary": "Discussion about Recommendation Engine incident.",
+    "participant_ids": [
+      "emp-049",
+      "emp-082"
+    ],
+    "timestamp": "2026-01-10"
+  },
+  {
+    "id": "conv-041",
+    "channel": "#platform",
+    "summary": "Discussion about Analytics Pipeline design tradeoffs.",
+    "participant_ids": [
+      "emp-046",
+      "emp-067",
+      "emp-069",
+      "emp-002",
+      "emp-090"
+    ],
+    "timestamp": "2026-05-04"
+  },
+  {
+    "id": "conv-042",
+    "channel": "#incidents",
+    "summary": "Discussion about Security Review Service ownership.",
+    "participant_ids": [
+      "emp-087",
+      "emp-096",
+      "emp-106",
+      "emp-044",
+      "emp-010"
+    ],
+    "timestamp": "2026-01-11"
+  },
+  {
+    "id": "conv-043",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Cloud Migration Layer incident.",
+    "participant_ids": [
+      "emp-028",
+      "emp-115",
+      "emp-074",
+      "emp-035"
+    ],
+    "timestamp": "2025-10-08"
+  },
+  {
+    "id": "conv-044",
+    "channel": "#platform",
+    "summary": "Discussion about Analytics Pipeline incident.",
+    "participant_ids": [
+      "emp-031",
+      "emp-095",
+      "emp-112"
+    ],
+    "timestamp": "2026-03-09"
+  },
+  {
+    "id": "conv-045",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Reporting Service rollout.",
+    "participant_ids": [
+      "emp-108",
+      "emp-080",
+      "emp-046"
+    ],
+    "timestamp": "2026-04-20"
+  },
+  {
+    "id": "conv-046",
+    "channel": "#growth",
+    "summary": "Discussion about Search Service rollout.",
+    "participant_ids": [
+      "emp-087",
+      "emp-085"
+    ],
+    "timestamp": "2025-09-16"
+  },
+  {
+    "id": "conv-047",
+    "channel": "#analytics",
+    "summary": "Discussion about Search Service design tradeoffs.",
+    "participant_ids": [
+      "emp-109",
+      "emp-062"
+    ],
+    "timestamp": "2025-10-11"
+  },
+  {
+    "id": "conv-048",
+    "channel": "#incidents",
+    "summary": "Discussion about Database Migration Tool ownership.",
+    "participant_ids": [
+      "emp-063",
+      "emp-024",
+      "emp-098",
+      "emp-118"
+    ],
+    "timestamp": "2026-02-27"
+  },
+  {
+    "id": "conv-049",
+    "channel": "#devops",
+    "summary": "Discussion about Auth Service on-call handoff.",
+    "participant_ids": [
+      "emp-007",
+      "emp-068",
+      "emp-103"
+    ],
+    "timestamp": "2026-06-04"
+  },
+  {
+    "id": "conv-050",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Auth Service rollout.",
+    "participant_ids": [
+      "emp-051",
+      "emp-111",
+      "emp-088",
+      "emp-100"
+    ],
+    "timestamp": "2025-09-28"
+  },
+  {
+    "id": "conv-051",
+    "channel": "#devops",
+    "summary": "Discussion about Search Service rollout.",
+    "participant_ids": [
+      "emp-041",
+      "emp-089",
+      "emp-002",
+      "emp-087",
+      "emp-027"
+    ],
+    "timestamp": "2026-01-05"
+  },
+  {
+    "id": "conv-052",
+    "channel": "#incidents",
+    "summary": "Discussion about Database Migration Tool incident.",
+    "participant_ids": [
+      "emp-079",
+      "emp-111",
+      "emp-034",
+      "emp-024"
+    ],
+    "timestamp": "2026-02-03"
+  },
+  {
+    "id": "conv-053",
+    "channel": "#devops",
+    "summary": "Discussion about Analytics Pipeline ownership.",
+    "participant_ids": [
+      "emp-079",
+      "emp-044",
+      "emp-047",
+      "emp-024",
+      "emp-064"
+    ],
+    "timestamp": "2025-12-12"
+  },
+  {
+    "id": "conv-054",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Search Service incident.",
+    "participant_ids": [
+      "emp-110",
+      "emp-052",
+      "emp-036",
+      "emp-058"
+    ],
+    "timestamp": "2025-08-30"
+  },
+  {
+    "id": "conv-055",
+    "channel": "#platform",
+    "summary": "Discussion about Reporting Service incident.",
+    "participant_ids": [
+      "emp-105",
+      "emp-013",
+      "emp-093"
+    ],
+    "timestamp": "2025-09-09"
+  },
+  {
+    "id": "conv-056",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Auth Service rollout.",
+    "participant_ids": [
+      "emp-110",
+      "emp-049",
+      "emp-026",
+      "emp-019",
+      "emp-103"
+    ],
+    "timestamp": "2026-03-22"
+  },
+  {
+    "id": "conv-057",
+    "channel": "#incidents",
+    "summary": "Discussion about Billing Service design tradeoffs.",
+    "participant_ids": [
+      "emp-064",
+      "emp-018",
+      "emp-115",
+      "emp-109",
+      "emp-081"
+    ],
+    "timestamp": "2025-10-14"
+  },
+  {
+    "id": "conv-058",
+    "channel": "#payments",
+    "summary": "Discussion about Notification Service rollout.",
+    "participant_ids": [
+      "emp-033",
+      "emp-072",
+      "emp-110",
+      "emp-073"
+    ],
+    "timestamp": "2026-03-29"
+  },
+  {
+    "id": "conv-059",
+    "channel": "#platform",
+    "summary": "Discussion about Auth Service rollout.",
+    "participant_ids": [
+      "emp-028",
+      "emp-105"
+    ],
+    "timestamp": "2025-11-02"
+  },
+  {
+    "id": "conv-060",
+    "channel": "#platform",
+    "summary": "Discussion about Mobile Gateway rollout.",
+    "participant_ids": [
+      "emp-034",
+      "emp-047",
+      "emp-072",
+      "emp-120"
+    ],
+    "timestamp": "2025-11-22"
+  },
+  {
+    "id": "conv-061",
+    "channel": "#architecture",
+    "summary": "Discussion about Analytics Pipeline on-call handoff.",
+    "participant_ids": [
+      "emp-045",
+      "emp-112"
+    ],
+    "timestamp": "2025-08-30"
+  },
+  {
+    "id": "conv-062",
+    "channel": "#analytics",
+    "summary": "Discussion about Recommendation Engine on-call handoff.",
+    "participant_ids": [
+      "emp-100",
+      "emp-037",
+      "emp-046"
+    ],
+    "timestamp": "2025-10-14"
+  },
+  {
+    "id": "conv-063",
+    "channel": "#growth",
+    "summary": "Discussion about Recommendation Engine incident.",
+    "participant_ids": [
+      "emp-114",
+      "emp-011",
+      "emp-049",
+      "emp-079",
+      "emp-037"
+    ],
+    "timestamp": "2026-03-27"
+  },
+  {
+    "id": "conv-064",
+    "channel": "#devops",
+    "summary": "Discussion about Feature Flag Service rollout.",
+    "participant_ids": [
+      "emp-054",
+      "emp-081",
+      "emp-079",
+      "emp-074"
+    ],
+    "timestamp": "2026-05-11"
+  },
+  {
+    "id": "conv-065",
+    "channel": "#analytics",
+    "summary": "Discussion about Recommendation Engine design tradeoffs.",
+    "participant_ids": [
+      "emp-044",
+      "emp-030",
+      "emp-041"
+    ],
+    "timestamp": "2026-02-04"
+  },
+  {
+    "id": "conv-066",
+    "channel": "#analytics",
+    "summary": "Discussion about Cloud Migration Layer on-call handoff.",
+    "participant_ids": [
+      "emp-035",
+      "emp-114",
+      "emp-057",
+      "emp-100",
+      "emp-111"
+    ],
+    "timestamp": "2025-09-27"
+  },
+  {
+    "id": "conv-067",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Cloud Migration Layer incident.",
+    "participant_ids": [
+      "emp-053",
+      "emp-022",
+      "emp-024",
+      "emp-110",
+      "emp-003"
+    ],
+    "timestamp": "2026-02-12"
+  },
+  {
+    "id": "conv-068",
+    "channel": "#devops",
+    "summary": "Discussion about Payments API rollout.",
+    "participant_ids": [
+      "emp-027",
+      "emp-022"
+    ],
+    "timestamp": "2026-05-19"
+  },
+  {
+    "id": "conv-069",
+    "channel": "#incidents",
+    "summary": "Discussion about Reporting Service rollout.",
+    "participant_ids": [
+      "emp-071",
+      "emp-007",
+      "emp-004",
+      "emp-099",
+      "emp-051"
+    ],
+    "timestamp": "2026-04-28"
+  },
+  {
+    "id": "conv-070",
+    "channel": "#devops",
+    "summary": "Discussion about Database Migration Tool incident.",
+    "participant_ids": [
+      "emp-080",
+      "emp-020",
+      "emp-011",
+      "emp-084"
+    ],
+    "timestamp": "2026-02-14"
+  },
+  {
+    "id": "conv-071",
+    "channel": "#mobile-team",
+    "summary": "Discussion about User Service rollout.",
+    "participant_ids": [
+      "emp-057",
+      "emp-081",
+      "emp-017",
+      "emp-068"
+    ],
+    "timestamp": "2025-12-20"
+  },
+  {
+    "id": "conv-072",
+    "channel": "#incidents",
+    "summary": "Discussion about Database Migration Tool on-call handoff.",
+    "participant_ids": [
+      "emp-111",
+      "emp-061",
+      "emp-060",
+      "emp-112"
+    ],
+    "timestamp": "2025-11-05"
+  },
+  {
+    "id": "conv-073",
+    "channel": "#architecture",
+    "summary": "Discussion about Search Service ownership.",
+    "participant_ids": [
+      "emp-090",
+      "emp-070",
+      "emp-023"
+    ],
+    "timestamp": "2025-09-05"
+  },
+  {
+    "id": "conv-074",
+    "channel": "#analytics",
+    "summary": "Discussion about Auth Service on-call handoff.",
+    "participant_ids": [
+      "emp-068",
+      "emp-082",
+      "emp-069",
+      "emp-040",
+      "emp-117"
+    ],
+    "timestamp": "2026-02-24"
+  },
+  {
+    "id": "conv-075",
+    "channel": "#analytics",
+    "summary": "Discussion about Notification Service design tradeoffs.",
+    "participant_ids": [
+      "emp-057",
+      "emp-040"
+    ],
+    "timestamp": "2026-04-02"
+  },
+  {
+    "id": "conv-076",
+    "channel": "#mobile-team",
+    "summary": "Discussion about Mobile Gateway design tradeoffs.",
+    "participant_ids": [
+      "emp-002",
+      "emp-001",
+      "emp-067",
+      "emp-105"
+    ],
+    "timestamp": "2025-10-23"
+  },
+  {
+    "id": "conv-077",
+    "channel": "#growth",
+    "summary": "Discussion about Reporting Service ownership.",
+    "participant_ids": [
+      "emp-089",
+      "emp-119"
+    ],
+    "timestamp": "2026-01-18"
+  },
+  {
+    "id": "conv-078",
+    "channel": "#platform",
+    "summary": "Discussion about Search Service incident.",
+    "participant_ids": [
+      "emp-099",
+      "emp-056"
+    ],
+    "timestamp": "2026-06-17"
+  },
+  {
+    "id": "conv-079",
+    "channel": "#devops",
+    "summary": "Discussion about Notification Service incident.",
+    "participant_ids": [
+      "emp-025",
+      "emp-053",
+      "emp-113",
+      "emp-072"
+    ],
+    "timestamp": "2026-03-29"
+  },
+  {
+    "id": "conv-080",
+    "channel": "#devops",
+    "summary": "Discussion about Recommendation Engine incident.",
+    "participant_ids": [
+      "emp-107",
+      "emp-049",
+      "emp-029",
+      "emp-034",
+      "emp-011"
+    ],
+    "timestamp": "2025-09-29"
+  },
+  {
+    "id": "conv-081",
+    "channel": "#platform",
+    "summary": "Discussion about Notification Service incident.",
+    "participant_ids": [
+      "emp-037",
+      "emp-084",
+      "emp-096",
+      "emp-069"
+    ],
+    "timestamp": "2026-05-16"
+  },
+  {
+    "id": "conv-082",
+    "channel": "#growth",
+    "summary": "Discussion about Search Service ownership.",
+    "participant_ids": [
+      "emp-018",
+      "emp-038",
+      "emp-015"
+    ],
+    "timestamp": "2026-02-01"
+  },
+  {
+    "id": "conv-083",
+    "channel": "#incidents",
+    "summary": "Discussion about User Service incident.",
+    "participant_ids": [
+      "emp-025",
+      "emp-042",
+      "emp-003",
+      "emp-020",
+      "emp-007"
+    ],
+    "timestamp": "2026-04-29"
+  },
+  {
+    "id": "conv-084",
+    "channel": "#payments",
+    "summary": "Discussion about Analytics Pipeline rollout.",
+    "participant_ids": [
+      "emp-035",
+      "emp-017",
+      "emp-092",
+      "emp-057"
+    ],
+    "timestamp": "2026-04-04"
+  },
+  {
+    "id": "conv-085",
+    "channel": "#analytics",
+    "summary": "Discussion about Notification Service design tradeoffs.",
+    "participant_ids": [
+      "emp-064",
+      "emp-028"
+    ],
+    "timestamp": "2025-10-08"
+  },
+  {
+    "id": "conv-086",
+    "channel": "#analytics",
+    "summary": "Discussion about Payments API incident.",
+    "participant_ids": [
+      "emp-060",
+      "emp-090",
+      "emp-102",
+      "emp-005"
+    ],
+    "timestamp": "2026-05-23"
+  },
+  {
+    "id": "conv-087",
+    "channel": "#growth",
+    "summary": "Discussion about Security Review Service incident.",
+    "participant_ids": [
+      "emp-100",
+      "emp-051",
+      "emp-010",
+      "emp-070"
+    ],
+    "timestamp": "2026-02-12"
+  },
+  {
+    "id": "conv-088",
+    "channel": "#security",
+    "summary": "Discussion about Notification Service ownership.",
+    "participant_ids": [
+      "emp-107",
+      "emp-002",
+      "emp-016",
+      "emp-099",
+      "emp-092"
+    ],
+    "timestamp": "2026-02-14"
+  },
+  {
+    "id": "conv-089",
+    "channel": "#backend-core",
+    "summary": "Discussion about Billing Service incident.",
+    "participant_ids": [
+      "emp-026",
+      "emp-059"
+    ],
+    "timestamp": "2025-10-21"
+  },
+  {
+    "id": "conv-090",
+    "channel": "#payments",
+    "summary": "Discussion about Cloud Migration Layer on-call handoff.",
+    "participant_ids": [
+      "emp-088",
+      "emp-040",
+      "emp-120",
+      "emp-042",
+      "emp-021"
+    ],
+    "timestamp": "2025-09-27"
+  },
+  {
+    "id": "conv-091",
+    "channel": "#platform",
+    "summary": "Discussion about Analytics Pipeline design tradeoffs.",
+    "participant_ids": [
+      "emp-033",
+      "emp-062"
+    ],
+    "timestamp": "2026-05-25"
+  },
+  {
+    "id": "conv-092",
+    "channel": "#devops",
+    "summary": "Discussion about Mobile Gateway rollout.",
+    "participant_ids": [
+      "emp-015",
+      "emp-031",
+      "emp-082"
+    ],
+    "timestamp": "2026-03-27"
+  },
+  {
+    "id": "conv-093",
+    "channel": "#security",
+    "summary": "Discussion about User Service rollout.",
+    "participant_ids": [
+      "emp-075",
+      "emp-016",
+      "emp-051",
+      "emp-102"
+    ],
+    "timestamp": "2025-08-27"
+  },
+  {
+    "id": "conv-094",
+    "channel": "#backend-core",
+    "summary": "Discussion about Analytics Pipeline incident.",
+    "participant_ids": [
+      "emp-089",
+      "emp-077",
+      "emp-020",
+      "emp-048",
+      "emp-099"
+    ],
+    "timestamp": "2025-10-08"
+  },
+  {
+    "id": "conv-095",
+    "channel": "#analytics",
+    "summary": "Discussion about Reporting Service rollout.",
+    "participant_ids": [
+      "emp-088",
+      "emp-080"
+    ],
+    "timestamp": "2026-05-21"
+  },
+  {
+    "id": "conv-096",
+    "channel": "#backend-core",
+    "summary": "Discussion about Security Review Service ownership.",
+    "participant_ids": [
+      "emp-083",
+      "emp-020",
+      "emp-090",
+      "emp-069"
+    ],
+    "timestamp": "2026-02-21"
+  },
+  {
+    "id": "conv-097",
+    "channel": "#analytics",
+    "summary": "Discussion about Reporting Service ownership.",
+    "participant_ids": [
+      "emp-072",
+      "emp-101",
+      "emp-083",
+      "emp-097"
+    ],
+    "timestamp": "2026-03-14"
+  },
+  {
+    "id": "conv-098",
+    "channel": "#analytics",
+    "summary": "Discussion about Cloud Migration Layer incident.",
+    "participant_ids": [
+      "emp-089",
+      "emp-049"
+    ],
+    "timestamp": "2026-02-12"
+  },
+  {
+    "id": "conv-099",
+    "channel": "#growth",
+    "summary": "Discussion about Billing Service design tradeoffs.",
+    "participant_ids": [
+      "emp-063",
+      "emp-091"
+    ],
+    "timestamp": "2025-09-16"
+  },
+  {
+    "id": "conv-100",
+    "channel": "#analytics",
+    "summary": "Discussion about Cloud Migration Layer ownership.",
+    "participant_ids": [
+      "emp-025",
+      "emp-073",
+      "emp-024",
+      "emp-070",
+      "emp-045"
+    ],
+    "timestamp": "2026-01-31"
+  }
+]

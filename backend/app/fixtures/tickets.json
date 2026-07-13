@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "JIRA-1000",
+    "title": "Implement Security Review Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-05-07"
+  },
+  {
+    "id": "JIRA-1001",
+    "title": "Investigate Security Review Service enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-086",
+    "assignee_name": "Omar Silva",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-02-13"
+  },
+  {
+    "id": "JIRA-1002",
+    "title": "Test Analytics Pipeline migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-034",
+    "assignee_name": "Fatima Wong",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-01-17"
+  },
+  {
+    "id": "JIRA-1003",
+    "title": "Document User Service spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-05-20"
+  },
+  {
+    "id": "JIRA-1004",
+    "title": "Design Security Review Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-060",
+    "assignee_name": "Sarah Santos",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-07-02"
+  },
+  {
+    "id": "JIRA-1005",
+    "title": "Design Mobile Gateway enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-082",
+    "assignee_name": "Elena Ahmed",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-10-19"
+  },
+  {
+    "id": "JIRA-1006",
+    "title": "Document Mobile Gateway migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-05-29"
+  },
+  {
+    "id": "JIRA-1007",
+    "title": "Implement Reporting Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-103",
+    "assignee_name": "Daniel Johnson",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-09-24"
+  },
+  {
+    "id": "JIRA-1008",
+    "title": "Design Payments API bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-068",
+    "assignee_name": "Fatima Chen",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-08-31"
+  },
+  {
+    "id": "JIRA-1009",
+    "title": "Implement Mobile Gateway migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-020",
+    "assignee_name": "Lucas Hassan",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-06-18"
+  },
+  {
+    "id": "JIRA-1010",
+    "title": "Investigate Billing Service migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-063",
+    "assignee_name": "Miguel Lee",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-04-14"
+  },
+  {
+    "id": "JIRA-1011",
+    "title": "Test Search Service bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-054",
+    "assignee_name": "Diego Petrov",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-07-11"
+  },
+  {
+    "id": "JIRA-1012",
+    "title": "Investigate Notification Service spike",
+    "team_id": "team-05",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-08-28"
+  },
+  {
+    "id": "JIRA-1013",
+    "title": "Test Mobile Gateway bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-006",
+    "assignee_name": "Keiko Garcia",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-05-16"
+  },
+  {
+    "id": "JIRA-1014",
+    "title": "Design Notification Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-005",
+    "assignee_name": "Ravi Santos",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-12-11"
+  },
+  {
+    "id": "JIRA-1015",
+    "title": "Test Notification Service bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-07-21"
+  },
+  {
+    "id": "JIRA-1016",
+    "title": "Implement Billing Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-016",
+    "assignee_name": "Julia Petrov",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-06-13"
+  },
+  {
+    "id": "JIRA-1017",
+    "title": "Investigate Reporting Service bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-107",
+    "assignee_name": "Sarah Novak",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-07-11"
+  },
+  {
+    "id": "JIRA-1018",
+    "title": "Document Notification Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-055",
+    "assignee_name": "Miguel Park",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-12-25"
+  },
+  {
+    "id": "JIRA-1019",
+    "title": "Implement Cloud Migration Layer bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-036",
+    "assignee_name": "Daniel Costa",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-08-10"
+  },
+  {
+    "id": "JIRA-1020",
+    "title": "Implement Payments API bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-031",
+    "assignee_name": "Ivan Ahmed",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-11-04"
+  },
+  {
+    "id": "JIRA-1021",
+    "title": "Investigate Analytics Pipeline bug",
+    "team_id": "team-10",
+    "assignee_id": "emp-087",
+    "assignee_name": "Lucas Ibrahim",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-02-21"
+  },
+  {
+    "id": "JIRA-1022",
+    "title": "Investigate Security Review Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-028",
+    "assignee_name": "Aisha Zhang",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-08-29"
+  },
+  {
+    "id": "JIRA-1023",
+    "title": "Design Analytics Pipeline spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-099",
+    "assignee_name": "Nadia Chen",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-11-21"
+  },
+  {
+    "id": "JIRA-1024",
+    "title": "Investigate Billing Service enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-036",
+    "assignee_name": "Daniel Costa",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-05-27"
+  },
+  {
+    "id": "JIRA-1025",
+    "title": "Test Reporting Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-083",
+    "assignee_name": "Mei Nguyen",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-04-05"
+  },
+  {
+    "id": "JIRA-1026",
+    "title": "Implement Reporting Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-049",
+    "assignee_name": "Ravi Ahmed",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-01-18"
+  },
+  {
+    "id": "JIRA-1027",
+    "title": "Test User Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-104",
+    "assignee_name": "Keiko Brown",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-12-04"
+  },
+  {
+    "id": "JIRA-1028",
+    "title": "Implement Mobile Gateway bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-033",
+    "assignee_name": "Nadia Wong",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-05-04"
+  },
+  {
+    "id": "JIRA-1029",
+    "title": "Implement User Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2026-05-14"
+  },
+  {
+    "id": "JIRA-1030",
+    "title": "Document Cloud Migration Layer enhancement",
+    "team_id": "team-04",
+    "assignee_id": "emp-103",
+    "assignee_name": "Daniel Johnson",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-01-01"
+  },
+  {
+    "id": "JIRA-1031",
+    "title": "Investigate Analytics Pipeline enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-117",
+    "assignee_name": "Jenna Wong",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-02-16"
+  },
+  {
+    "id": "JIRA-1032",
+    "title": "Implement Notification Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-091",
+    "assignee_name": "Noah Sharma",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-05-19"
+  },
+  {
+    "id": "JIRA-1033",
+    "title": "Test Billing Service spike",
+    "team_id": "team-05",
+    "assignee_id": "emp-049",
+    "assignee_name": "Ravi Ahmed",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-12-18"
+  },
+  {
+    "id": "JIRA-1034",
+    "title": "Test Auth Service bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-113",
+    "assignee_name": "Daniel Garcia",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-03-08"
+  },
+  {
+    "id": "JIRA-1035",
+    "title": "Test User Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-041",
+    "assignee_name": "Mei Zhang",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-02-07"
+  },
+  {
+    "id": "JIRA-1036",
+    "title": "Document Search Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-120",
+    "assignee_name": "Sam Wong",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-03-12"
+  },
+  {
+    "id": "JIRA-1037",
+    "title": "Test Search Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-030",
+    "assignee_name": "Fatima Patel",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-02-09"
+  },
+  {
+    "id": "JIRA-1038",
+    "title": "Test Auth Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-04-10"
+  },
+  {
+    "id": "JIRA-1039",
+    "title": "Implement Billing Service bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-063",
+    "assignee_name": "Miguel Lee",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-05-13"
+  },
+  {
+    "id": "JIRA-1040",
+    "title": "Investigate Notification Service enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-098",
+    "assignee_name": "Diego Silva",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-06-23"
+  },
+  {
+    "id": "JIRA-1041",
+    "title": "Implement Billing Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-002",
+    "assignee_name": "Keiko Chen",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-08-08"
+  },
+  {
+    "id": "JIRA-1042",
+    "title": "Test Recommendation Engine migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-117",
+    "assignee_name": "Jenna Wong",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-09-21"
+  },
+  {
+    "id": "JIRA-1043",
+    "title": "Investigate User Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-053",
+    "assignee_name": "Lucas Petrov",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2026-06-12"
+  },
+  {
+    "id": "JIRA-1044",
+    "title": "Test Reporting Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-105",
+    "assignee_name": "Ivan Zhang",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-09-25"
+  },
+  {
+    "id": "JIRA-1045",
+    "title": "Implement Search Service spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-031",
+    "assignee_name": "Ivan Ahmed",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-11-29"
+  },
+  {
+    "id": "JIRA-1046",
+    "title": "Test Auth Service enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-048",
+    "assignee_name": "Nadia Kaur",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-07-05"
+  },
+  {
+    "id": "JIRA-1047",
+    "title": "Investigate Payments API migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-084",
+    "assignee_name": "Sam Weiss",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-09-11"
+  },
+  {
+    "id": "JIRA-1048",
+    "title": "Investigate Cloud Migration Layer enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-008",
+    "assignee_name": "Alex Ibrahim",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-11-10"
+  },
+  {
+    "id": "JIRA-1049",
+    "title": "Investigate Billing Service bug",
+    "team_id": "team-06",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-07-01"
+  },
+  {
+    "id": "JIRA-1050",
+    "title": "Design User Service bug",
+    "team_id": "team-10",
+    "assignee_id": "emp-061",
+    "assignee_name": "Ivan Petrov",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2026-03-21"
+  },
+  {
+    "id": "JIRA-1051",
+    "title": "Implement Search Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-003",
+    "assignee_name": "Sofia Khan",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2026-01-18"
+  },
+  {
+    "id": "JIRA-1052",
+    "title": "Implement Search Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-12-06"
+  },
+  {
+    "id": "JIRA-1053",
+    "title": "Investigate Billing Service spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-102",
+    "assignee_name": "Julia Petrov",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-09"
+  },
+  {
+    "id": "JIRA-1054",
+    "title": "Investigate Mobile Gateway migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-108",
+    "assignee_name": "Ivan Weiss",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-07-31"
+  },
+  {
+    "id": "JIRA-1055",
+    "title": "Test Auth Service enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-101",
+    "assignee_name": "Kenji Rossi",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-11-11"
+  },
+  {
+    "id": "JIRA-1056",
+    "title": "Document Recommendation Engine migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-02-14"
+  },
+  {
+    "id": "JIRA-1057",
+    "title": "Design Security Review Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-011",
+    "assignee_name": "Jenna Petrov",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-01-09"
+  },
+  {
+    "id": "JIRA-1058",
+    "title": "Investigate User Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-014",
+    "assignee_name": "Noah Patel",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-05-27"
+  },
+  {
+    "id": "JIRA-1059",
+    "title": "Implement Payments API enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-014",
+    "assignee_name": "Noah Patel",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-09-08"
+  },
+  {
+    "id": "JIRA-1060",
+    "title": "Test Payments API bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-066",
+    "assignee_name": "Amara Weiss",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-09-10"
+  },
+  {
+    "id": "JIRA-1061",
+    "title": "Document Reporting Service spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-077",
+    "assignee_name": "Carl Zhang",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2026-01-22"
+  },
+  {
+    "id": "JIRA-1062",
+    "title": "Investigate Cloud Migration Layer enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-050",
+    "assignee_name": "Lucas Sharma",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-07-05"
+  },
+  {
+    "id": "JIRA-1063",
+    "title": "Implement Database Migration Tool spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-022",
+    "assignee_name": "Lucas Chen",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-04-07"
+  },
+  {
+    "id": "JIRA-1064",
+    "title": "Test Database Migration Tool migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-022",
+    "assignee_name": "Lucas Chen",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-05-16"
+  },
+  {
+    "id": "JIRA-1065",
+    "title": "Design Analytics Pipeline migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-047",
+    "assignee_name": "Victor Kaur",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-10-29"
+  },
+  {
+    "id": "JIRA-1066",
+    "title": "Design User Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-018",
+    "assignee_name": "Priya Johnson",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-01-03"
+  },
+  {
+    "id": "JIRA-1067",
+    "title": "Test Feature Flag Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-043",
+    "assignee_name": "Sofia Ibrahim",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-08-16"
+  },
+  {
+    "id": "JIRA-1068",
+    "title": "Design Security Review Service migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-062",
+    "assignee_name": "Victor Johnson",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-06-09"
+  },
+  {
+    "id": "JIRA-1069",
+    "title": "Implement Mobile Gateway migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-074",
+    "assignee_name": "Julia Ibrahim",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-12-16"
+  },
+  {
+    "id": "JIRA-1070",
+    "title": "Document Analytics Pipeline enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-120",
+    "assignee_name": "Sam Wong",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-06-13"
+  },
+  {
+    "id": "JIRA-1071",
+    "title": "Implement Auth Service spike",
+    "team_id": "team-08",
+    "assignee_id": "emp-091",
+    "assignee_name": "Noah Sharma",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-07-11"
+  },
+  {
+    "id": "JIRA-1072",
+    "title": "Design Analytics Pipeline spike",
+    "team_id": "team-08",
+    "assignee_id": "emp-018",
+    "assignee_name": "Priya Johnson",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-12-09"
+  },
+  {
+    "id": "JIRA-1073",
+    "title": "Document Auth Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-09-15"
+  },
+  {
+    "id": "JIRA-1074",
+    "title": "Design Cloud Migration Layer bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-102",
+    "assignee_name": "Julia Petrov",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-07-19"
+  },
+  {
+    "id": "JIRA-1075",
+    "title": "Document User Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-022",
+    "assignee_name": "Lucas Chen",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-04-27"
+  },
+  {
+    "id": "JIRA-1076",
+    "title": "Design Analytics Pipeline enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-013",
+    "assignee_name": "Kenji Johnson",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-12-02"
+  },
+  {
+    "id": "JIRA-1077",
+    "title": "Document Cloud Migration Layer enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-099",
+    "assignee_name": "Nadia Chen",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-10-16"
+  },
+  {
+    "id": "JIRA-1078",
+    "title": "Test Payments API bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-038",
+    "assignee_name": "Carl Khan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-01-12"
+  },
+  {
+    "id": "JIRA-1079",
+    "title": "Implement Billing Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "JIRA-1080",
+    "title": "Test Mobile Gateway bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-06-22"
+  },
+  {
+    "id": "JIRA-1081",
+    "title": "Design Recommendation Engine bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-003",
+    "assignee_name": "Sofia Khan",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-09-29"
+  },
+  {
+    "id": "JIRA-1082",
+    "title": "Implement Mobile Gateway migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-071",
+    "assignee_name": "Miguel Nguyen",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-11-25"
+  },
+  {
+    "id": "JIRA-1083",
+    "title": "Test Notification Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-024",
+    "assignee_name": "Sofia Hassan",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-11-02"
+  },
+  {
+    "id": "JIRA-1084",
+    "title": "Test User Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-055",
+    "assignee_name": "Miguel Park",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-05-31"
+  },
+  {
+    "id": "JIRA-1085",
+    "title": "Investigate Reporting Service enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-074",
+    "assignee_name": "Julia Ibrahim",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-03-12"
+  },
+  {
+    "id": "JIRA-1086",
+    "title": "Design Recommendation Engine migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-015",
+    "assignee_name": "Tomas Costa",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-08-19"
+  },
+  {
+    "id": "JIRA-1087",
+    "title": "Test Search Service bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-079",
+    "assignee_name": "Aisha Kaur",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-10-29"
+  },
+  {
+    "id": "JIRA-1088",
+    "title": "Design Search Service bug",
+    "team_id": "team-10",
+    "assignee_id": "emp-023",
+    "assignee_name": "Daniel Novak",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-04-21"
+  },
+  {
+    "id": "JIRA-1089",
+    "title": "Investigate Security Review Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-040",
+    "assignee_name": "Diego Chen",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-11-18"
+  },
+  {
+    "id": "JIRA-1090",
+    "title": "Document Notification Service migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-018",
+    "assignee_name": "Priya Johnson",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-07-30"
+  },
+  {
+    "id": "JIRA-1091",
+    "title": "Implement Billing Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-089",
+    "assignee_name": "Lucas Garcia",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-04-10"
+  },
+  {
+    "id": "JIRA-1092",
+    "title": "Test Search Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-041",
+    "assignee_name": "Mei Zhang",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-10-15"
+  },
+  {
+    "id": "JIRA-1093",
+    "title": "Test Billing Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-025",
+    "assignee_name": "Grace Novak",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-11-20"
+  },
+  {
+    "id": "JIRA-1094",
+    "title": "Implement Payments API bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-063",
+    "assignee_name": "Miguel Lee",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-06-04"
+  },
+  {
+    "id": "JIRA-1095",
+    "title": "Document Database Migration Tool enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-029",
+    "assignee_name": "Nadia Costa",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-09-12"
+  },
+  {
+    "id": "JIRA-1096",
+    "title": "Document Payments API spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-015",
+    "assignee_name": "Tomas Costa",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-09-16"
+  },
+  {
+    "id": "JIRA-1097",
+    "title": "Test Billing Service enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-098",
+    "assignee_name": "Diego Silva",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2025-06-09"
+  },
+  {
+    "id": "JIRA-1098",
+    "title": "Investigate Auth Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-039",
+    "assignee_name": "Priya Silva",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-11-08"
+  },
+  {
+    "id": "JIRA-1099",
+    "title": "Implement Analytics Pipeline spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-100",
+    "assignee_name": "Noah Rossi",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2026-03-28"
+  },
+  {
+    "id": "JIRA-1100",
+    "title": "Implement Feature Flag Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-018",
+    "assignee_name": "Priya Johnson",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-09-21"
+  },
+  {
+    "id": "JIRA-1101",
+    "title": "Document Security Review Service spike",
+    "team_id": "team-05",
+    "assignee_id": "emp-077",
+    "assignee_name": "Carl Zhang",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-08-31"
+  },
+  {
+    "id": "JIRA-1102",
+    "title": "Document Recommendation Engine bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-110",
+    "assignee_name": "Alex Lee",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-05-21"
+  },
+  {
+    "id": "JIRA-1103",
+    "title": "Implement Cloud Migration Layer enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-111",
+    "assignee_name": "Daniel Sharma",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-06-21"
+  },
+  {
+    "id": "JIRA-1104",
+    "title": "Implement Reporting Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-107",
+    "assignee_name": "Sarah Novak",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-08-29"
+  },
+  {
+    "id": "JIRA-1105",
+    "title": "Test Notification Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-081",
+    "assignee_name": "Nadia Costa",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-26"
+  },
+  {
+    "id": "JIRA-1106",
+    "title": "Design Cloud Migration Layer spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-096",
+    "assignee_name": "Victor Ahmed",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-01-04"
+  },
+  {
+    "id": "JIRA-1107",
+    "title": "Investigate Cloud Migration Layer migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-001",
+    "assignee_name": "Aisha Johnson",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-09-20"
+  },
+  {
+    "id": "JIRA-1108",
+    "title": "Test Feature Flag Service enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-028",
+    "assignee_name": "Aisha Zhang",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-01-06"
+  },
+  {
+    "id": "JIRA-1109",
+    "title": "Document Search Service enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-044",
+    "assignee_name": "Alex Kaur",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "JIRA-1110",
+    "title": "Investigate Recommendation Engine migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-006",
+    "assignee_name": "Keiko Garcia",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-04-01"
+  },
+  {
+    "id": "JIRA-1111",
+    "title": "Investigate Notification Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-03-31"
+  },
+  {
+    "id": "JIRA-1112",
+    "title": "Design Database Migration Tool bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-012",
+    "assignee_name": "Lila Costa",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-05-25"
+  },
+  {
+    "id": "JIRA-1113",
+    "title": "Design Cloud Migration Layer enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-081",
+    "assignee_name": "Nadia Costa",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2025-06-25"
+  },
+  {
+    "id": "JIRA-1114",
+    "title": "Implement Auth Service bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-001",
+    "assignee_name": "Aisha Johnson",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-09-28"
+  },
+  {
+    "id": "JIRA-1115",
+    "title": "Investigate Cloud Migration Layer spike",
+    "team_id": "team-08",
+    "assignee_id": "emp-002",
+    "assignee_name": "Keiko Chen",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-06-30"
+  },
+  {
+    "id": "JIRA-1116",
+    "title": "Investigate Analytics Pipeline migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-062",
+    "assignee_name": "Victor Johnson",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-04-29"
+  },
+  {
+    "id": "JIRA-1117",
+    "title": "Design Security Review Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-048",
+    "assignee_name": "Nadia Kaur",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-05-16"
+  },
+  {
+    "id": "JIRA-1118",
+    "title": "Investigate Search Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-06-16"
+  },
+  {
+    "id": "JIRA-1119",
+    "title": "Implement Notification Service migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-081",
+    "assignee_name": "Nadia Costa",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-04-30"
+  },
+  {
+    "id": "JIRA-1120",
+    "title": "Investigate Search Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-097",
+    "assignee_name": "Sarah Rossi",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-01-10"
+  },
+  {
+    "id": "JIRA-1121",
+    "title": "Design Recommendation Engine bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-032",
+    "assignee_name": "Fatima Patel",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-05-18"
+  },
+  {
+    "id": "JIRA-1122",
+    "title": "Design Analytics Pipeline enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-109",
+    "assignee_name": "Hana Ibrahim",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-07-25"
+  },
+  {
+    "id": "JIRA-1123",
+    "title": "Implement Auth Service migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-101",
+    "assignee_name": "Kenji Rossi",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-10-08"
+  },
+  {
+    "id": "JIRA-1124",
+    "title": "Document User Service spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-010",
+    "assignee_name": "Wei Ibrahim",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2025-12-04"
+  },
+  {
+    "id": "JIRA-1125",
+    "title": "Design Billing Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-054",
+    "assignee_name": "Diego Petrov",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2026-06-12"
+  },
+  {
+    "id": "JIRA-1126",
+    "title": "Investigate Database Migration Tool enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-009",
+    "assignee_name": "Tomas Garcia",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-29"
+  },
+  {
+    "id": "JIRA-1127",
+    "title": "Document Reporting Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-037",
+    "assignee_name": "Amara Santos",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-05-09"
+  },
+  {
+    "id": "JIRA-1128",
+    "title": "Document Security Review Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-069",
+    "assignee_name": "Kenji Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-05-11"
+  },
+  {
+    "id": "JIRA-1129",
+    "title": "Implement Reporting Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-118",
+    "assignee_name": "Victor Nguyen",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-12-02"
+  },
+  {
+    "id": "JIRA-1130",
+    "title": "Investigate Database Migration Tool migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-082",
+    "assignee_name": "Elena Ahmed",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-02-15"
+  },
+  {
+    "id": "JIRA-1131",
+    "title": "Test Payments API migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-119",
+    "assignee_name": "Julia Khan",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-01-13"
+  },
+  {
+    "id": "JIRA-1132",
+    "title": "Investigate Cloud Migration Layer enhancement",
+    "team_id": "team-03",
+    "assignee_id": "emp-016",
+    "assignee_name": "Julia Petrov",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-10-09"
+  },
+  {
+    "id": "JIRA-1133",
+    "title": "Document Reporting Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-067",
+    "assignee_name": "Fatima Zhang",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-04-17"
+  },
+  {
+    "id": "JIRA-1134",
+    "title": "Investigate Reporting Service bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-094",
+    "assignee_name": "Tomas Kaur",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-02-01"
+  },
+  {
+    "id": "JIRA-1135",
+    "title": "Design Cloud Migration Layer bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-009",
+    "assignee_name": "Tomas Garcia",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-10-02"
+  },
+  {
+    "id": "JIRA-1136",
+    "title": "Test Feature Flag Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-008",
+    "assignee_name": "Alex Ibrahim",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-02-10"
+  },
+  {
+    "id": "JIRA-1137",
+    "title": "Document Recommendation Engine bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-115",
+    "assignee_name": "Priya Garcia",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-05-29"
+  },
+  {
+    "id": "JIRA-1138",
+    "title": "Investigate Auth Service spike",
+    "team_id": "team-01",
+    "assignee_id": "emp-032",
+    "assignee_name": "Fatima Patel",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-03-21"
+  },
+  {
+    "id": "JIRA-1139",
+    "title": "Test Analytics Pipeline spike",
+    "team_id": "team-01",
+    "assignee_id": "emp-071",
+    "assignee_name": "Miguel Nguyen",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-06-17"
+  },
+  {
+    "id": "JIRA-1140",
+    "title": "Investigate Search Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-035",
+    "assignee_name": "Aisha Lee",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-03-21"
+  },
+  {
+    "id": "JIRA-1141",
+    "title": "Document User Service migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-103",
+    "assignee_name": "Daniel Johnson",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-01-27"
+  },
+  {
+    "id": "JIRA-1142",
+    "title": "Investigate Billing Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-042",
+    "assignee_name": "Tomas Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-03-10"
+  },
+  {
+    "id": "JIRA-1143",
+    "title": "Design Cloud Migration Layer enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-08-22"
+  },
+  {
+    "id": "JIRA-1144",
+    "title": "Implement Cloud Migration Layer enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-099",
+    "assignee_name": "Nadia Chen",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-23"
+  },
+  {
+    "id": "JIRA-1145",
+    "title": "Document Mobile Gateway bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-030",
+    "assignee_name": "Fatima Patel",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-05-28"
+  },
+  {
+    "id": "JIRA-1146",
+    "title": "Design Payments API enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-109",
+    "assignee_name": "Hana Ibrahim",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-11-18"
+  },
+  {
+    "id": "JIRA-1147",
+    "title": "Implement Cloud Migration Layer spike",
+    "team_id": "team-08",
+    "assignee_id": "emp-008",
+    "assignee_name": "Alex Ibrahim",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-02-22"
+  },
+  {
+    "id": "JIRA-1148",
+    "title": "Design Auth Service bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-053",
+    "assignee_name": "Lucas Petrov",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-10-05"
+  },
+  {
+    "id": "JIRA-1149",
+    "title": "Test Payments API bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-082",
+    "assignee_name": "Elena Ahmed",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-02-19"
+  },
+  {
+    "id": "JIRA-1150",
+    "title": "Design Reporting Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-034",
+    "assignee_name": "Fatima Wong",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-11-01"
+  },
+  {
+    "id": "JIRA-1151",
+    "title": "Investigate Analytics Pipeline enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-030",
+    "assignee_name": "Fatima Patel",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-04-02"
+  },
+  {
+    "id": "JIRA-1152",
+    "title": "Test Auth Service spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-022",
+    "assignee_name": "Lucas Chen",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2025-09-19"
+  },
+  {
+    "id": "JIRA-1153",
+    "title": "Implement Auth Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-099",
+    "assignee_name": "Nadia Chen",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-04-20"
+  },
+  {
+    "id": "JIRA-1154",
+    "title": "Design Feature Flag Service bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-021",
+    "assignee_name": "Nadia Petrov",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-04-06"
+  },
+  {
+    "id": "JIRA-1155",
+    "title": "Implement Mobile Gateway migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-092",
+    "assignee_name": "Sam Brown",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-07-09"
+  },
+  {
+    "id": "JIRA-1156",
+    "title": "Implement User Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-034",
+    "assignee_name": "Fatima Wong",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-05-03"
+  },
+  {
+    "id": "JIRA-1157",
+    "title": "Implement Payments API bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-014",
+    "assignee_name": "Noah Patel",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-04-15"
+  },
+  {
+    "id": "JIRA-1158",
+    "title": "Test Mobile Gateway bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-106",
+    "assignee_name": "Keiko Park",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2026-05-13"
+  },
+  {
+    "id": "JIRA-1159",
+    "title": "Implement Recommendation Engine migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-009",
+    "assignee_name": "Tomas Garcia",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-02"
+  },
+  {
+    "id": "JIRA-1160",
+    "title": "Test User Service enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-006",
+    "assignee_name": "Keiko Garcia",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-06-15"
+  },
+  {
+    "id": "JIRA-1161",
+    "title": "Investigate Notification Service migration task",
+    "team_id": "team-07",
+    "assignee_id": "emp-064",
+    "assignee_name": "Lila Ahmed",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-03-03"
+  },
+  {
+    "id": "JIRA-1162",
+    "title": "Design Auth Service enhancement",
+    "team_id": "team-03",
+    "assignee_id": "emp-036",
+    "assignee_name": "Daniel Costa",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-07-24"
+  },
+  {
+    "id": "JIRA-1163",
+    "title": "Test Billing Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-064",
+    "assignee_name": "Lila Ahmed",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-28"
+  },
+  {
+    "id": "JIRA-1164",
+    "title": "Test Analytics Pipeline enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-018",
+    "assignee_name": "Priya Johnson",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-12-07"
+  },
+  {
+    "id": "JIRA-1165",
+    "title": "Document Reporting Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-062",
+    "assignee_name": "Victor Johnson",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-12-04"
+  },
+  {
+    "id": "JIRA-1166",
+    "title": "Investigate Mobile Gateway enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-024",
+    "assignee_name": "Sofia Hassan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-05-22"
+  },
+  {
+    "id": "JIRA-1167",
+    "title": "Design Reporting Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-068",
+    "assignee_name": "Fatima Chen",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-02-14"
+  },
+  {
+    "id": "JIRA-1168",
+    "title": "Document Feature Flag Service bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-035",
+    "assignee_name": "Aisha Lee",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-12-21"
+  },
+  {
+    "id": "JIRA-1169",
+    "title": "Implement Search Service spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-023",
+    "assignee_name": "Daniel Novak",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-06-25"
+  },
+  {
+    "id": "JIRA-1170",
+    "title": "Document Security Review Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-03-23"
+  },
+  {
+    "id": "JIRA-1171",
+    "title": "Investigate User Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-005",
+    "assignee_name": "Ravi Santos",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2026-06-10"
+  },
+  {
+    "id": "JIRA-1172",
+    "title": "Investigate Mobile Gateway enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-062",
+    "assignee_name": "Victor Johnson",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-18"
+  },
+  {
+    "id": "JIRA-1173",
+    "title": "Design User Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-118",
+    "assignee_name": "Victor Nguyen",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-05-20"
+  },
+  {
+    "id": "JIRA-1174",
+    "title": "Document Feature Flag Service spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-109",
+    "assignee_name": "Hana Ibrahim",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-25"
+  },
+  {
+    "id": "JIRA-1175",
+    "title": "Investigate Mobile Gateway spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-076",
+    "assignee_name": "Elena Ibrahim",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-04-01"
+  },
+  {
+    "id": "JIRA-1176",
+    "title": "Test Recommendation Engine spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-102",
+    "assignee_name": "Julia Petrov",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-02-26"
+  },
+  {
+    "id": "JIRA-1177",
+    "title": "Implement Notification Service spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-105",
+    "assignee_name": "Ivan Zhang",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-03-22"
+  },
+  {
+    "id": "JIRA-1178",
+    "title": "Document Notification Service bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-090",
+    "assignee_name": "Fatima Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-08-11"
+  },
+  {
+    "id": "JIRA-1179",
+    "title": "Document Payments API migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-082",
+    "assignee_name": "Elena Ahmed",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-04"
+  },
+  {
+    "id": "JIRA-1180",
+    "title": "Design Mobile Gateway enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-031",
+    "assignee_name": "Ivan Ahmed",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-11-04"
+  },
+  {
+    "id": "JIRA-1181",
+    "title": "Implement Analytics Pipeline bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-034",
+    "assignee_name": "Fatima Wong",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-04-26"
+  },
+  {
+    "id": "JIRA-1182",
+    "title": "Test Auth Service migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-007",
+    "assignee_name": "Sofia Novak",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-10-11"
+  },
+  {
+    "id": "JIRA-1183",
+    "title": "Document Notification Service bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-045",
+    "assignee_name": "Alex Kaur",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-03-29"
+  },
+  {
+    "id": "JIRA-1184",
+    "title": "Investigate Database Migration Tool bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-010",
+    "assignee_name": "Wei Ibrahim",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-04-28"
+  },
+  {
+    "id": "JIRA-1185",
+    "title": "Implement Notification Service enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-044",
+    "assignee_name": "Alex Kaur",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-12-29"
+  },
+  {
+    "id": "JIRA-1186",
+    "title": "Test Cloud Migration Layer bug",
+    "team_id": "team-10",
+    "assignee_id": "emp-079",
+    "assignee_name": "Aisha Kaur",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-08-14"
+  },
+  {
+    "id": "JIRA-1187",
+    "title": "Investigate Payments API spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-021",
+    "assignee_name": "Nadia Petrov",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-11-23"
+  },
+  {
+    "id": "JIRA-1188",
+    "title": "Document Database Migration Tool spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-093",
+    "assignee_name": "Sofia Silva",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-05-02"
+  },
+  {
+    "id": "JIRA-1189",
+    "title": "Document Billing Service migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-051",
+    "assignee_name": "Miguel Patel",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-12-18"
+  },
+  {
+    "id": "JIRA-1190",
+    "title": "Investigate Database Migration Tool migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-055",
+    "assignee_name": "Miguel Park",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-06-07"
+  },
+  {
+    "id": "JIRA-1191",
+    "title": "Design Payments API migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-022",
+    "assignee_name": "Lucas Chen",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-11-29"
+  },
+  {
+    "id": "JIRA-1192",
+    "title": "Design Payments API migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-063",
+    "assignee_name": "Miguel Lee",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-12-07"
+  },
+  {
+    "id": "JIRA-1193",
+    "title": "Test User Service spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-024",
+    "assignee_name": "Sofia Hassan",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-02-06"
+  },
+  {
+    "id": "JIRA-1194",
+    "title": "Design Search Service bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-108",
+    "assignee_name": "Ivan Weiss",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-05-08"
+  },
+  {
+    "id": "JIRA-1195",
+    "title": "Document Notification Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-104",
+    "assignee_name": "Keiko Brown",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-12-04"
+  },
+  {
+    "id": "JIRA-1196",
+    "title": "Document Recommendation Engine migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-054",
+    "assignee_name": "Diego Petrov",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-10-20"
+  },
+  {
+    "id": "JIRA-1197",
+    "title": "Test Feature Flag Service bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-011",
+    "assignee_name": "Jenna Petrov",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2026-04-20"
+  },
+  {
+    "id": "JIRA-1198",
+    "title": "Implement Analytics Pipeline enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-023",
+    "assignee_name": "Daniel Novak",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-16"
+  },
+  {
+    "id": "JIRA-1199",
+    "title": "Test Analytics Pipeline enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2026-01-08"
+  },
+  {
+    "id": "JIRA-1200",
+    "title": "Test Billing Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-012",
+    "assignee_name": "Lila Costa",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2026-01-30"
+  },
+  {
+    "id": "JIRA-1201",
+    "title": "Investigate Reporting Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-04-05"
+  },
+  {
+    "id": "JIRA-1202",
+    "title": "Document Search Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-073",
+    "assignee_name": "Sam Khan",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-25"
+  },
+  {
+    "id": "JIRA-1203",
+    "title": "Design Notification Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-113",
+    "assignee_name": "Daniel Garcia",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-09-01"
+  },
+  {
+    "id": "JIRA-1204",
+    "title": "Investigate Security Review Service spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-061",
+    "assignee_name": "Ivan Petrov",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-08-08"
+  },
+  {
+    "id": "JIRA-1205",
+    "title": "Test User Service migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-05-26"
+  },
+  {
+    "id": "JIRA-1206",
+    "title": "Design Mobile Gateway bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-118",
+    "assignee_name": "Victor Nguyen",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-01-12"
+  },
+  {
+    "id": "JIRA-1207",
+    "title": "Test Feature Flag Service bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-108",
+    "assignee_name": "Ivan Weiss",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-01-18"
+  },
+  {
+    "id": "JIRA-1208",
+    "title": "Design Database Migration Tool migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-100",
+    "assignee_name": "Noah Rossi",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-03-16"
+  },
+  {
+    "id": "JIRA-1209",
+    "title": "Test Cloud Migration Layer migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-028",
+    "assignee_name": "Aisha Zhang",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2026-05-23"
+  },
+  {
+    "id": "JIRA-1210",
+    "title": "Implement Payments API spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-102",
+    "assignee_name": "Julia Petrov",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2026-04-12"
+  },
+  {
+    "id": "JIRA-1211",
+    "title": "Document User Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-113",
+    "assignee_name": "Daniel Garcia",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-05-22"
+  },
+  {
+    "id": "JIRA-1212",
+    "title": "Test User Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-005",
+    "assignee_name": "Ravi Santos",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-12-14"
+  },
+  {
+    "id": "JIRA-1213",
+    "title": "Test Recommendation Engine bug",
+    "team_id": "team-08",
+    "assignee_id": "emp-065",
+    "assignee_name": "Julia Sharma",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-12-12"
+  },
+  {
+    "id": "JIRA-1214",
+    "title": "Test Security Review Service migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-077",
+    "assignee_name": "Carl Zhang",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-12-26"
+  },
+  {
+    "id": "JIRA-1215",
+    "title": "Design Cloud Migration Layer bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-108",
+    "assignee_name": "Ivan Weiss",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-12-05"
+  },
+  {
+    "id": "JIRA-1216",
+    "title": "Document Reporting Service enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-021",
+    "assignee_name": "Nadia Petrov",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-07-09"
+  },
+  {
+    "id": "JIRA-1217",
+    "title": "Test Billing Service bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-035",
+    "assignee_name": "Aisha Lee",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-04-14"
+  },
+  {
+    "id": "JIRA-1218",
+    "title": "Investigate Analytics Pipeline spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-077",
+    "assignee_name": "Carl Zhang",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-06-21"
+  },
+  {
+    "id": "JIRA-1219",
+    "title": "Test Feature Flag Service spike",
+    "team_id": "team-05",
+    "assignee_id": "emp-055",
+    "assignee_name": "Miguel Park",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-03-01"
+  },
+  {
+    "id": "JIRA-1220",
+    "title": "Document Feature Flag Service migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-039",
+    "assignee_name": "Priya Silva",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-06-17"
+  },
+  {
+    "id": "JIRA-1221",
+    "title": "Design Billing Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-085",
+    "assignee_name": "Sam Chen",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-10-17"
+  },
+  {
+    "id": "JIRA-1222",
+    "title": "Design Recommendation Engine spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-044",
+    "assignee_name": "Alex Kaur",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-07-20"
+  },
+  {
+    "id": "JIRA-1223",
+    "title": "Implement Billing Service enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-025",
+    "assignee_name": "Grace Novak",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-07-17"
+  },
+  {
+    "id": "JIRA-1224",
+    "title": "Implement Cloud Migration Layer bug",
+    "team_id": "team-06",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2026-02-08"
+  },
+  {
+    "id": "JIRA-1225",
+    "title": "Test Cloud Migration Layer bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-052",
+    "assignee_name": "Lila Lee",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "JIRA-1226",
+    "title": "Document Recommendation Engine migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-03-25"
+  },
+  {
+    "id": "JIRA-1227",
+    "title": "Design Payments API migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-024",
+    "assignee_name": "Sofia Hassan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-14"
+  },
+  {
+    "id": "JIRA-1228",
+    "title": "Implement Recommendation Engine spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-098",
+    "assignee_name": "Diego Silva",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-12-21"
+  },
+  {
+    "id": "JIRA-1229",
+    "title": "Design Notification Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-096",
+    "assignee_name": "Victor Ahmed",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-08-25"
+  },
+  {
+    "id": "JIRA-1230",
+    "title": "Investigate Auth Service bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-060",
+    "assignee_name": "Sarah Santos",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-10-22"
+  },
+  {
+    "id": "JIRA-1231",
+    "title": "Investigate Feature Flag Service migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-065",
+    "assignee_name": "Julia Sharma",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-11-21"
+  },
+  {
+    "id": "JIRA-1232",
+    "title": "Implement Security Review Service enhancement",
+    "team_id": "team-01",
+    "assignee_id": "emp-112",
+    "assignee_name": "Grace Costa",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-09-02"
+  },
+  {
+    "id": "JIRA-1233",
+    "title": "Design Feature Flag Service enhancement",
+    "team_id": "team-08",
+    "assignee_id": "emp-019",
+    "assignee_name": "Nadia Khan",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-01-01"
+  },
+  {
+    "id": "JIRA-1234",
+    "title": "Investigate User Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-041",
+    "assignee_name": "Mei Zhang",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2025-05-27"
+  },
+  {
+    "id": "JIRA-1235",
+    "title": "Implement Auth Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-074",
+    "assignee_name": "Julia Ibrahim",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-07-31"
+  },
+  {
+    "id": "JIRA-1236",
+    "title": "Test Auth Service migration task",
+    "team_id": "team-07",
+    "assignee_id": "emp-052",
+    "assignee_name": "Lila Lee",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-09-20"
+  },
+  {
+    "id": "JIRA-1237",
+    "title": "Design User Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-094",
+    "assignee_name": "Tomas Kaur",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2026-06-11"
+  },
+  {
+    "id": "JIRA-1238",
+    "title": "Implement Analytics Pipeline spike",
+    "team_id": "team-01",
+    "assignee_id": "emp-081",
+    "assignee_name": "Nadia Costa",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2026-04-29"
+  },
+  {
+    "id": "JIRA-1239",
+    "title": "Document Database Migration Tool enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-065",
+    "assignee_name": "Julia Sharma",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-19"
+  },
+  {
+    "id": "JIRA-1240",
+    "title": "Document Search Service spike",
+    "team_id": "team-05",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "JIRA-1241",
+    "title": "Implement Security Review Service migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-046",
+    "assignee_name": "Priya Kim",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2026-02-26"
+  },
+  {
+    "id": "JIRA-1242",
+    "title": "Investigate Search Service enhancement",
+    "team_id": "team-03",
+    "assignee_id": "emp-028",
+    "assignee_name": "Aisha Zhang",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-21"
+  },
+  {
+    "id": "JIRA-1243",
+    "title": "Design Reporting Service bug",
+    "team_id": "team-01",
+    "assignee_id": "emp-049",
+    "assignee_name": "Ravi Ahmed",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2025-07-17"
+  },
+  {
+    "id": "JIRA-1244",
+    "title": "Investigate User Service bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-084",
+    "assignee_name": "Sam Weiss",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-12-08"
+  },
+  {
+    "id": "JIRA-1245",
+    "title": "Design Auth Service enhancement",
+    "team_id": "team-02",
+    "assignee_id": "emp-071",
+    "assignee_name": "Miguel Nguyen",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-17"
+  },
+  {
+    "id": "JIRA-1246",
+    "title": "Investigate Recommendation Engine spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-085",
+    "assignee_name": "Sam Chen",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-11-18"
+  },
+  {
+    "id": "JIRA-1247",
+    "title": "Document Payments API spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-066",
+    "assignee_name": "Amara Weiss",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-10-09"
+  },
+  {
+    "id": "JIRA-1248",
+    "title": "Implement Reporting Service spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-078",
+    "assignee_name": "Ivan Novak",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-12-19"
+  },
+  {
+    "id": "JIRA-1249",
+    "title": "Implement User Service migration task",
+    "team_id": "team-07",
+    "assignee_id": "emp-038",
+    "assignee_name": "Carl Khan",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-01-02"
+  },
+  {
+    "id": "JIRA-1250",
+    "title": "Investigate Recommendation Engine bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-001",
+    "assignee_name": "Aisha Johnson",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-04-05"
+  },
+  {
+    "id": "JIRA-1251",
+    "title": "Document Payments API bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-100",
+    "assignee_name": "Noah Rossi",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2025-10-30"
+  },
+  {
+    "id": "JIRA-1252",
+    "title": "Test User Service bug",
+    "team_id": "team-05",
+    "assignee_id": "emp-034",
+    "assignee_name": "Fatima Wong",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-01-23"
+  },
+  {
+    "id": "JIRA-1253",
+    "title": "Design Notification Service bug",
+    "team_id": "team-06",
+    "assignee_id": "emp-103",
+    "assignee_name": "Daniel Johnson",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-06-16"
+  },
+  {
+    "id": "JIRA-1254",
+    "title": "Implement Mobile Gateway spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-085",
+    "assignee_name": "Sam Chen",
+    "status": "Blocked",
+    "priority": "High",
+    "created_at": "2025-06-10"
+  },
+  {
+    "id": "JIRA-1255",
+    "title": "Design Security Review Service bug",
+    "team_id": "team-02",
+    "assignee_id": "emp-048",
+    "assignee_name": "Nadia Kaur",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2025-10-30"
+  },
+  {
+    "id": "JIRA-1256",
+    "title": "Test Cloud Migration Layer migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-107",
+    "assignee_name": "Sarah Novak",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-04-24"
+  },
+  {
+    "id": "JIRA-1257",
+    "title": "Investigate Feature Flag Service enhancement",
+    "team_id": "team-03",
+    "assignee_id": "emp-090",
+    "assignee_name": "Fatima Garcia",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-08-22"
+  },
+  {
+    "id": "JIRA-1258",
+    "title": "Document Recommendation Engine migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-103",
+    "assignee_name": "Daniel Johnson",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-05-18"
+  },
+  {
+    "id": "JIRA-1259",
+    "title": "Investigate Feature Flag Service enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-079",
+    "assignee_name": "Aisha Kaur",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-04-24"
+  },
+  {
+    "id": "JIRA-1260",
+    "title": "Investigate Payments API spike",
+    "team_id": "team-07",
+    "assignee_id": "emp-057",
+    "assignee_name": "Noah Hassan",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-06-25"
+  },
+  {
+    "id": "JIRA-1261",
+    "title": "Document Cloud Migration Layer enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-099",
+    "assignee_name": "Nadia Chen",
+    "status": "In Progress",
+    "priority": "Low",
+    "created_at": "2025-11-11"
+  },
+  {
+    "id": "JIRA-1262",
+    "title": "Design Recommendation Engine migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-062",
+    "assignee_name": "Victor Johnson",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2026-06-15"
+  },
+  {
+    "id": "JIRA-1263",
+    "title": "Test Feature Flag Service migration task",
+    "team_id": "team-03",
+    "assignee_id": "emp-065",
+    "assignee_name": "Julia Sharma",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-06-01"
+  },
+  {
+    "id": "JIRA-1264",
+    "title": "Implement Mobile Gateway spike",
+    "team_id": "team-08",
+    "assignee_id": "emp-042",
+    "assignee_name": "Tomas Garcia",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-09-12"
+  },
+  {
+    "id": "JIRA-1265",
+    "title": "Implement Payments API migration task",
+    "team_id": "team-07",
+    "assignee_id": "emp-052",
+    "assignee_name": "Lila Lee",
+    "status": "Blocked",
+    "priority": "Critical",
+    "created_at": "2026-05-06"
+  },
+  {
+    "id": "JIRA-1266",
+    "title": "Design Payments API migration task",
+    "team_id": "team-08",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-11-26"
+  },
+  {
+    "id": "JIRA-1267",
+    "title": "Document Billing Service bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-005",
+    "assignee_name": "Ravi Santos",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-10-03"
+  },
+  {
+    "id": "JIRA-1268",
+    "title": "Test Mobile Gateway spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-027",
+    "assignee_name": "Carl Brown",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-10-31"
+  },
+  {
+    "id": "JIRA-1269",
+    "title": "Document Search Service migration task",
+    "team_id": "team-06",
+    "assignee_id": "emp-072",
+    "assignee_name": "Keiko Hassan",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2026-04-23"
+  },
+  {
+    "id": "JIRA-1270",
+    "title": "Implement User Service spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-098",
+    "assignee_name": "Diego Silva",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2025-09-13"
+  },
+  {
+    "id": "JIRA-1271",
+    "title": "Investigate User Service enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-048",
+    "assignee_name": "Nadia Kaur",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2025-06-18"
+  },
+  {
+    "id": "JIRA-1272",
+    "title": "Design Search Service enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-014",
+    "assignee_name": "Noah Patel",
+    "status": "Done",
+    "priority": "Low",
+    "created_at": "2025-12-01"
+  },
+  {
+    "id": "JIRA-1273",
+    "title": "Implement Cloud Migration Layer spike",
+    "team_id": "team-04",
+    "assignee_id": "emp-059",
+    "assignee_name": "Daniel Garcia",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2026-05-28"
+  },
+  {
+    "id": "JIRA-1274",
+    "title": "Test Auth Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-016",
+    "assignee_name": "Julia Petrov",
+    "status": "Blocked",
+    "priority": "Low",
+    "created_at": "2025-09-22"
+  },
+  {
+    "id": "JIRA-1275",
+    "title": "Test Feature Flag Service migration task",
+    "team_id": "team-01",
+    "assignee_id": "emp-071",
+    "assignee_name": "Miguel Nguyen",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2025-07-01"
+  },
+  {
+    "id": "JIRA-1276",
+    "title": "Implement Payments API migration task",
+    "team_id": "team-10",
+    "assignee_id": "emp-023",
+    "assignee_name": "Daniel Novak",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-10-05"
+  },
+  {
+    "id": "JIRA-1277",
+    "title": "Document Cloud Migration Layer enhancement",
+    "team_id": "team-07",
+    "assignee_id": "emp-054",
+    "assignee_name": "Diego Petrov",
+    "status": "In Progress",
+    "priority": "Critical",
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "JIRA-1278",
+    "title": "Implement Security Review Service migration task",
+    "team_id": "team-05",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-06-26"
+  },
+  {
+    "id": "JIRA-1279",
+    "title": "Design Cloud Migration Layer enhancement",
+    "team_id": "team-09",
+    "assignee_id": "emp-111",
+    "assignee_name": "Daniel Sharma",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-08-05"
+  },
+  {
+    "id": "JIRA-1280",
+    "title": "Design Recommendation Engine enhancement",
+    "team_id": "team-05",
+    "assignee_id": "emp-088",
+    "assignee_name": "Julia Hassan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-22"
+  },
+  {
+    "id": "JIRA-1281",
+    "title": "Design Billing Service migration task",
+    "team_id": "team-02",
+    "assignee_id": "emp-098",
+    "assignee_name": "Diego Silva",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2025-07-10"
+  },
+  {
+    "id": "JIRA-1282",
+    "title": "Test Reporting Service bug",
+    "team_id": "team-09",
+    "assignee_id": "emp-037",
+    "assignee_name": "Amara Santos",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-06-08"
+  },
+  {
+    "id": "JIRA-1283",
+    "title": "Investigate Recommendation Engine bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-019",
+    "assignee_name": "Nadia Khan",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-06-01"
+  },
+  {
+    "id": "JIRA-1284",
+    "title": "Design Security Review Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-037",
+    "assignee_name": "Amara Santos",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2025-05-31"
+  },
+  {
+    "id": "JIRA-1285",
+    "title": "Design Feature Flag Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-005",
+    "assignee_name": "Ravi Santos",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-06-05"
+  },
+  {
+    "id": "JIRA-1286",
+    "title": "Implement Billing Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-050",
+    "assignee_name": "Lucas Sharma",
+    "status": "Done",
+    "priority": "Critical",
+    "created_at": "2025-12-04"
+  },
+  {
+    "id": "JIRA-1287",
+    "title": "Design Billing Service bug",
+    "team_id": "team-07",
+    "assignee_id": "emp-101",
+    "assignee_name": "Kenji Rossi",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2026-03-09"
+  },
+  {
+    "id": "JIRA-1288",
+    "title": "Test Feature Flag Service enhancement",
+    "team_id": "team-10",
+    "assignee_id": "emp-112",
+    "assignee_name": "Grace Costa",
+    "status": "In Progress",
+    "priority": "Medium",
+    "created_at": "2025-05-19"
+  },
+  {
+    "id": "JIRA-1289",
+    "title": "Test Security Review Service bug",
+    "team_id": "team-04",
+    "assignee_id": "emp-038",
+    "assignee_name": "Carl Khan",
+    "status": "Done",
+    "priority": "Medium",
+    "created_at": "2025-06-09"
+  },
+  {
+    "id": "JIRA-1290",
+    "title": "Test User Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-016",
+    "assignee_name": "Julia Petrov",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-04-15"
+  },
+  {
+    "id": "JIRA-1291",
+    "title": "Design User Service spike",
+    "team_id": "team-03",
+    "assignee_id": "emp-075",
+    "assignee_name": "Ravi Nguyen",
+    "status": "Blocked",
+    "priority": "Medium",
+    "created_at": "2026-05-31"
+  },
+  {
+    "id": "JIRA-1292",
+    "title": "Design Search Service bug",
+    "team_id": "team-03",
+    "assignee_id": "emp-119",
+    "assignee_name": "Julia Khan",
+    "status": "To Do",
+    "priority": "High",
+    "created_at": "2025-10-12"
+  },
+  {
+    "id": "JIRA-1293",
+    "title": "Design Payments API spike",
+    "team_id": "team-10",
+    "assignee_id": "emp-071",
+    "assignee_name": "Miguel Nguyen",
+    "status": "To Do",
+    "priority": "Medium",
+    "created_at": "2026-03-18"
+  },
+  {
+    "id": "JIRA-1294",
+    "title": "Document Security Review Service migration task",
+    "team_id": "team-09",
+    "assignee_id": "emp-009",
+    "assignee_name": "Tomas Garcia",
+    "status": "To Do",
+    "priority": "Critical",
+    "created_at": "2026-05-04"
+  },
+  {
+    "id": "JIRA-1295",
+    "title": "Implement Recommendation Engine spike",
+    "team_id": "team-06",
+    "assignee_id": "emp-029",
+    "assignee_name": "Nadia Costa",
+    "status": "In Progress",
+    "priority": "High",
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "JIRA-1296",
+    "title": "Document Billing Service migration task",
+    "team_id": "team-04",
+    "assignee_id": "emp-097",
+    "assignee_name": "Sarah Rossi",
+    "status": "To Do",
+    "priority": "Low",
+    "created_at": "2026-04-23"
+  },
+  {
+    "id": "JIRA-1297",
+    "title": "Implement Recommendation Engine enhancement",
+    "team_id": "team-06",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-12-07"
+  },
+  {
+    "id": "JIRA-1298",
+    "title": "Design Billing Service spike",
+    "team_id": "team-02",
+    "assignee_id": "emp-050",
+    "assignee_name": "Lucas Sharma",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-09-30"
+  },
+  {
+    "id": "JIRA-1299",
+    "title": "Test User Service spike",
+    "team_id": "team-09",
+    "assignee_id": "emp-058",
+    "assignee_name": "Aisha Garcia",
+    "status": "Done",
+    "priority": "High",
+    "created_at": "2025-09-30"
+  }
+]

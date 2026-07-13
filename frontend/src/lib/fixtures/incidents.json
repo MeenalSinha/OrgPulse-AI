@@ -1,0 +1,402 @@
+[
+  {
+    "id": "inc-001",
+    "title": "Payments API elevated error rate",
+    "severity": "SEV3",
+    "date": "2025-12-21",
+    "resolved": true,
+    "participant_ids": [
+      "emp-078",
+      "emp-109",
+      "emp-041",
+      "emp-034",
+      "emp-068"
+    ],
+    "resolution_summary": "Root cause identified in Security Review Service; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-002",
+    "title": "Auth Service latency spike",
+    "severity": "SEV1",
+    "date": "2026-02-21",
+    "resolved": true,
+    "participant_ids": [
+      "emp-067",
+      "emp-094",
+      "emp-081",
+      "emp-064",
+      "emp-104"
+    ],
+    "resolution_summary": "Root cause identified in Cloud Migration Layer; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-003",
+    "title": "Mobile Gateway timeout cascade",
+    "severity": "SEV2",
+    "date": "2026-04-21",
+    "resolved": true,
+    "participant_ids": [
+      "emp-025",
+      "emp-001",
+      "emp-016",
+      "emp-004"
+    ],
+    "resolution_summary": "Root cause identified in Cloud Migration Layer; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-004",
+    "title": "Database Migration data drift",
+    "severity": "SEV2",
+    "date": "2026-05-28",
+    "resolved": true,
+    "participant_ids": [
+      "emp-103",
+      "emp-079",
+      "emp-054"
+    ],
+    "resolution_summary": "Root cause identified in Mobile Gateway; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-005",
+    "title": "Notification Service duplicate sends",
+    "severity": "SEV1",
+    "date": "2026-03-09",
+    "resolved": true,
+    "participant_ids": [
+      "emp-072",
+      "emp-104",
+      "emp-082",
+      "emp-028"
+    ],
+    "resolution_summary": "Root cause identified in Cloud Migration Layer; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-006",
+    "title": "Search Service index staleness",
+    "severity": "SEV2",
+    "date": "2025-10-04",
+    "resolved": true,
+    "participant_ids": [
+      "emp-033",
+      "emp-102",
+      "emp-009",
+      "emp-040"
+    ],
+    "resolution_summary": "Root cause identified in Billing Service; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-007",
+    "title": "Billing Service double charge",
+    "severity": "SEV2",
+    "date": "2025-12-28",
+    "resolved": true,
+    "participant_ids": [
+      "emp-099",
+      "emp-001",
+      "emp-015",
+      "emp-088"
+    ],
+    "resolution_summary": "Root cause identified in Notification Service; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-008",
+    "title": "Cloud Migration DNS misconfiguration",
+    "severity": "SEV1",
+    "date": "2026-01-02",
+    "resolved": true,
+    "participant_ids": [
+      "emp-107",
+      "emp-023"
+    ],
+    "resolution_summary": "Root cause identified in Feature Flag Service; mitigated with a rollback and follow-up hardening tickets."
+  },
+  {
+    "id": "inc-009",
+    "title": "Auth Service degraded performance",
+    "severity": "SEV2",
+    "date": "2026-04-12",
+    "resolved": true,
+    "participant_ids": [
+      "emp-119",
+      "emp-087",
+      "emp-062"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-010",
+    "title": "Feature Flag Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-10-27",
+    "resolved": true,
+    "participant_ids": [
+      "emp-020",
+      "emp-081",
+      "emp-059"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-011",
+    "title": "Feature Flag Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-09-04",
+    "resolved": true,
+    "participant_ids": [
+      "emp-119",
+      "emp-096",
+      "emp-008"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-012",
+    "title": "User Service degraded performance",
+    "severity": "SEV2",
+    "date": "2025-08-29",
+    "resolved": true,
+    "participant_ids": [
+      "emp-087",
+      "emp-041",
+      "emp-072",
+      "emp-069"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-013",
+    "title": "Reporting Service degraded performance",
+    "severity": "SEV3",
+    "date": "2026-05-18",
+    "resolved": true,
+    "participant_ids": [
+      "emp-043",
+      "emp-103",
+      "emp-118",
+      "emp-114"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-014",
+    "title": "User Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-12-10",
+    "resolved": true,
+    "participant_ids": [
+      "emp-036",
+      "emp-108"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-015",
+    "title": "Search Service degraded performance",
+    "severity": "SEV3",
+    "date": "2026-03-17",
+    "resolved": true,
+    "participant_ids": [
+      "emp-069",
+      "emp-108",
+      "emp-022",
+      "emp-074"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-016",
+    "title": "Database Migration Tool degraded performance",
+    "severity": "SEV3",
+    "date": "2026-06-04",
+    "resolved": true,
+    "participant_ids": [
+      "emp-015",
+      "emp-111",
+      "emp-101",
+      "emp-097"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-017",
+    "title": "Analytics Pipeline degraded performance",
+    "severity": "SEV3",
+    "date": "2025-11-01",
+    "resolved": true,
+    "participant_ids": [
+      "emp-053",
+      "emp-012",
+      "emp-064"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-018",
+    "title": "Security Review Service degraded performance",
+    "severity": "SEV2",
+    "date": "2025-12-11",
+    "resolved": true,
+    "participant_ids": [
+      "emp-028",
+      "emp-068",
+      "emp-039"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-019",
+    "title": "Payments API degraded performance",
+    "severity": "SEV3",
+    "date": "2025-10-04",
+    "resolved": true,
+    "participant_ids": [
+      "emp-100",
+      "emp-026"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-020",
+    "title": "Billing Service degraded performance",
+    "severity": "SEV2",
+    "date": "2026-03-15",
+    "resolved": true,
+    "participant_ids": [
+      "emp-103",
+      "emp-062"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-021",
+    "title": "Feature Flag Service degraded performance",
+    "severity": "SEV3",
+    "date": "2026-01-04",
+    "resolved": true,
+    "participant_ids": [
+      "emp-119",
+      "emp-062",
+      "emp-094"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-022",
+    "title": "Payments API degraded performance",
+    "severity": "SEV2",
+    "date": "2026-03-07",
+    "resolved": true,
+    "participant_ids": [
+      "emp-099",
+      "emp-112"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-023",
+    "title": "Feature Flag Service degraded performance",
+    "severity": "SEV2",
+    "date": "2026-06-18",
+    "resolved": true,
+    "participant_ids": [
+      "emp-005",
+      "emp-059",
+      "emp-050",
+      "emp-092"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-024",
+    "title": "Feature Flag Service degraded performance",
+    "severity": "SEV2",
+    "date": "2026-01-01",
+    "resolved": true,
+    "participant_ids": [
+      "emp-120",
+      "emp-006",
+      "emp-088"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-025",
+    "title": "Billing Service degraded performance",
+    "severity": "SEV3",
+    "date": "2026-06-09",
+    "resolved": true,
+    "participant_ids": [
+      "emp-114",
+      "emp-006",
+      "emp-014"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-026",
+    "title": "Analytics Pipeline degraded performance",
+    "severity": "SEV3",
+    "date": "2026-03-10",
+    "resolved": true,
+    "participant_ids": [
+      "emp-098",
+      "emp-040",
+      "emp-082",
+      "emp-115"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-027",
+    "title": "Billing Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-11-07",
+    "resolved": true,
+    "participant_ids": [
+      "emp-037",
+      "emp-036"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-028",
+    "title": "Database Migration Tool degraded performance",
+    "severity": "SEV2",
+    "date": "2026-06-13",
+    "resolved": true,
+    "participant_ids": [
+      "emp-016",
+      "emp-035",
+      "emp-020",
+      "emp-021"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-029",
+    "title": "Billing Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-09-12",
+    "resolved": true,
+    "participant_ids": [
+      "emp-072",
+      "emp-066",
+      "emp-014",
+      "emp-027"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  },
+  {
+    "id": "inc-030",
+    "title": "Reporting Service degraded performance",
+    "severity": "SEV3",
+    "date": "2025-08-31",
+    "resolved": true,
+    "participant_ids": [
+      "emp-035",
+      "emp-019",
+      "emp-091"
+    ],
+    "resolution_summary": "Mitigated via config rollback and added monitoring alert."
+  }
+]

@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "emp-001",
+    "name": "Aisha Johnson",
+    "role": "Backend Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2025-10-25",
+    "contribution_score": 72
+  },
+  {
+    "id": "emp-002",
+    "name": "Keiko Chen",
+    "role": "QA Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2024-08-24",
+    "contribution_score": 84
+  },
+  {
+    "id": "emp-003",
+    "name": "Sofia Khan",
+    "role": "Security Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Search Service",
+      "Database Migration Tool"
+    ],
+    "join_date": "2024-03-14",
+    "contribution_score": 95
+  },
+  {
+    "id": "emp-004",
+    "name": "Sarah Kim",
+    "role": "Engineering Manager",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Database Migration Tool",
+      "Security Review Service"
+    ],
+    "join_date": "2025-11-12",
+    "contribution_score": 88
+  },
+  {
+    "id": "emp-005",
+    "name": "Ravi Santos",
+    "role": "Frontend Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Payments API",
+      "Mobile Gateway"
+    ],
+    "join_date": "2024-02-04",
+    "contribution_score": 62
+  },
+  {
+    "id": "emp-006",
+    "name": "Keiko Garcia",
+    "role": "Backend Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Auth Service",
+      "Billing Service",
+      "Payments API"
+    ],
+    "join_date": "2025-05-29",
+    "contribution_score": 45
+  },
+  {
+    "id": "emp-007",
+    "name": "Sofia Novak",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Search Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-06-29",
+    "contribution_score": 44
+  },
+  {
+    "id": "emp-008",
+    "name": "Alex Ibrahim",
+    "role": "Security Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Payments API",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-01-15",
+    "contribution_score": 46
+  },
+  {
+    "id": "emp-009",
+    "name": "Tomas Garcia",
+    "role": "Product Manager",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Feature Flag Service",
+      "Mobile Gateway",
+      "Security Review Service"
+    ],
+    "join_date": "2025-06-06",
+    "contribution_score": 62
+  },
+  {
+    "id": "emp-010",
+    "name": "Wei Ibrahim",
+    "role": "Data Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Recommendation Engine",
+      "Feature Flag Service",
+      "Payments API"
+    ],
+    "join_date": "2024-10-05",
+    "contribution_score": 80
+  },
+  {
+    "id": "emp-011",
+    "name": "Jenna Petrov",
+    "role": "Security Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Auth Service"
+    ],
+    "join_date": "2025-05-28",
+    "contribution_score": 57
+  },
+  {
+    "id": "emp-012",
+    "name": "Lila Costa",
+    "role": "QA Engineer",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "expertise": [
+      "Recommendation Engine"
+    ],
+    "join_date": "2025-07-23",
+    "contribution_score": 93
+  },
+  {
+    "id": "emp-013",
+    "name": "Kenji Johnson",
+    "role": "Security Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Reporting Service"
+    ],
+    "join_date": "2025-08-01",
+    "contribution_score": 65
+  },
+  {
+    "id": "emp-014",
+    "name": "Noah Patel",
+    "role": "Security Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Cloud Migration Layer",
+      "Mobile Gateway",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-08-18",
+    "contribution_score": 71
+  },
+  {
+    "id": "emp-015",
+    "name": "Tomas Costa",
+    "role": "Product Manager",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Database Migration Tool"
+    ],
+    "join_date": "2026-01-29",
+    "contribution_score": 55
+  },
+  {
+    "id": "emp-016",
+    "name": "Julia Petrov",
+    "role": "QA Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Cloud Migration Layer",
+      "Search Service"
+    ],
+    "join_date": "2025-04-08",
+    "contribution_score": 97
+  },
+  {
+    "id": "emp-017",
+    "name": "Ivan Rossi",
+    "role": "ML Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Security Review Service"
+    ],
+    "join_date": "2025-01-15",
+    "contribution_score": 71
+  },
+  {
+    "id": "emp-018",
+    "name": "Priya Johnson",
+    "role": "Frontend Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Recommendation Engine"
+    ],
+    "join_date": "2026-01-08",
+    "contribution_score": 90
+  },
+  {
+    "id": "emp-019",
+    "name": "Nadia Khan",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Notification Service"
+    ],
+    "join_date": "2025-05-26",
+    "contribution_score": 78
+  },
+  {
+    "id": "emp-020",
+    "name": "Lucas Hassan",
+    "role": "Data Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Feature Flag Service",
+      "User Service",
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-06-12",
+    "contribution_score": 47
+  },
+  {
+    "id": "emp-021",
+    "name": "Nadia Petrov",
+    "role": "Data Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Mobile Gateway",
+      "Payments API",
+      "Database Migration Tool"
+    ],
+    "join_date": "2025-04-01",
+    "contribution_score": 50
+  },
+  {
+    "id": "emp-022",
+    "name": "Lucas Chen",
+    "role": "Data Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Reporting Service",
+      "Security Review Service",
+      "Billing Service"
+    ],
+    "join_date": "2026-03-04",
+    "contribution_score": 95
+  },
+  {
+    "id": "emp-023",
+    "name": "Daniel Novak",
+    "role": "QA Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Analytics Pipeline",
+      "Security Review Service",
+      "Mobile Gateway"
+    ],
+    "join_date": "2024-05-01",
+    "contribution_score": 50
+  },
+  {
+    "id": "emp-024",
+    "name": "Sofia Hassan",
+    "role": "Backend Engineer",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "expertise": [
+      "Mobile Gateway",
+      "Auth Service",
+      "User Service"
+    ],
+    "join_date": "2026-02-26",
+    "contribution_score": 99
+  },
+  {
+    "id": "emp-025",
+    "name": "Grace Novak",
+    "role": "Security Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-01-03",
+    "contribution_score": 76
+  },
+  {
+    "id": "emp-026",
+    "name": "Priya Patel",
+    "role": "Product Manager",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Reporting Service"
+    ],
+    "join_date": "2024-12-22",
+    "contribution_score": 89
+  },
+  {
+    "id": "emp-027",
+    "name": "Carl Brown",
+    "role": "Product Manager",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Security Review Service",
+      "Database Migration Tool",
+      "Billing Service"
+    ],
+    "join_date": "2024-01-09",
+    "contribution_score": 78
+  },
+  {
+    "id": "emp-028",
+    "name": "Aisha Zhang",
+    "role": "QA Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Cloud Migration Layer",
+      "Analytics Pipeline",
+      "Feature Flag Service"
+    ],
+    "join_date": "2025-08-05",
+    "contribution_score": 65
+  },
+  {
+    "id": "emp-029",
+    "name": "Nadia Costa",
+    "role": "ML Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Billing Service",
+      "Auth Service"
+    ],
+    "join_date": "2026-02-17",
+    "contribution_score": 55
+  },
+  {
+    "id": "emp-030",
+    "name": "Fatima Patel",
+    "role": "ML Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Search Service"
+    ],
+    "join_date": "2024-11-30",
+    "contribution_score": 54
+  },
+  {
+    "id": "emp-031",
+    "name": "Ivan Ahmed",
+    "role": "Backend Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2024-09-12",
+    "contribution_score": 43
+  },
+  {
+    "id": "emp-032",
+    "name": "Fatima Patel",
+    "role": "Backend Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Payments API",
+      "Billing Service"
+    ],
+    "join_date": "2025-10-20",
+    "contribution_score": 57
+  },
+  {
+    "id": "emp-033",
+    "name": "Nadia Wong",
+    "role": "Security Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Security Review Service",
+      "Cloud Migration Layer",
+      "Search Service"
+    ],
+    "join_date": "2024-11-07",
+    "contribution_score": 70
+  },
+  {
+    "id": "emp-034",
+    "name": "Fatima Wong",
+    "role": "Engineering Manager",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Payments API"
+    ],
+    "join_date": "2026-03-13",
+    "contribution_score": 82
+  },
+  {
+    "id": "emp-035",
+    "name": "Aisha Lee",
+    "role": "Engineering Manager",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Auth Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2026-04-26",
+    "contribution_score": 83
+  },
+  {
+    "id": "emp-036",
+    "name": "Daniel Costa",
+    "role": "Frontend Engineer",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "expertise": [
+      "Notification Service"
+    ],
+    "join_date": "2024-06-05",
+    "contribution_score": 61
+  },
+  {
+    "id": "emp-037",
+    "name": "Amara Santos",
+    "role": "Security Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-12-18",
+    "contribution_score": 68
+  },
+  {
+    "id": "emp-038",
+    "name": "Carl Khan",
+    "role": "DevOps Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Auth Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-01-07",
+    "contribution_score": 99
+  },
+  {
+    "id": "emp-039",
+    "name": "Priya Silva",
+    "role": "QA Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "User Service"
+    ],
+    "join_date": "2024-08-22",
+    "contribution_score": 74
+  },
+  {
+    "id": "emp-040",
+    "name": "Diego Chen",
+    "role": "Frontend Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Security Review Service"
+    ],
+    "join_date": "2025-04-30",
+    "contribution_score": 71
+  },
+  {
+    "id": "emp-041",
+    "name": "Mei Zhang",
+    "role": "Engineering Manager",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Security Review Service"
+    ],
+    "join_date": "2025-05-28",
+    "contribution_score": 40
+  },
+  {
+    "id": "emp-042",
+    "name": "Tomas Garcia",
+    "role": "Product Manager",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Notification Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2024-06-02",
+    "contribution_score": 90
+  },
+  {
+    "id": "emp-043",
+    "name": "Sofia Ibrahim",
+    "role": "Product Manager",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2025-08-21",
+    "contribution_score": 53
+  },
+  {
+    "id": "emp-044",
+    "name": "Alex Kaur",
+    "role": "QA Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-08-03",
+    "contribution_score": 43
+  },
+  {
+    "id": "emp-045",
+    "name": "Alex Kaur",
+    "role": "Product Manager",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Feature Flag Service",
+      "Billing Service",
+      "Security Review Service"
+    ],
+    "join_date": "2026-04-23",
+    "contribution_score": 72
+  },
+  {
+    "id": "emp-046",
+    "name": "Priya Kim",
+    "role": "Frontend Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Payments API",
+      "Recommendation Engine",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2025-05-03",
+    "contribution_score": 47
+  },
+  {
+    "id": "emp-047",
+    "name": "Victor Kaur",
+    "role": "Security Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Search Service",
+      "User Service",
+      "Feature Flag Service"
+    ],
+    "join_date": "2026-03-29",
+    "contribution_score": 66
+  },
+  {
+    "id": "emp-048",
+    "name": "Nadia Kaur",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "expertise": [
+      "Mobile Gateway",
+      "Database Migration Tool",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-08-04",
+    "contribution_score": 85
+  },
+  {
+    "id": "emp-049",
+    "name": "Ravi Ahmed",
+    "role": "Data Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Security Review Service",
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-08-29",
+    "contribution_score": 59
+  },
+  {
+    "id": "emp-050",
+    "name": "Lucas Sharma",
+    "role": "Frontend Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Auth Service"
+    ],
+    "join_date": "2024-09-22",
+    "contribution_score": 76
+  },
+  {
+    "id": "emp-051",
+    "name": "Miguel Patel",
+    "role": "QA Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Billing Service"
+    ],
+    "join_date": "2025-09-22",
+    "contribution_score": 48
+  },
+  {
+    "id": "emp-052",
+    "name": "Lila Lee",
+    "role": "Frontend Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Mobile Gateway"
+    ],
+    "join_date": "2025-09-02",
+    "contribution_score": 50
+  },
+  {
+    "id": "emp-053",
+    "name": "Lucas Petrov",
+    "role": "Data Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Reporting Service",
+      "Recommendation Engine",
+      "Billing Service"
+    ],
+    "join_date": "2026-06-12",
+    "contribution_score": 82
+  },
+  {
+    "id": "emp-054",
+    "name": "Diego Petrov",
+    "role": "Data Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Payments API",
+      "Security Review Service",
+      "Database Migration Tool"
+    ],
+    "join_date": "2026-02-22",
+    "contribution_score": 96
+  },
+  {
+    "id": "emp-055",
+    "name": "Miguel Park",
+    "role": "QA Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Database Migration Tool"
+    ],
+    "join_date": "2025-09-05",
+    "contribution_score": 78
+  },
+  {
+    "id": "emp-056",
+    "name": "Wei Weiss",
+    "role": "ML Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-09-09",
+    "contribution_score": 94
+  },
+  {
+    "id": "emp-057",
+    "name": "Noah Hassan",
+    "role": "Product Manager",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Feature Flag Service",
+      "User Service"
+    ],
+    "join_date": "2026-03-18",
+    "contribution_score": 80
+  },
+  {
+    "id": "emp-058",
+    "name": "Aisha Garcia",
+    "role": "Backend Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Mobile Gateway"
+    ],
+    "join_date": "2024-04-22",
+    "contribution_score": 48
+  },
+  {
+    "id": "emp-059",
+    "name": "Daniel Garcia",
+    "role": "DevOps Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Auth Service",
+      "Billing Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-04-09",
+    "contribution_score": 75
+  },
+  {
+    "id": "emp-060",
+    "name": "Sarah Santos",
+    "role": "Frontend Engineer",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "expertise": [
+      "Security Review Service",
+      "Billing Service",
+      "User Service"
+    ],
+    "join_date": "2024-02-17",
+    "contribution_score": 63
+  },
+  {
+    "id": "emp-061",
+    "name": "Ivan Petrov",
+    "role": "DevOps Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Security Review Service",
+      "User Service"
+    ],
+    "join_date": "2025-08-09",
+    "contribution_score": 63
+  },
+  {
+    "id": "emp-062",
+    "name": "Victor Johnson",
+    "role": "ML Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Recommendation Engine"
+    ],
+    "join_date": "2025-10-08",
+    "contribution_score": 82
+  },
+  {
+    "id": "emp-063",
+    "name": "Miguel Lee",
+    "role": "QA Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Search Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2026-01-13",
+    "contribution_score": 99
+  },
+  {
+    "id": "emp-064",
+    "name": "Lila Ahmed",
+    "role": "DevOps Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Notification Service"
+    ],
+    "join_date": "2026-05-26",
+    "contribution_score": 51
+  },
+  {
+    "id": "emp-065",
+    "name": "Julia Sharma",
+    "role": "Engineering Manager",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Feature Flag Service",
+      "Cloud Migration Layer",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2025-09-20",
+    "contribution_score": 50
+  },
+  {
+    "id": "emp-066",
+    "name": "Amara Weiss",
+    "role": "Frontend Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Feature Flag Service",
+      "User Service"
+    ],
+    "join_date": "2024-01-23",
+    "contribution_score": 70
+  },
+  {
+    "id": "emp-067",
+    "name": "Fatima Zhang",
+    "role": "Product Manager",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Database Migration Tool",
+      "Reporting Service"
+    ],
+    "join_date": "2024-01-10",
+    "contribution_score": 54
+  },
+  {
+    "id": "emp-068",
+    "name": "Fatima Chen",
+    "role": "Security Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Mobile Gateway",
+      "Database Migration Tool"
+    ],
+    "join_date": "2024-01-17",
+    "contribution_score": 44
+  },
+  {
+    "id": "emp-069",
+    "name": "Kenji Garcia",
+    "role": "ML Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Billing Service",
+      "Notification Service",
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-02-08",
+    "contribution_score": 74
+  },
+  {
+    "id": "emp-070",
+    "name": "Ravi Chen",
+    "role": "Frontend Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Security Review Service",
+      "Search Service"
+    ],
+    "join_date": "2025-09-22",
+    "contribution_score": 42
+  },
+  {
+    "id": "emp-071",
+    "name": "Miguel Nguyen",
+    "role": "Engineering Manager",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Cloud Migration Layer",
+      "Reporting Service"
+    ],
+    "join_date": "2025-08-03",
+    "contribution_score": 67
+  },
+  {
+    "id": "emp-072",
+    "name": "Keiko Hassan",
+    "role": "Frontend Engineer",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "expertise": [
+      "Search Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2025-10-03",
+    "contribution_score": 42
+  },
+  {
+    "id": "emp-073",
+    "name": "Sam Khan",
+    "role": "Backend Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Reporting Service",
+      "Billing Service",
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-06-14",
+    "contribution_score": 87
+  },
+  {
+    "id": "emp-074",
+    "name": "Julia Ibrahim",
+    "role": "Security Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Notification Service",
+      "Payments API"
+    ],
+    "join_date": "2024-08-09",
+    "contribution_score": 98
+  },
+  {
+    "id": "emp-075",
+    "name": "Ravi Nguyen",
+    "role": "ML Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Feature Flag Service",
+      "Payments API",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-08-17",
+    "contribution_score": 72
+  },
+  {
+    "id": "emp-076",
+    "name": "Elena Ibrahim",
+    "role": "Engineering Manager",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Notification Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-08-22",
+    "contribution_score": 75
+  },
+  {
+    "id": "emp-077",
+    "name": "Carl Zhang",
+    "role": "Engineering Manager",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Notification Service",
+      "Recommendation Engine",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-12-24",
+    "contribution_score": 79
+  },
+  {
+    "id": "emp-078",
+    "name": "Ivan Novak",
+    "role": "Engineering Manager",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Feature Flag Service",
+      "User Service",
+      "Database Migration Tool"
+    ],
+    "join_date": "2025-08-31",
+    "contribution_score": 53
+  },
+  {
+    "id": "emp-079",
+    "name": "Aisha Kaur",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Mobile Gateway",
+      "Auth Service",
+      "Reporting Service"
+    ],
+    "join_date": "2025-03-25",
+    "contribution_score": 83
+  },
+  {
+    "id": "emp-080",
+    "name": "Wei Hassan",
+    "role": "Product Manager",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Security Review Service",
+      "Recommendation Engine",
+      "Payments API"
+    ],
+    "join_date": "2025-09-03",
+    "contribution_score": 72
+  },
+  {
+    "id": "emp-081",
+    "name": "Nadia Costa",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Payments API",
+      "Reporting Service"
+    ],
+    "join_date": "2025-10-23",
+    "contribution_score": 83
+  },
+  {
+    "id": "emp-082",
+    "name": "Elena Ahmed",
+    "role": "Security Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "User Service"
+    ],
+    "join_date": "2026-05-04",
+    "contribution_score": 55
+  },
+  {
+    "id": "emp-083",
+    "name": "Mei Nguyen",
+    "role": "Frontend Engineer",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Notification Service",
+      "Recommendation Engine"
+    ],
+    "join_date": "2024-11-08",
+    "contribution_score": 52
+  },
+  {
+    "id": "emp-084",
+    "name": "Sam Weiss",
+    "role": "Engineering Manager",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "expertise": [
+      "Notification Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2026-01-20",
+    "contribution_score": 81
+  },
+  {
+    "id": "emp-085",
+    "name": "Sam Chen",
+    "role": "Frontend Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Analytics Pipeline",
+      "Security Review Service"
+    ],
+    "join_date": "2024-03-19",
+    "contribution_score": 84
+  },
+  {
+    "id": "emp-086",
+    "name": "Omar Silva",
+    "role": "Backend Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Analytics Pipeline",
+      "Payments API",
+      "Auth Service"
+    ],
+    "join_date": "2026-02-04",
+    "contribution_score": 91
+  },
+  {
+    "id": "emp-087",
+    "name": "Lucas Ibrahim",
+    "role": "QA Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Search Service",
+      "Mobile Gateway",
+      "Auth Service"
+    ],
+    "join_date": "2024-10-01",
+    "contribution_score": 92
+  },
+  {
+    "id": "emp-088",
+    "name": "Julia Hassan",
+    "role": "Engineering Manager",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Auth Service",
+      "Security Review Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2024-01-20",
+    "contribution_score": 70
+  },
+  {
+    "id": "emp-089",
+    "name": "Lucas Garcia",
+    "role": "Security Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Database Migration Tool",
+      "Reporting Service",
+      "Billing Service"
+    ],
+    "join_date": "2025-02-09",
+    "contribution_score": 80
+  },
+  {
+    "id": "emp-090",
+    "name": "Fatima Garcia",
+    "role": "Product Manager",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-09-01",
+    "contribution_score": 55
+  },
+  {
+    "id": "emp-091",
+    "name": "Noah Sharma",
+    "role": "ML Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Payments API",
+      "Security Review Service",
+      "Reporting Service"
+    ],
+    "join_date": "2025-10-27",
+    "contribution_score": 64
+  },
+  {
+    "id": "emp-092",
+    "name": "Sam Brown",
+    "role": "Security Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Notification Service"
+    ],
+    "join_date": "2025-04-29",
+    "contribution_score": 61
+  },
+  {
+    "id": "emp-093",
+    "name": "Sofia Silva",
+    "role": "Engineering Manager",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-02-19",
+    "contribution_score": 66
+  },
+  {
+    "id": "emp-094",
+    "name": "Tomas Kaur",
+    "role": "Backend Engineer",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Notification Service",
+      "Auth Service",
+      "User Service"
+    ],
+    "join_date": "2025-06-25",
+    "contribution_score": 59
+  },
+  {
+    "id": "emp-095",
+    "name": "Kenji Rossi",
+    "role": "Engineering Manager",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Cloud Migration Layer",
+      "Feature Flag Service",
+      "Billing Service"
+    ],
+    "join_date": "2024-03-23",
+    "contribution_score": 78
+  },
+  {
+    "id": "emp-096",
+    "name": "Victor Ahmed",
+    "role": "Product Manager",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "expertise": [
+      "Database Migration Tool"
+    ],
+    "join_date": "2025-03-31",
+    "contribution_score": 71
+  },
+  {
+    "id": "emp-097",
+    "name": "Sarah Rossi",
+    "role": "ML Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Recommendation Engine",
+      "Reporting Service",
+      "Notification Service"
+    ],
+    "join_date": "2024-06-09",
+    "contribution_score": 50
+  },
+  {
+    "id": "emp-098",
+    "name": "Diego Silva",
+    "role": "DevOps Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Billing Service",
+      "User Service",
+      "Notification Service"
+    ],
+    "join_date": "2024-10-22",
+    "contribution_score": 76
+  },
+  {
+    "id": "emp-099",
+    "name": "Nadia Chen",
+    "role": "Frontend Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Notification Service",
+      "Security Review Service",
+      "Auth Service"
+    ],
+    "join_date": "2025-12-16",
+    "contribution_score": 43
+  },
+  {
+    "id": "emp-100",
+    "name": "Noah Rossi",
+    "role": "ML Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Auth Service"
+    ],
+    "join_date": "2025-07-21",
+    "contribution_score": 61
+  },
+  {
+    "id": "emp-101",
+    "name": "Kenji Rossi",
+    "role": "Data Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Database Migration Tool",
+      "Payments API"
+    ],
+    "join_date": "2025-02-24",
+    "contribution_score": 41
+  },
+  {
+    "id": "emp-102",
+    "name": "Julia Petrov",
+    "role": "Backend Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Analytics Pipeline",
+      "Recommendation Engine"
+    ],
+    "join_date": "2026-04-11",
+    "contribution_score": 89
+  },
+  {
+    "id": "emp-103",
+    "name": "Daniel Johnson",
+    "role": "Backend Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-02-12",
+    "contribution_score": 41
+  },
+  {
+    "id": "emp-104",
+    "name": "Keiko Brown",
+    "role": "Security Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Auth Service"
+    ],
+    "join_date": "2024-08-04",
+    "contribution_score": 47
+  },
+  {
+    "id": "emp-105",
+    "name": "Ivan Zhang",
+    "role": "Product Manager",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Database Migration Tool",
+      "Reporting Service",
+      "Mobile Gateway"
+    ],
+    "join_date": "2025-12-31",
+    "contribution_score": 78
+  },
+  {
+    "id": "emp-106",
+    "name": "Keiko Park",
+    "role": "Frontend Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Database Migration Tool"
+    ],
+    "join_date": "2026-03-02",
+    "contribution_score": 77
+  },
+  {
+    "id": "emp-107",
+    "name": "Sarah Novak",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Notification Service",
+      "Feature Flag Service",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-11-29",
+    "contribution_score": 44
+  },
+  {
+    "id": "emp-108",
+    "name": "Ivan Weiss",
+    "role": "Security Engineer",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "expertise": [
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2024-04-20",
+    "contribution_score": 59
+  },
+  {
+    "id": "emp-109",
+    "name": "Hana Ibrahim",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Reporting Service"
+    ],
+    "join_date": "2024-11-18",
+    "contribution_score": 90
+  },
+  {
+    "id": "emp-110",
+    "name": "Alex Lee",
+    "role": "QA Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Recommendation Engine",
+      "Mobile Gateway"
+    ],
+    "join_date": "2026-04-11",
+    "contribution_score": 72
+  },
+  {
+    "id": "emp-111",
+    "name": "Daniel Sharma",
+    "role": "Backend Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Feature Flag Service",
+      "Auth Service"
+    ],
+    "join_date": "2026-03-04",
+    "contribution_score": 67
+  },
+  {
+    "id": "emp-112",
+    "name": "Grace Costa",
+    "role": "Product Manager",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Security Review Service",
+      "Notification Service",
+      "Feature Flag Service"
+    ],
+    "join_date": "2024-05-30",
+    "contribution_score": 73
+  },
+  {
+    "id": "emp-113",
+    "name": "Daniel Garcia",
+    "role": "Site Reliability Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Reporting Service",
+      "Auth Service",
+      "Feature Flag Service"
+    ],
+    "join_date": "2025-03-31",
+    "contribution_score": 92
+  },
+  {
+    "id": "emp-114",
+    "name": "Julia Kaur",
+    "role": "Data Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Feature Flag Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2024-02-21",
+    "contribution_score": 99
+  },
+  {
+    "id": "emp-115",
+    "name": "Priya Garcia",
+    "role": "Product Manager",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Reporting Service"
+    ],
+    "join_date": "2025-03-02",
+    "contribution_score": 76
+  },
+  {
+    "id": "emp-116",
+    "name": "Keiko Ibrahim",
+    "role": "Engineering Manager",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "User Service",
+      "Auth Service"
+    ],
+    "join_date": "2024-01-31",
+    "contribution_score": 60
+  },
+  {
+    "id": "emp-117",
+    "name": "Jenna Wong",
+    "role": "Security Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Reporting Service",
+      "Database Migration Tool"
+    ],
+    "join_date": "2025-07-07",
+    "contribution_score": 57
+  },
+  {
+    "id": "emp-118",
+    "name": "Victor Nguyen",
+    "role": "Data Engineer",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "User Service",
+      "Billing Service",
+      "Analytics Pipeline"
+    ],
+    "join_date": "2026-03-25",
+    "contribution_score": 55
+  },
+  {
+    "id": "emp-119",
+    "name": "Julia Khan",
+    "role": "Product Manager",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Reporting Service",
+      "Analytics Pipeline",
+      "Cloud Migration Layer"
+    ],
+    "join_date": "2025-02-18",
+    "contribution_score": 81
+  },
+  {
+    "id": "emp-120",
+    "name": "Sam Wong",
+    "role": "Product Manager",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "expertise": [
+      "Payments API"
+    ],
+    "join_date": "2025-08-23",
+    "contribution_score": 54
+  }
+]

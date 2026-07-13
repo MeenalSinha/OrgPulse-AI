@@ -1,0 +1,72 @@
+[
+  {
+    "id": "team-01",
+    "name": "Platform",
+    "description": "Owns systems and delivery for Platform.",
+    "member_count": 12,
+    "health_score": 65
+  },
+  {
+    "id": "team-02",
+    "name": "Payments",
+    "description": "Owns systems and delivery for Payments.",
+    "member_count": 12,
+    "health_score": 59
+  },
+  {
+    "id": "team-03",
+    "name": "Mobile",
+    "description": "Owns systems and delivery for Mobile.",
+    "member_count": 12,
+    "health_score": 75
+  },
+  {
+    "id": "team-04",
+    "name": "Web Frontend",
+    "description": "Owns systems and delivery for Web Frontend.",
+    "member_count": 12,
+    "health_score": 73
+  },
+  {
+    "id": "team-05",
+    "name": "Backend Core",
+    "description": "Owns systems and delivery for Backend Core.",
+    "member_count": 12,
+    "health_score": 72
+  },
+  {
+    "id": "team-06",
+    "name": "Data Infrastructure",
+    "description": "Owns systems and delivery for Data Infrastructure.",
+    "member_count": 12,
+    "health_score": 66
+  },
+  {
+    "id": "team-07",
+    "name": "Security",
+    "description": "Owns systems and delivery for Security.",
+    "member_count": 12,
+    "health_score": 64
+  },
+  {
+    "id": "team-08",
+    "name": "DevOps",
+    "description": "Owns systems and delivery for DevOps.",
+    "member_count": 12,
+    "health_score": 92
+  },
+  {
+    "id": "team-09",
+    "name": "Growth",
+    "description": "Owns systems and delivery for Growth.",
+    "member_count": 12,
+    "health_score": 63
+  },
+  {
+    "id": "team-10",
+    "name": "Analytics",
+    "description": "Owns systems and delivery for Analytics.",
+    "member_count": 12,
+    "health_score": 95
+  }
+]

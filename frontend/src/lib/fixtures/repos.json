@@ -1,0 +1,362 @@
+[
+  {
+    "id": "repo-001",
+    "name": "security-api-1",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "language": "Go",
+    "open_prs": 10,
+    "stars_internal": 297
+  },
+  {
+    "id": "repo-002",
+    "name": "data-infrastructure-lib-2",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "language": "Kotlin",
+    "open_prs": 8,
+    "stars_internal": 176
+  },
+  {
+    "id": "repo-003",
+    "name": "security-worker-3",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "language": "Go",
+    "open_prs": 5,
+    "stars_internal": 232
+  },
+  {
+    "id": "repo-004",
+    "name": "backend-core-app-4",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Go",
+    "open_prs": 3,
+    "stars_internal": 61
+  },
+  {
+    "id": "repo-005",
+    "name": "web-frontend-app-5",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "language": "TypeScript",
+    "open_prs": 11,
+    "stars_internal": 274
+  },
+  {
+    "id": "repo-006",
+    "name": "mobile-api-6",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "Python",
+    "open_prs": 11,
+    "stars_internal": 247
+  },
+  {
+    "id": "repo-007",
+    "name": "backend-core-worker-7",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Kotlin",
+    "open_prs": 9,
+    "stars_internal": 144
+  },
+  {
+    "id": "repo-008",
+    "name": "payments-api-8",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "language": "Go",
+    "open_prs": 3,
+    "stars_internal": 184
+  },
+  {
+    "id": "repo-009",
+    "name": "mobile-app-9",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "TypeScript",
+    "open_prs": 11,
+    "stars_internal": 273
+  },
+  {
+    "id": "repo-010",
+    "name": "mobile-app-10",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "TypeScript",
+    "open_prs": 0,
+    "stars_internal": 283
+  },
+  {
+    "id": "repo-011",
+    "name": "backend-core-api-11",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Java",
+    "open_prs": 1,
+    "stars_internal": 6
+  },
+  {
+    "id": "repo-012",
+    "name": "analytics-app-12",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "language": "Java",
+    "open_prs": 7,
+    "stars_internal": 225
+  },
+  {
+    "id": "repo-013",
+    "name": "data-infrastructure-api-13",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "language": "TypeScript",
+    "open_prs": 4,
+    "stars_internal": 244
+  },
+  {
+    "id": "repo-014",
+    "name": "payments-service-14",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "language": "Java",
+    "open_prs": 7,
+    "stars_internal": 37
+  },
+  {
+    "id": "repo-015",
+    "name": "analytics-service-15",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "language": "Python",
+    "open_prs": 2,
+    "stars_internal": 288
+  },
+  {
+    "id": "repo-016",
+    "name": "backend-core-service-16",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Python",
+    "open_prs": 1,
+    "stars_internal": 285
+  },
+  {
+    "id": "repo-017",
+    "name": "security-worker-17",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "language": "Kotlin",
+    "open_prs": 12,
+    "stars_internal": 316
+  },
+  {
+    "id": "repo-018",
+    "name": "web-frontend-worker-18",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "language": "Java",
+    "open_prs": 7,
+    "stars_internal": 226
+  },
+  {
+    "id": "repo-019",
+    "name": "backend-core-worker-19",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Java",
+    "open_prs": 4,
+    "stars_internal": 291
+  },
+  {
+    "id": "repo-020",
+    "name": "analytics-service-20",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "language": "Kotlin",
+    "open_prs": 11,
+    "stars_internal": 50
+  },
+  {
+    "id": "repo-021",
+    "name": "web-frontend-api-21",
+    "team_id": "team-04",
+    "team_name": "Web Frontend",
+    "language": "Go",
+    "open_prs": 10,
+    "stars_internal": 41
+  },
+  {
+    "id": "repo-022",
+    "name": "mobile-api-22",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "Python",
+    "open_prs": 8,
+    "stars_internal": 38
+  },
+  {
+    "id": "repo-023",
+    "name": "mobile-service-23",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "Java",
+    "open_prs": 7,
+    "stars_internal": 304
+  },
+  {
+    "id": "repo-024",
+    "name": "devops-app-24",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "language": "TypeScript",
+    "open_prs": 3,
+    "stars_internal": 147
+  },
+  {
+    "id": "repo-025",
+    "name": "backend-core-lib-25",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "TypeScript",
+    "open_prs": 10,
+    "stars_internal": 119
+  },
+  {
+    "id": "repo-026",
+    "name": "backend-core-worker-26",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Python",
+    "open_prs": 6,
+    "stars_internal": 58
+  },
+  {
+    "id": "repo-027",
+    "name": "growth-api-27",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "language": "Python",
+    "open_prs": 4,
+    "stars_internal": 72
+  },
+  {
+    "id": "repo-028",
+    "name": "payments-service-28",
+    "team_id": "team-02",
+    "team_name": "Payments",
+    "language": "Python",
+    "open_prs": 12,
+    "stars_internal": 157
+  },
+  {
+    "id": "repo-029",
+    "name": "analytics-worker-29",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "language": "Go",
+    "open_prs": 7,
+    "stars_internal": 63
+  },
+  {
+    "id": "repo-030",
+    "name": "devops-app-30",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "language": "Java",
+    "open_prs": 4,
+    "stars_internal": 256
+  },
+  {
+    "id": "repo-031",
+    "name": "growth-lib-31",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "language": "Java",
+    "open_prs": 1,
+    "stars_internal": 306
+  },
+  {
+    "id": "repo-032",
+    "name": "platform-lib-32",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "language": "Go",
+    "open_prs": 9,
+    "stars_internal": 128
+  },
+  {
+    "id": "repo-033",
+    "name": "platform-service-33",
+    "team_id": "team-01",
+    "team_name": "Platform",
+    "language": "Python",
+    "open_prs": 10,
+    "stars_internal": 294
+  },
+  {
+    "id": "repo-034",
+    "name": "analytics-service-34",
+    "team_id": "team-10",
+    "team_name": "Analytics",
+    "language": "Go",
+    "open_prs": 9,
+    "stars_internal": 20
+  },
+  {
+    "id": "repo-035",
+    "name": "mobile-lib-35",
+    "team_id": "team-03",
+    "team_name": "Mobile",
+    "language": "Kotlin",
+    "open_prs": 10,
+    "stars_internal": 226
+  },
+  {
+    "id": "repo-036",
+    "name": "backend-core-api-36",
+    "team_id": "team-05",
+    "team_name": "Backend Core",
+    "language": "Kotlin",
+    "open_prs": 6,
+    "stars_internal": 325
+  },
+  {
+    "id": "repo-037",
+    "name": "devops-service-37",
+    "team_id": "team-08",
+    "team_name": "DevOps",
+    "language": "Java",
+    "open_prs": 5,
+    "stars_internal": 209
+  },
+  {
+    "id": "repo-038",
+    "name": "data-infrastructure-app-38",
+    "team_id": "team-06",
+    "team_name": "Data Infrastructure",
+    "language": "TypeScript",
+    "open_prs": 2,
+    "stars_internal": 168
+  },
+  {
+    "id": "repo-039",
+    "name": "security-lib-39",
+    "team_id": "team-07",
+    "team_name": "Security",
+    "language": "Go",
+    "open_prs": 10,
+    "stars_internal": 205
+  },
+  {
+    "id": "repo-040",
+    "name": "growth-service-40",
+    "team_id": "team-09",
+    "team_name": "Growth",
+    "language": "Java",
+    "open_prs": 1,
+    "stars_internal": 161
+  }
+]

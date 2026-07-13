@@ -1,0 +1,42 @@
+[
+  {
+    "id": "proj-01",
+    "name": "Project Atlas"
+  },
+  {
+    "id": "proj-02",
+    "name": "Mobile App Release 5.0"
+  },
+  {
+    "id": "proj-03",
+    "name": "Payments API v2"
+  },
+  {
+    "id": "proj-04",
+    "name": "Analytics Dashboard"
+  },
+  {
+    "id": "proj-05",
+    "name": "Security Hardening Q2"
+  },
+  {
+    "id": "proj-06",
+    "name": "GraphQL Migration"
+  },
+  {
+    "id": "proj-07",
+    "name": "Database Sharding"
+  },
+  {
+    "id": "proj-08",
+    "name": "Onboarding Revamp"
+  },
+  {
+    "id": "proj-09",
+    "name": "Search Relevance 2.0"
+  },
+  {
+    "id": "proj-10",
+    "name": "Billing Overhaul"
+  }
+]

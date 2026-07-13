@@ -1,0 +1,27 @@
+{
+  "at_risk_projects": 8,
+  "at_risk_projects_delta": "2 more than last week",
+  "blocked_tasks": 23,
+  "blocked_tasks_delta": "-5 from yesterday",
+  "team_velocity": 68,
+  "team_velocity_delta": "+8% from last week",
+  "org_health_score": 82,
+  "org_health_score_delta": "+6 from last month",
+  "knowledge_graph_highlights": {
+    "documents": 1250,
+    "documents_delta": "+24 this week",
+    "conversations": 8600,
+    "conversations_delta": "+156 this week",
+    "decisions": 300,
+    "decisions_delta": "+8 this week",
+    "people": 480,
+    "people_delta": "+12 this week",
+    "most_active_topics": [
+      "Payments API",
+      "Authentication",
+      "Mobile App",
+      "Security",
+      "Data Pipeline"
+    ]
+  }
+}

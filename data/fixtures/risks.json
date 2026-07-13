@@ -1,0 +1,36 @@
+[
+  {
+    "id": "risk-001",
+    "title": "Mobile App release at risk due to Payments API blocker",
+    "severity": "High",
+    "probability": 68,
+    "affected_projects": [
+      "Mobile App Release 5.0"
+    ],
+    "root_cause": "Security Review delay on Payments API v2 propagates through Backend Core.",
+    "recommendation": "Fast-track Security Review scope for Payments API v2 or descope the dependent Mobile release items shipping this cycle."
+  },
+  {
+    "id": "risk-002",
+    "title": "Knowledge silo on Search Service",
+    "severity": "Medium",
+    "probability": 41,
+    "affected_projects": [
+      "Search Relevance 2.0"
+    ],
+    "root_cause": "Only one engineer has merged production changes to Search Service in the last quarter.",
+    "recommendation": "Pair a second engineer on the next two Search Service tickets."
+  },
+  {
+    "id": "risk-003",
+    "title": "Approval bottleneck on Security reviews",
+    "severity": "High",
+    "probability": 74,
+    "affected_projects": [
+      "Payments API v2",
+      "Security Hardening Q2"
+    ],
+    "root_cause": "Security team has 3 open reviews against 1 available reviewer this sprint.",
+    "recommendation": "Add a second reviewer or triage lower-risk reviews to async approval."
+  }
+]

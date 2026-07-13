@@ -1,0 +1,177 @@
+[
+  {
+    "id": "rel-001",
+    "name": "Analytics Dashboard - Release 1.9",
+    "project": "Analytics Dashboard",
+    "date": "2026-01-12",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-002",
+    "name": "GraphQL Migration - Release 3.7",
+    "project": "GraphQL Migration",
+    "date": "2026-05-26",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-003",
+    "name": "Project Atlas - Release 3.4",
+    "project": "Project Atlas",
+    "date": "2026-05-26",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-004",
+    "name": "Database Sharding - Release 1.3",
+    "project": "Database Sharding",
+    "date": "2025-11-14",
+    "status": "On Track"
+  },
+  {
+    "id": "rel-005",
+    "name": "Payments API v2 - Release 4.5",
+    "project": "Payments API v2",
+    "date": "2025-11-04",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-006",
+    "name": "GraphQL Migration - Release 2.6",
+    "project": "GraphQL Migration",
+    "date": "2026-03-11",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-007",
+    "name": "Mobile App Release 5.0 - Release 5.9",
+    "project": "Mobile App Release 5.0",
+    "date": "2025-10-25",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-008",
+    "name": "Payments API v2 - Release 1.5",
+    "project": "Payments API v2",
+    "date": "2025-10-24",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-009",
+    "name": "Onboarding Revamp - Release 2.6",
+    "project": "Onboarding Revamp",
+    "date": "2025-10-25",
+    "status": "On Track"
+  },
+  {
+    "id": "rel-010",
+    "name": "Analytics Dashboard - Release 5.7",
+    "project": "Analytics Dashboard",
+    "date": "2026-04-08",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-011",
+    "name": "Security Hardening Q2 - Release 5.6",
+    "project": "Security Hardening Q2",
+    "date": "2025-12-02",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-012",
+    "name": "GraphQL Migration - Release 4.9",
+    "project": "GraphQL Migration",
+    "date": "2026-01-05",
+    "status": "On Track"
+  },
+  {
+    "id": "rel-013",
+    "name": "Onboarding Revamp - Release 1.2",
+    "project": "Onboarding Revamp",
+    "date": "2025-10-20",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-014",
+    "name": "GraphQL Migration - Release 3.4",
+    "project": "GraphQL Migration",
+    "date": "2026-03-25",
+    "status": "At Risk"
+  },
+  {
+    "id": "rel-015",
+    "name": "GraphQL Migration - Release 4.0",
+    "project": "GraphQL Migration",
+    "date": "2026-04-16",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-016",
+    "name": "Mobile App Release 5.0 - Release 3.0",
+    "project": "Mobile App Release 5.0",
+    "date": "2026-04-27",
+    "status": "At Risk"
+  },
+  {
+    "id": "rel-017",
+    "name": "Search Relevance 2.0 - Release 4.2",
+    "project": "Search Relevance 2.0",
+    "date": "2026-01-17",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-018",
+    "name": "Onboarding Revamp - Release 3.0",
+    "project": "Onboarding Revamp",
+    "date": "2025-11-21",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-019",
+    "name": "Billing Overhaul - Release 2.2",
+    "project": "Billing Overhaul",
+    "date": "2026-03-31",
+    "status": "On Track"
+  },
+  {
+    "id": "rel-020",
+    "name": "Database Sharding - Release 1.3",
+    "project": "Database Sharding",
+    "date": "2026-03-06",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-021",
+    "name": "Database Sharding - Release 4.9",
+    "project": "Database Sharding",
+    "date": "2025-11-10",
+    "status": "Delayed"
+  },
+  {
+    "id": "rel-022",
+    "name": "GraphQL Migration - Release 3.7",
+    "project": "GraphQL Migration",
+    "date": "2026-02-20",
+    "status": "Shipped"
+  },
+  {
+    "id": "rel-023",
+    "name": "Mobile App Release 5.0 - Release 4.7",
+    "project": "Mobile App Release 5.0",
+    "date": "2025-08-31",
+    "status": "On Track"
+  },
+  {
+    "id": "rel-024",
+    "name": "Mobile App Release 5.0 - Release 4.0",
+    "project": "Mobile App Release 5.0",
+    "date": "2025-10-26",
+    "status": "At Risk"
+  },
+  {
+    "id": "rel-025",
+    "name": "Search Relevance 2.0 - Release 1.5",
+    "project": "Search Relevance 2.0",
+    "date": "2025-11-05",
+    "status": "Shipped"
+  }
+]

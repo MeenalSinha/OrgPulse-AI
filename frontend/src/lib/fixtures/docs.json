@@ -1,0 +1,402 @@
+[
+  {
+    "id": "doc-001",
+    "title": "Payments API Architecture Overview 1",
+    "team_id": "team-02",
+    "type": "RFC",
+    "last_updated": "2025-05-21",
+    "quality_score": 84
+  },
+  {
+    "id": "doc-002",
+    "title": "User Service Architecture Overview 2",
+    "team_id": "team-09",
+    "type": "Architecture Doc",
+    "last_updated": "2026-03-05",
+    "quality_score": 92
+  },
+  {
+    "id": "doc-003",
+    "title": "Feature Flag Service Architecture Overview 3",
+    "team_id": "team-04",
+    "type": "Design Doc",
+    "last_updated": "2026-04-28",
+    "quality_score": 63
+  },
+  {
+    "id": "doc-004",
+    "title": "Feature Flag Service Architecture Overview 4",
+    "team_id": "team-09",
+    "type": "Design Doc",
+    "last_updated": "2025-07-24",
+    "quality_score": 54
+  },
+  {
+    "id": "doc-005",
+    "title": "User Service Architecture Overview 5",
+    "team_id": "team-03",
+    "type": "Design Doc",
+    "last_updated": "2025-06-18",
+    "quality_score": 71
+  },
+  {
+    "id": "doc-006",
+    "title": "Payments API Architecture Overview 6",
+    "team_id": "team-01",
+    "type": "Architecture Doc",
+    "last_updated": "2026-05-24",
+    "quality_score": 61
+  },
+  {
+    "id": "doc-007",
+    "title": "Billing Service Architecture Overview 7",
+    "team_id": "team-05",
+    "type": "Architecture Doc",
+    "last_updated": "2025-08-30",
+    "quality_score": 64
+  },
+  {
+    "id": "doc-008",
+    "title": "Notification Service Architecture Overview 8",
+    "team_id": "team-05",
+    "type": "Design Doc",
+    "last_updated": "2025-11-02",
+    "quality_score": 90
+  },
+  {
+    "id": "doc-009",
+    "title": "Notification Service Architecture Overview 9",
+    "team_id": "team-07",
+    "type": "Runbook",
+    "last_updated": "2026-06-12",
+    "quality_score": 74
+  },
+  {
+    "id": "doc-010",
+    "title": "Billing Service Architecture Overview 10",
+    "team_id": "team-02",
+    "type": "Architecture Doc",
+    "last_updated": "2025-07-27",
+    "quality_score": 96
+  },
+  {
+    "id": "doc-011",
+    "title": "Payments API Architecture Overview 11",
+    "team_id": "team-10",
+    "type": "Architecture Doc",
+    "last_updated": "2025-06-27",
+    "quality_score": 54
+  },
+  {
+    "id": "doc-012",
+    "title": "Billing Service Architecture Overview 12",
+    "team_id": "team-06",
+    "type": "Architecture Doc",
+    "last_updated": "2026-01-23",
+    "quality_score": 93
+  },
+  {
+    "id": "doc-013",
+    "title": "Search Service Architecture Overview 13",
+    "team_id": "team-05",
+    "type": "Architecture Doc",
+    "last_updated": "2026-01-27",
+    "quality_score": 98
+  },
+  {
+    "id": "doc-014",
+    "title": "Notification Service Architecture Overview 14",
+    "team_id": "team-08",
+    "type": "Design Doc",
+    "last_updated": "2025-07-17",
+    "quality_score": 51
+  },
+  {
+    "id": "doc-015",
+    "title": "Security Review Service Architecture Overview 15",
+    "team_id": "team-08",
+    "type": "RFC",
+    "last_updated": "2026-04-12",
+    "quality_score": 97
+  },
+  {
+    "id": "doc-016",
+    "title": "Reporting Service Architecture Overview 16",
+    "team_id": "team-07",
+    "type": "Runbook",
+    "last_updated": "2025-07-31",
+    "quality_score": 59
+  },
+  {
+    "id": "doc-017",
+    "title": "Recommendation Engine Architecture Overview 17",
+    "team_id": "team-05",
+    "type": "Runbook",
+    "last_updated": "2026-06-15",
+    "quality_score": 85
+  },
+  {
+    "id": "doc-018",
+    "title": "Security Review Service Architecture Overview 18",
+    "team_id": "team-09",
+    "type": "Architecture Doc",
+    "last_updated": "2026-05-30",
+    "quality_score": 50
+  },
+  {
+    "id": "doc-019",
+    "title": "Search Service Architecture Overview 19",
+    "team_id": "team-10",
+    "type": "Design Doc",
+    "last_updated": "2025-09-18",
+    "quality_score": 85
+  },
+  {
+    "id": "doc-020",
+    "title": "Database Migration Tool Architecture Overview 20",
+    "team_id": "team-02",
+    "type": "RFC",
+    "last_updated": "2025-06-02",
+    "quality_score": 97
+  },
+  {
+    "id": "doc-021",
+    "title": "Analytics Pipeline Architecture Overview 21",
+    "team_id": "team-06",
+    "type": "Design Doc",
+    "last_updated": "2025-07-25",
+    "quality_score": 82
+  },
+  {
+    "id": "doc-022",
+    "title": "Security Review Service Architecture Overview 22",
+    "team_id": "team-03",
+    "type": "RFC",
+    "last_updated": "2026-02-27",
+    "quality_score": 89
+  },
+  {
+    "id": "doc-023",
+    "title": "Analytics Pipeline Architecture Overview 23",
+    "team_id": "team-05",
+    "type": "Architecture Doc",
+    "last_updated": "2026-03-20",
+    "quality_score": 92
+  },
+  {
+    "id": "doc-024",
+    "title": "Feature Flag Service Architecture Overview 24",
+    "team_id": "team-10",
+    "type": "Architecture Doc",
+    "last_updated": "2025-06-01",
+    "quality_score": 85
+  },
+  {
+    "id": "doc-025",
+    "title": "Recommendation Engine Architecture Overview 25",
+    "team_id": "team-08",
+    "type": "Architecture Doc",
+    "last_updated": "2026-01-23",
+    "quality_score": 92
+  },
+  {
+    "id": "doc-026",
+    "title": "Database Migration Tool Architecture Overview 26",
+    "team_id": "team-02",
+    "type": "Architecture Doc",
+    "last_updated": "2026-03-11",
+    "quality_score": 96
+  },
+  {
+    "id": "doc-027",
+    "title": "Auth Service Architecture Overview 27",
+    "team_id": "team-10",
+    "type": "Runbook",
+    "last_updated": "2025-12-20",
+    "quality_score": 58
+  },
+  {
+    "id": "doc-028",
+    "title": "Payments API Architecture Overview 28",
+    "team_id": "team-04",
+    "type": "Runbook",
+    "last_updated": "2025-08-07",
+    "quality_score": 54
+  },
+  {
+    "id": "doc-029",
+    "title": "Mobile Gateway Architecture Overview 29",
+    "team_id": "team-04",
+    "type": "Design Doc",
+    "last_updated": "2025-11-02",
+    "quality_score": 71
+  },
+  {
+    "id": "doc-030",
+    "title": "Recommendation Engine Architecture Overview 30",
+    "team_id": "team-10",
+    "type": "Runbook",
+    "last_updated": "2025-06-30",
+    "quality_score": 87
+  },
+  {
+    "id": "doc-031",
+    "title": "Search Service Architecture Overview 31",
+    "team_id": "team-03",
+    "type": "Runbook",
+    "last_updated": "2026-01-10",
+    "quality_score": 77
+  },
+  {
+    "id": "doc-032",
+    "title": "User Service Architecture Overview 32",
+    "team_id": "team-03",
+    "type": "Runbook",
+    "last_updated": "2026-02-14",
+    "quality_score": 64
+  },
+  {
+    "id": "doc-033",
+    "title": "Database Migration Tool Architecture Overview 33",
+    "team_id": "team-07",
+    "type": "Runbook",
+    "last_updated": "2026-04-13",
+    "quality_score": 93
+  },
+  {
+    "id": "doc-034",
+    "title": "Auth Service Architecture Overview 34",
+    "team_id": "team-06",
+    "type": "Design Doc",
+    "last_updated": "2025-11-04",
+    "quality_score": 72
+  },
+  {
+    "id": "doc-035",
+    "title": "Auth Service Architecture Overview 35",
+    "team_id": "team-05",
+    "type": "Architecture Doc",
+    "last_updated": "2026-03-23",
+    "quality_score": 91
+  },
+  {
+    "id": "doc-036",
+    "title": "Payments API Architecture Overview 36",
+    "team_id": "team-10",
+    "type": "Runbook",
+    "last_updated": "2026-04-10",
+    "quality_score": 84
+  },
+  {
+    "id": "doc-037",
+    "title": "Database Migration Tool Architecture Overview 37",
+    "team_id": "team-04",
+    "type": "Architecture Doc",
+    "last_updated": "2025-06-13",
+    "quality_score": 54
+  },
+  {
+    "id": "doc-038",
+    "title": "Feature Flag Service Architecture Overview 38",
+    "team_id": "team-01",
+    "type": "Architecture Doc",
+    "last_updated": "2025-08-27",
+    "quality_score": 87
+  },
+  {
+    "id": "doc-039",
+    "title": "Reporting Service Architecture Overview 39",
+    "team_id": "team-07",
+    "type": "RFC",
+    "last_updated": "2026-06-02",
+    "quality_score": 85
+  },
+  {
+    "id": "doc-040",
+    "title": "Billing Service Architecture Overview 40",
+    "team_id": "team-05",
+    "type": "Design Doc",
+    "last_updated": "2025-07-21",
+    "quality_score": 59
+  },
+  {
+    "id": "doc-041",
+    "title": "Notification Service Architecture Overview 41",
+    "team_id": "team-06",
+    "type": "RFC",
+    "last_updated": "2025-05-21",
+    "quality_score": 87
+  },
+  {
+    "id": "doc-042",
+    "title": "Security Review Service Architecture Overview 42",
+    "team_id": "team-05",
+    "type": "Design Doc",
+    "last_updated": "2025-10-07",
+    "quality_score": 82
+  },
+  {
+    "id": "doc-043",
+    "title": "Notification Service Architecture Overview 43",
+    "team_id": "team-02",
+    "type": "Runbook",
+    "last_updated": "2025-10-06",
+    "quality_score": 50
+  },
+  {
+    "id": "doc-044",
+    "title": "Feature Flag Service Architecture Overview 44",
+    "team_id": "team-04",
+    "type": "RFC",
+    "last_updated": "2025-05-29",
+    "quality_score": 82
+  },
+  {
+    "id": "doc-045",
+    "title": "Auth Service Architecture Overview 45",
+    "team_id": "team-03",
+    "type": "RFC",
+    "last_updated": "2026-03-21",
+    "quality_score": 86
+  },
+  {
+    "id": "doc-046",
+    "title": "Recommendation Engine Architecture Overview 46",
+    "team_id": "team-10",
+    "type": "RFC",
+    "last_updated": "2025-06-09",
+    "quality_score": 96
+  },
+  {
+    "id": "doc-047",
+    "title": "Mobile Gateway Architecture Overview 47",
+    "team_id": "team-08",
+    "type": "Architecture Doc",
+    "last_updated": "2026-02-28",
+    "quality_score": 98
+  },
+  {
+    "id": "doc-048",
+    "title": "Analytics Pipeline Architecture Overview 48",
+    "team_id": "team-08",
+    "type": "Architecture Doc",
+    "last_updated": "2026-02-05",
+    "quality_score": 73
+  },
+  {
+    "id": "doc-049",
+    "title": "User Service Architecture Overview 49",
+    "team_id": "team-04",
+    "type": "RFC",
+    "last_updated": "2025-09-28",
+    "quality_score": 73
+  },
+  {
+    "id": "doc-050",
+    "title": "Auth Service Architecture Overview 50",
+    "team_id": "team-07",
+    "type": "Design Doc",
+    "last_updated": "2026-05-28",
+    "quality_score": 52
+  }
+]

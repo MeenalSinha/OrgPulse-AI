@@ -1,0 +1,20 @@
+[
+  {
+    "id": "insight-1",
+    "type": "risk",
+    "text": "3 projects are at high risk due to dependencies.",
+    "link": "risks"
+  },
+  {
+    "id": "insight-2",
+    "type": "blocker",
+    "text": "Security Review is the top blocker this week.",
+    "link": "dependency-graph"
+  },
+  {
+    "id": "insight-3",
+    "type": "knowledge",
+    "text": "A similar issue was resolved in #backend-core 2 weeks ago.",
+    "link": "knowledge-graph"
+  }
+]

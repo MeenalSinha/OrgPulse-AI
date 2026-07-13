@@ -1,0 +1,1312 @@
+[
+  {
+    "id": "dec-001",
+    "title": "Migrate to PostgreSQL",
+    "category": "Architecture",
+    "date": "2026-01-20",
+    "rationale": "The team evaluated MySQL vs PostgreSQL for the new Billing Service and chose PostgreSQL for its native JSONB support and stronger consistency guarantees.",
+    "alternatives_considered": [
+      "In-house build",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-009",
+      "emp-068",
+      "emp-020",
+      "emp-058"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0001",
+      "JIRA-1259",
+      "conv-049"
+    ]
+  },
+  {
+    "id": "dec-002",
+    "title": "Adopt GraphQL API",
+    "category": "Tech Stack",
+    "date": "2025-12-16",
+    "rationale": "Frontend and Backend Core agreed to adopt GraphQL for the Mobile Gateway to reduce over-fetching and unify the API surface across web and mobile clients.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-114",
+      "emp-003",
+      "emp-080",
+      "emp-110"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0017",
+      "JIRA-1275",
+      "conv-050"
+    ]
+  },
+  {
+    "id": "dec-003",
+    "title": "Kill Feature: Legacy Reports",
+    "category": "Product",
+    "date": "2025-09-11",
+    "rationale": "Usage data showed under 2 percent adoption of the legacy reporting module, so the Analytics team deprecated it in favor of the new Analytics Dashboard.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-068",
+      "emp-088",
+      "emp-064",
+      "emp-099"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0105",
+      "JIRA-1164",
+      "conv-015"
+    ]
+  },
+  {
+    "id": "dec-004",
+    "title": "Introduce Security Review Gate",
+    "category": "Process",
+    "date": "2026-05-29",
+    "rationale": "Following an incident in the Payments flow, Security introduced a mandatory review gate for any service touching payment data before it can ship.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-067",
+      "emp-085",
+      "emp-009"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0052",
+      "JIRA-1054",
+      "conv-063"
+    ]
+  },
+  {
+    "id": "dec-005",
+    "title": "Split Monolith into Services",
+    "category": "Architecture",
+    "date": "2025-04-18",
+    "rationale": "Platform and Backend Core agreed to split the monolith into Payments API, User Service and Notification Service to reduce deploy coupling.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-013",
+      "emp-005",
+      "emp-074",
+      "emp-083"
+    ],
+    "outcome": "Adopted and later revised",
+    "evidence": [
+      "PR-0066",
+      "JIRA-1025",
+      "conv-047"
+    ]
+  },
+  {
+    "id": "dec-006",
+    "title": "Move CI to GitHub Actions",
+    "category": "Infrastructure",
+    "date": "2025-03-01",
+    "rationale": "DevOps migrated the build pipeline off Jenkins to GitHub Actions to cut build times and simplify onboarding for new repositories.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-078",
+      "emp-092",
+      "emp-010",
+      "emp-002"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0120",
+      "JIRA-1031",
+      "conv-047"
+    ]
+  },
+  {
+    "id": "dec-007",
+    "title": "Adopt Feature Flags",
+    "category": "Process",
+    "date": "2026-02-04",
+    "rationale": "Growth and Platform introduced a feature flag service to decouple deploys from releases and support progressive rollouts.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-106",
+      "emp-048",
+      "emp-102",
+      "emp-091",
+      "emp-008",
+      "emp-079"
+    ],
+    "outcome": "Adopted and later revised",
+    "evidence": [
+      "PR-0019",
+      "JIRA-1155",
+      "conv-010"
+    ]
+  },
+  {
+    "id": "dec-008",
+    "title": "Cloud Migration to Multi-Region",
+    "category": "Infrastructure",
+    "date": "2025-09-21",
+    "rationale": "Platform and Security jointly decided to migrate core services to a multi region cloud footprint to meet new data residency requirements.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-067",
+      "emp-013",
+      "emp-093",
+      "emp-030"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0135",
+      "JIRA-1127",
+      "conv-073"
+    ]
+  },
+  {
+    "id": "dec-009",
+    "title": "Standardize on Terraform",
+    "category": "Architecture",
+    "date": "2025-05-24",
+    "rationale": "Standardize on Terraform was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Recommendation Engine.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-072",
+      "emp-096",
+      "emp-054"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0118",
+      "JIRA-1218"
+    ]
+  },
+  {
+    "id": "dec-010",
+    "title": "Consolidate Logging to OpenTelemetry",
+    "category": "Process",
+    "date": "2025-09-12",
+    "rationale": "Consolidate Logging to OpenTelemetry was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Notification Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-022",
+      "emp-102"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0041",
+      "JIRA-1273"
+    ]
+  },
+  {
+    "id": "dec-011",
+    "title": "Retire the Legacy Monolith",
+    "category": "Tech Stack",
+    "date": "2025-04-14",
+    "rationale": "Retire the Legacy Monolith was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Mobile Gateway.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-120",
+      "emp-046",
+      "emp-116",
+      "emp-041",
+      "emp-071"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0083",
+      "JIRA-1123"
+    ]
+  },
+  {
+    "id": "dec-012",
+    "title": "Adopt Trunk-Based Development",
+    "category": "Tech Stack",
+    "date": "2025-12-18",
+    "rationale": "Adopt Trunk-Based Development was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Auth Service.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-049",
+      "emp-099",
+      "emp-071"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0001",
+      "JIRA-1017"
+    ]
+  },
+  {
+    "id": "dec-013",
+    "title": "Introduce Service Mesh",
+    "category": "Tech Stack",
+    "date": "2026-06-17",
+    "rationale": "Introduce Service Mesh was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Database Migration Tool.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-077",
+      "emp-003",
+      "emp-067",
+      "emp-018"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0081",
+      "JIRA-1011"
+    ]
+  },
+  {
+    "id": "dec-014",
+    "title": "Move Secrets to Vault",
+    "category": "Infrastructure",
+    "date": "2025-03-03",
+    "rationale": "Move Secrets to Vault was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Search Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-118",
+      "emp-071",
+      "emp-066",
+      "emp-072"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0010",
+      "JIRA-1235"
+    ]
+  },
+  {
+    "id": "dec-015",
+    "title": "Adopt Contract Testing",
+    "category": "Infrastructure",
+    "date": "2026-02-13",
+    "rationale": "Adopt Contract Testing was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Analytics Pipeline.",
+    "alternatives_considered": [
+      "In-house build",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-020",
+      "emp-018",
+      "emp-034",
+      "emp-047"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0024",
+      "JIRA-1292"
+    ]
+  },
+  {
+    "id": "dec-016",
+    "title": "Unify Design System",
+    "category": "Tech Stack",
+    "date": "2025-05-11",
+    "rationale": "Unify Design System was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Auth Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-073",
+      "emp-118",
+      "emp-028",
+      "emp-094",
+      "emp-010"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0148",
+      "JIRA-1048"
+    ]
+  },
+  {
+    "id": "dec-017",
+    "title": "Introduce SLOs for Tier-1 Services",
+    "category": "Product",
+    "date": "2026-05-11",
+    "rationale": "Introduce SLOs for Tier-1 Services was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Reporting Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-005",
+      "emp-094",
+      "emp-104",
+      "emp-074"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0090",
+      "JIRA-1222"
+    ]
+  },
+  {
+    "id": "dec-018",
+    "title": "Deprecate REST v1",
+    "category": "Infrastructure",
+    "date": "2025-03-02",
+    "rationale": "Deprecate REST v1 was adopted after review by the owning team to reduce operational risk and improve delivery velocity around User Service.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-120",
+      "emp-112",
+      "emp-016",
+      "emp-099",
+      "emp-030"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0079",
+      "JIRA-1268"
+    ]
+  },
+  {
+    "id": "dec-019",
+    "title": "Adopt Event-Driven Billing",
+    "category": "Infrastructure",
+    "date": "2026-04-05",
+    "rationale": "Adopt Event-Driven Billing was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Mobile Gateway.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-041",
+      "emp-070"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0040",
+      "JIRA-1025"
+    ]
+  },
+  {
+    "id": "dec-020",
+    "title": "Consolidate Data Warehouses",
+    "category": "Architecture",
+    "date": "2026-02-27",
+    "rationale": "Consolidate Data Warehouses was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Notification Service.",
+    "alternatives_considered": [
+      "In-house build",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-058",
+      "emp-097",
+      "emp-077",
+      "emp-074",
+      "emp-065"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0038",
+      "JIRA-1067"
+    ]
+  },
+  {
+    "id": "dec-021",
+    "title": "Introduce Canary Deployments",
+    "category": "Architecture",
+    "date": "2025-09-13",
+    "rationale": "Introduce Canary Deployments was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Notification Service.",
+    "alternatives_considered": [
+      "In-house build",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-011",
+      "emp-061",
+      "emp-074",
+      "emp-096"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0103",
+      "JIRA-1256"
+    ]
+  },
+  {
+    "id": "dec-022",
+    "title": "Adopt Feature-Team Model",
+    "category": "Product",
+    "date": "2025-09-07",
+    "rationale": "Adopt Feature-Team Model was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Analytics Pipeline.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-100",
+      "emp-090",
+      "emp-017",
+      "emp-098",
+      "emp-018"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0147",
+      "JIRA-1100"
+    ]
+  },
+  {
+    "id": "dec-023",
+    "title": "Standardize Incident Response Runbooks",
+    "category": "Product",
+    "date": "2026-01-06",
+    "rationale": "Standardize Incident Response Runbooks was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Recommendation Engine.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-032",
+      "emp-010",
+      "emp-035"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0029",
+      "JIRA-1211"
+    ]
+  },
+  {
+    "id": "dec-024",
+    "title": "Move CI Runners to Self-Hosted",
+    "category": "Architecture",
+    "date": "2025-05-22",
+    "rationale": "Move CI Runners to Self-Hosted was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Database Migration Tool.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-047",
+      "emp-045",
+      "emp-025",
+      "emp-042",
+      "emp-077"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0114",
+      "JIRA-1074"
+    ]
+  },
+  {
+    "id": "dec-025",
+    "title": "Adopt pgvector for Embeddings",
+    "category": "Tech Stack",
+    "date": "2026-04-02",
+    "rationale": "Adopt pgvector for Embeddings was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Reporting Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-006",
+      "emp-119",
+      "emp-105",
+      "emp-030",
+      "emp-026"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0014",
+      "JIRA-1124"
+    ]
+  },
+  {
+    "id": "dec-026",
+    "title": "Introduce API Gateway",
+    "category": "Tech Stack",
+    "date": "2026-06-13",
+    "rationale": "Introduce API Gateway was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Mobile Gateway.",
+    "alternatives_considered": [
+      "Do nothing",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-112",
+      "emp-107",
+      "emp-105"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0116",
+      "JIRA-1241"
+    ]
+  },
+  {
+    "id": "dec-027",
+    "title": "Sunset Confluence in Favor of Notion",
+    "category": "Infrastructure",
+    "date": "2026-03-04",
+    "rationale": "Sunset Confluence in Favor of Notion was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Analytics Pipeline.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-043",
+      "emp-027"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0141",
+      "JIRA-1247"
+    ]
+  },
+  {
+    "id": "dec-028",
+    "title": "Adopt Blue-Green Deploys",
+    "category": "Architecture",
+    "date": "2025-12-10",
+    "rationale": "Adopt Blue-Green Deploys was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Search Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-089",
+      "emp-090",
+      "emp-086"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0066",
+      "JIRA-1087"
+    ]
+  },
+  {
+    "id": "dec-029",
+    "title": "Introduce Data Retention Policy",
+    "category": "Infrastructure",
+    "date": "2026-02-02",
+    "rationale": "Introduce Data Retention Policy was adopted after review by the owning team to reduce operational risk and improve delivery velocity around User Service.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-037",
+      "emp-026"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0018",
+      "JIRA-1198"
+    ]
+  },
+  {
+    "id": "dec-030",
+    "title": "Consolidate Auth Providers",
+    "category": "Architecture",
+    "date": "2026-06-11",
+    "rationale": "Consolidate Auth Providers was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Database Migration Tool.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-085",
+      "emp-110",
+      "emp-117",
+      "emp-047"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0098",
+      "JIRA-1260"
+    ]
+  },
+  {
+    "id": "dec-031",
+    "title": "Adopt Mono-repo for Mobile",
+    "category": "Product",
+    "date": "2025-04-03",
+    "rationale": "Adopt Mono-repo for Mobile was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Search Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-116",
+      "emp-041"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0048",
+      "JIRA-1101"
+    ]
+  },
+  {
+    "id": "dec-032",
+    "title": "Introduce Chaos Testing",
+    "category": "Process",
+    "date": "2025-03-05",
+    "rationale": "Introduce Chaos Testing was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Billing Service.",
+    "alternatives_considered": [
+      "In-house build",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-072",
+      "emp-119",
+      "emp-092",
+      "emp-003",
+      "emp-006"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0126",
+      "JIRA-1201"
+    ]
+  },
+  {
+    "id": "dec-033",
+    "title": "Standardize on gRPC Internally",
+    "category": "Tech Stack",
+    "date": "2025-12-21",
+    "rationale": "Standardize on gRPC Internally was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Recommendation Engine.",
+    "alternatives_considered": [
+      "In-house build",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-003",
+      "emp-045",
+      "emp-088"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0129",
+      "JIRA-1141"
+    ]
+  },
+  {
+    "id": "dec-034",
+    "title": "Retire Legacy Reporting Warehouse",
+    "category": "Product",
+    "date": "2025-03-22",
+    "rationale": "Retire Legacy Reporting Warehouse was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Feature Flag Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-081",
+      "emp-033"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0058",
+      "JIRA-1077"
+    ]
+  },
+  {
+    "id": "dec-035",
+    "title": "Adopt Zero Trust Networking",
+    "category": "Architecture",
+    "date": "2025-06-12",
+    "rationale": "Adopt Zero Trust Networking was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Notification Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-115",
+      "emp-051",
+      "emp-085",
+      "emp-018"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0107",
+      "JIRA-1123"
+    ]
+  },
+  {
+    "id": "dec-036",
+    "title": "Introduce Cost Guardrails",
+    "category": "Infrastructure",
+    "date": "2026-01-03",
+    "rationale": "Introduce Cost Guardrails was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Auth Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-055",
+      "emp-040",
+      "emp-117"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0053",
+      "JIRA-1070"
+    ]
+  },
+  {
+    "id": "dec-037",
+    "title": "Adopt Progressive Delivery",
+    "category": "Infrastructure",
+    "date": "2025-03-12",
+    "rationale": "Adopt Progressive Delivery was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Security Review Service.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-111",
+      "emp-018",
+      "emp-040"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0145",
+      "JIRA-1080"
+    ]
+  },
+  {
+    "id": "dec-038",
+    "title": "Consolidate On-Call Rotations",
+    "category": "Architecture",
+    "date": "2026-03-18",
+    "rationale": "Consolidate On-Call Rotations was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Mobile Gateway.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-009",
+      "emp-072",
+      "emp-069",
+      "emp-093"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0082",
+      "JIRA-1211"
+    ]
+  },
+  {
+    "id": "dec-039",
+    "title": "Introduce Design Review Board",
+    "category": "Tech Stack",
+    "date": "2026-04-04",
+    "rationale": "Introduce Design Review Board was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Reporting Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Do nothing"
+    ],
+    "participant_ids": [
+      "emp-039",
+      "emp-057",
+      "emp-096",
+      "emp-120",
+      "emp-106"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0034",
+      "JIRA-1094"
+    ]
+  },
+  {
+    "id": "dec-040",
+    "title": "Adopt Semantic Versioning Org-Wide",
+    "category": "Infrastructure",
+    "date": "2026-02-04",
+    "rationale": "Adopt Semantic Versioning Org-Wide was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Search Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-098",
+      "emp-079"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0060",
+      "JIRA-1118"
+    ]
+  },
+  {
+    "id": "dec-041",
+    "title": "Move Feature Flags to Native Service",
+    "category": "Product",
+    "date": "2026-04-13",
+    "rationale": "Move Feature Flags to Native Service was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Billing Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-046",
+      "emp-011"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0096",
+      "JIRA-1094"
+    ]
+  },
+  {
+    "id": "dec-042",
+    "title": "Retire Third-Party Analytics Vendor",
+    "category": "Process",
+    "date": "2026-06-04",
+    "rationale": "Retire Third-Party Analytics Vendor was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Notification Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-063",
+      "emp-061",
+      "emp-018",
+      "emp-021",
+      "emp-025"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0106",
+      "JIRA-1113"
+    ]
+  },
+  {
+    "id": "dec-043",
+    "title": "Adopt GraphQL Federation",
+    "category": "Process",
+    "date": "2025-03-03",
+    "rationale": "Adopt GraphQL Federation was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Auth Service.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-097",
+      "emp-027",
+      "emp-009"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0084",
+      "JIRA-1234"
+    ]
+  },
+  {
+    "id": "dec-044",
+    "title": "Introduce Data Classification Standard",
+    "category": "Architecture",
+    "date": "2025-08-13",
+    "rationale": "Introduce Data Classification Standard was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Cloud Migration Layer.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-055",
+      "emp-052",
+      "emp-100"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0101",
+      "JIRA-1292"
+    ]
+  },
+  {
+    "id": "dec-045",
+    "title": "Consolidate Notification Channels",
+    "category": "Product",
+    "date": "2025-10-30",
+    "rationale": "Consolidate Notification Channels was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Feature Flag Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-067",
+      "emp-014"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0133",
+      "JIRA-1275"
+    ]
+  },
+  {
+    "id": "dec-046",
+    "title": "Adopt Infrastructure Cost Dashboards",
+    "category": "Architecture",
+    "date": "2026-03-15",
+    "rationale": "Adopt Infrastructure Cost Dashboards was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Database Migration Tool.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-095",
+      "emp-006",
+      "emp-072",
+      "emp-050",
+      "emp-067"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0078",
+      "JIRA-1146"
+    ]
+  },
+  {
+    "id": "dec-047",
+    "title": "Introduce Security Champions Program",
+    "category": "Architecture",
+    "date": "2025-07-02",
+    "rationale": "Introduce Security Champions Program was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Billing Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-022",
+      "emp-055",
+      "emp-038",
+      "emp-079",
+      "emp-118"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0116",
+      "JIRA-1046"
+    ]
+  },
+  {
+    "id": "dec-048",
+    "title": "Adopt Backend for Frontend Pattern",
+    "category": "Infrastructure",
+    "date": "2025-02-25",
+    "rationale": "Adopt Backend for Frontend Pattern was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Cloud Migration Layer.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-024",
+      "emp-100"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0101",
+      "JIRA-1211"
+    ]
+  },
+  {
+    "id": "dec-049",
+    "title": "Retire Legacy Mobile SDK",
+    "category": "Infrastructure",
+    "date": "2025-03-18",
+    "rationale": "Retire Legacy Mobile SDK was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Cloud Migration Layer.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-058",
+      "emp-004",
+      "emp-023",
+      "emp-059"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0024",
+      "JIRA-1128"
+    ]
+  },
+  {
+    "id": "dec-050",
+    "title": "Introduce Org-Wide API Style Guide",
+    "category": "Process",
+    "date": "2025-06-18",
+    "rationale": "Introduce Org-Wide API Style Guide was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Cloud Migration Layer.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-089",
+      "emp-084",
+      "emp-117",
+      "emp-092"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0030",
+      "JIRA-1230"
+    ]
+  },
+  {
+    "id": "dec-051",
+    "title": "Adopt Read Replicas for Reporting",
+    "category": "Infrastructure",
+    "date": "2025-08-11",
+    "rationale": "Adopt Read Replicas for Reporting was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Security Review Service.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-011",
+      "emp-068",
+      "emp-091",
+      "emp-050"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0012",
+      "JIRA-1087"
+    ]
+  },
+  {
+    "id": "dec-052",
+    "title": "Consolidate Test Environments",
+    "category": "Process",
+    "date": "2026-03-29",
+    "rationale": "Consolidate Test Environments was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Feature Flag Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-073",
+      "emp-112",
+      "emp-085",
+      "emp-111"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0014",
+      "JIRA-1214"
+    ]
+  },
+  {
+    "id": "dec-053",
+    "title": "Introduce Dependency Freshness Policy",
+    "category": "Tech Stack",
+    "date": "2025-08-04",
+    "rationale": "Introduce Dependency Freshness Policy was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Security Review Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-040",
+      "emp-094",
+      "emp-099",
+      "emp-058"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0052",
+      "JIRA-1001"
+    ]
+  },
+  {
+    "id": "dec-054",
+    "title": "Adopt Structured Logging Standard",
+    "category": "Product",
+    "date": "2025-09-15",
+    "rationale": "Adopt Structured Logging Standard was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Reporting Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Partial rollout"
+    ],
+    "participant_ids": [
+      "emp-002",
+      "emp-059",
+      "emp-064",
+      "emp-110"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0061",
+      "JIRA-1111"
+    ]
+  },
+  {
+    "id": "dec-055",
+    "title": "Retire Manual Release Checklist",
+    "category": "Infrastructure",
+    "date": "2026-06-17",
+    "rationale": "Retire Manual Release Checklist was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Analytics Pipeline.",
+    "alternatives_considered": [
+      "Delay to next quarter",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-059",
+      "emp-053",
+      "emp-057",
+      "emp-011",
+      "emp-077"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0143",
+      "JIRA-1106"
+    ]
+  },
+  {
+    "id": "dec-056",
+    "title": "Introduce Data Lineage Tracking",
+    "category": "Architecture",
+    "date": "2025-07-21",
+    "rationale": "Introduce Data Lineage Tracking was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Mobile Gateway.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-024",
+      "emp-019"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0009",
+      "JIRA-1295"
+    ]
+  },
+  {
+    "id": "dec-057",
+    "title": "Adopt Platform Team Model",
+    "category": "Architecture",
+    "date": "2025-11-19",
+    "rationale": "Adopt Platform Team Model was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Security Review Service.",
+    "alternatives_considered": [
+      "Third-party vendor",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-043",
+      "emp-118",
+      "emp-012",
+      "emp-007"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0147",
+      "JIRA-1287"
+    ]
+  },
+  {
+    "id": "dec-058",
+    "title": "Consolidate Internal Developer Portal",
+    "category": "Tech Stack",
+    "date": "2025-03-01",
+    "rationale": "Consolidate Internal Developer Portal was adopted after review by the owning team to reduce operational risk and improve delivery velocity around User Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "In-house build"
+    ],
+    "participant_ids": [
+      "emp-059",
+      "emp-096",
+      "emp-075"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0083",
+      "JIRA-1188"
+    ]
+  },
+  {
+    "id": "dec-059",
+    "title": "Introduce Error Budget Policy",
+    "category": "Infrastructure",
+    "date": "2026-05-18",
+    "rationale": "Introduce Error Budget Policy was adopted after review by the owning team to reduce operational risk and improve delivery velocity around Database Migration Tool.",
+    "alternatives_considered": [
+      "Partial rollout",
+      "Third-party vendor"
+    ],
+    "participant_ids": [
+      "emp-105",
+      "emp-009",
+      "emp-098",
+      "emp-055",
+      "emp-108"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0032",
+      "JIRA-1140"
+    ]
+  },
+  {
+    "id": "dec-060",
+    "title": "Adopt Config as Code",
+    "category": "Process",
+    "date": "2025-08-11",
+    "rationale": "Adopt Config as Code was adopted after review by the owning team to reduce operational risk and improve delivery velocity around User Service.",
+    "alternatives_considered": [
+      "Do nothing",
+      "Delay to next quarter"
+    ],
+    "participant_ids": [
+      "emp-068",
+      "emp-053",
+      "emp-027",
+      "emp-090"
+    ],
+    "outcome": "Adopted",
+    "evidence": [
+      "PR-0124",
+      "JIRA-1147"
+    ]
+  }
+]

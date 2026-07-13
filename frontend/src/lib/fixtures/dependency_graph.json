@@ -1,0 +1,116 @@
+{
+  "nodes": [
+    {
+      "id": "user-service",
+      "label": "User Service",
+      "type": "service",
+      "status": "on_track"
+    },
+    {
+      "id": "payments-api",
+      "label": "Payments API",
+      "type": "service",
+      "status": "blocked"
+    },
+    {
+      "id": "security-review",
+      "label": "Security Review",
+      "type": "process",
+      "status": "delayed"
+    },
+    {
+      "id": "mobile-app",
+      "label": "Mobile App",
+      "type": "project",
+      "status": "at_risk"
+    },
+    {
+      "id": "backend-core",
+      "label": "Backend Core",
+      "type": "team",
+      "status": "at_risk"
+    },
+    {
+      "id": "analytics-pipeline",
+      "label": "Analytics Pipeline",
+      "type": "service",
+      "status": "on_track"
+    },
+    {
+      "id": "database-migration",
+      "label": "Database Migration",
+      "type": "project",
+      "status": "on_track"
+    },
+    {
+      "id": "notification-service",
+      "label": "Notification Service",
+      "type": "service",
+      "status": "on_track"
+    },
+    {
+      "id": "search-service",
+      "label": "Search Service",
+      "type": "service",
+      "status": "on_track"
+    },
+    {
+      "id": "billing-service",
+      "label": "Billing Service",
+      "type": "service",
+      "status": "on_track"
+    }
+  ],
+  "edges": [
+    {
+      "source": "security-review",
+      "target": "payments-api",
+      "relation": "blocks"
+    },
+    {
+      "source": "payments-api",
+      "target": "backend-core",
+      "relation": "blocks"
+    },
+    {
+      "source": "backend-core",
+      "target": "mobile-app",
+      "relation": "blocks"
+    },
+    {
+      "source": "payments-api",
+      "target": "analytics-pipeline",
+      "relation": "depends_on"
+    },
+    {
+      "source": "user-service",
+      "target": "payments-api",
+      "relation": "depends_on"
+    },
+    {
+      "source": "database-migration",
+      "target": "security-review",
+      "relation": "depends_on"
+    },
+    {
+      "source": "payments-api",
+      "target": "notification-service",
+      "relation": "uses"
+    },
+    {
+      "source": "billing-service",
+      "target": "payments-api",
+      "relation": "depends_on"
+    },
+    {
+      "source": "search-service",
+      "target": "user-service",
+      "relation": "depends_on"
+    },
+    {
+      "source": "mobile-app",
+      "target": "search-service",
+      "relation": "uses"
+    }
+  ]
+}

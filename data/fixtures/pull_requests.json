@@ -1,0 +1,2195 @@
+[
+  {
+    "id": "pr-0001",
+    "title": "Fix Reporting Service retry logic",
+    "repo_id": "repo-017",
+    "repo_name": "security-worker-17",
+    "author_id": "emp-042",
+    "author_name": "Tomas Garcia",
+    "status": "review",
+    "impacted_services": [
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-09-16"
+  },
+  {
+    "id": "pr-0002",
+    "title": "Fix Analytics Pipeline caching",
+    "repo_id": "repo-030",
+    "repo_name": "devops-app-30",
+    "author_id": "emp-053",
+    "author_name": "Lucas Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Auth Service",
+      "User Service",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2026-02-04"
+  },
+  {
+    "id": "pr-0003",
+    "title": "Refactor Auth Service tests",
+    "repo_id": "repo-036",
+    "repo_name": "backend-core-api-36",
+    "author_id": "emp-017",
+    "author_name": "Ivan Rossi",
+    "status": "open",
+    "impacted_services": [
+      "User Service"
+    ],
+    "created_at": "2025-08-02"
+  },
+  {
+    "id": "pr-0004",
+    "title": "Add Cloud Migration Layer query layer",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-103",
+    "author_name": "Daniel Johnson",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service"
+    ],
+    "created_at": "2025-11-24"
+  },
+  {
+    "id": "pr-0005",
+    "title": "Fix Auth Service auth flow",
+    "repo_id": "repo-006",
+    "repo_name": "mobile-api-6",
+    "author_id": "emp-029",
+    "author_name": "Nadia Costa",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Database Migration Tool",
+      "Billing Service",
+      "Reporting Service"
+    ],
+    "created_at": "2025-11-20"
+  },
+  {
+    "id": "pr-0006",
+    "title": "Add Auth Service caching",
+    "repo_id": "repo-031",
+    "repo_name": "growth-lib-31",
+    "author_id": "emp-061",
+    "author_name": "Ivan Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Search Service",
+      "Billing Service",
+      "Security Review Service"
+    ],
+    "created_at": "2026-05-16"
+  },
+  {
+    "id": "pr-0007",
+    "title": "Optimize Mobile Gateway caching",
+    "repo_id": "repo-018",
+    "repo_name": "web-frontend-worker-18",
+    "author_id": "emp-099",
+    "author_name": "Nadia Chen",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-06-14"
+  },
+  {
+    "id": "pr-0008",
+    "title": "Migrate Search Service tests",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-108",
+    "author_name": "Ivan Weiss",
+    "status": "open",
+    "impacted_services": [
+      "Auth Service",
+      "Billing Service"
+    ],
+    "created_at": "2025-10-16"
+  },
+  {
+    "id": "pr-0009",
+    "title": "Migrate Reporting Service caching",
+    "repo_id": "repo-023",
+    "repo_name": "mobile-service-23",
+    "author_id": "emp-043",
+    "author_name": "Sofia Ibrahim",
+    "status": "open",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Analytics Pipeline",
+      "Cloud Migration Layer",
+      "Reporting Service"
+    ],
+    "created_at": "2025-09-01"
+  },
+  {
+    "id": "pr-0010",
+    "title": "Optimize User Service schema",
+    "repo_id": "repo-025",
+    "repo_name": "backend-core-lib-25",
+    "author_id": "emp-030",
+    "author_name": "Fatima Patel",
+    "status": "open",
+    "impacted_services": [
+      "Notification Service",
+      "Recommendation Engine",
+      "Reporting Service",
+      "Security Review Service"
+    ],
+    "created_at": "2025-10-10"
+  },
+  {
+    "id": "pr-0011",
+    "title": "Migrate Search Service schema",
+    "repo_id": "repo-003",
+    "repo_name": "security-worker-3",
+    "author_id": "emp-017",
+    "author_name": "Ivan Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Billing Service",
+      "Auth Service",
+      "User Service"
+    ],
+    "created_at": "2025-06-16"
+  },
+  {
+    "id": "pr-0012",
+    "title": "Harden Security Review Service auth flow",
+    "repo_id": "repo-010",
+    "repo_name": "mobile-app-10",
+    "author_id": "emp-053",
+    "author_name": "Lucas Petrov",
+    "status": "open",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Search Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-11-29"
+  },
+  {
+    "id": "pr-0013",
+    "title": "Refactor Feature Flag Service tests",
+    "repo_id": "repo-006",
+    "repo_name": "mobile-api-6",
+    "author_id": "emp-110",
+    "author_name": "Alex Lee",
+    "status": "review",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Recommendation Engine",
+      "Cloud Migration Layer",
+      "Auth Service"
+    ],
+    "created_at": "2025-09-16"
+  },
+  {
+    "id": "pr-0014",
+    "title": "Fix Analytics Pipeline tests",
+    "repo_id": "repo-003",
+    "repo_name": "security-worker-3",
+    "author_id": "emp-080",
+    "author_name": "Wei Hassan",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Payments API"
+    ],
+    "created_at": "2025-11-10"
+  },
+  {
+    "id": "pr-0015",
+    "title": "Harden Cloud Migration Layer auth flow",
+    "repo_id": "repo-007",
+    "repo_name": "backend-core-worker-7",
+    "author_id": "emp-098",
+    "author_name": "Diego Silva",
+    "status": "open",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-06-06"
+  },
+  {
+    "id": "pr-0016",
+    "title": "Fix Database Migration Tool schema",
+    "repo_id": "repo-003",
+    "repo_name": "security-worker-3",
+    "author_id": "emp-042",
+    "author_name": "Tomas Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service",
+      "Analytics Pipeline",
+      "Billing Service",
+      "Notification Service"
+    ],
+    "created_at": "2025-09-04"
+  },
+  {
+    "id": "pr-0017",
+    "title": "Add Payments API caching",
+    "repo_id": "repo-012",
+    "repo_name": "analytics-app-12",
+    "author_id": "emp-022",
+    "author_name": "Lucas Chen",
+    "status": "open",
+    "impacted_services": [
+      "Auth Service",
+      "Search Service"
+    ],
+    "created_at": "2026-04-08"
+  },
+  {
+    "id": "pr-0018",
+    "title": "Harden Database Migration Tool retry logic",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-060",
+    "author_name": "Sarah Santos",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service"
+    ],
+    "created_at": "2025-10-25"
+  },
+  {
+    "id": "pr-0019",
+    "title": "Migrate Security Review Service auth flow",
+    "repo_id": "repo-019",
+    "repo_name": "backend-core-worker-19",
+    "author_id": "emp-087",
+    "author_name": "Lucas Ibrahim",
+    "status": "open",
+    "impacted_services": [
+      "Search Service",
+      "Database Migration Tool",
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-11-15"
+  },
+  {
+    "id": "pr-0020",
+    "title": "Refactor Analytics Pipeline retry logic",
+    "repo_id": "repo-017",
+    "repo_name": "security-worker-17",
+    "author_id": "emp-059",
+    "author_name": "Daniel Garcia",
+    "status": "open",
+    "impacted_services": [
+      "Analytics Pipeline"
+    ],
+    "created_at": "2025-12-07"
+  },
+  {
+    "id": "pr-0021",
+    "title": "Migrate Database Migration Tool tests",
+    "repo_id": "repo-037",
+    "repo_name": "devops-service-37",
+    "author_id": "emp-046",
+    "author_name": "Priya Kim",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service"
+    ],
+    "created_at": "2025-07-18"
+  },
+  {
+    "id": "pr-0022",
+    "title": "Fix Search Service tests",
+    "repo_id": "repo-026",
+    "repo_name": "backend-core-worker-26",
+    "author_id": "emp-036",
+    "author_name": "Daniel Costa",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Database Migration Tool",
+      "Analytics Pipeline",
+      "Search Service"
+    ],
+    "created_at": "2025-12-22"
+  },
+  {
+    "id": "pr-0023",
+    "title": "Add Search Service schema",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-082",
+    "author_name": "Elena Ahmed",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-07-25"
+  },
+  {
+    "id": "pr-0024",
+    "title": "Optimize User Service caching",
+    "repo_id": "repo-003",
+    "repo_name": "security-worker-3",
+    "author_id": "emp-040",
+    "author_name": "Diego Chen",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-01-04"
+  },
+  {
+    "id": "pr-0025",
+    "title": "Add Security Review Service caching",
+    "repo_id": "repo-027",
+    "repo_name": "growth-api-27",
+    "author_id": "emp-023",
+    "author_name": "Daniel Novak",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Security Review Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-10-17"
+  },
+  {
+    "id": "pr-0026",
+    "title": "Refactor Reporting Service auth flow",
+    "repo_id": "repo-019",
+    "repo_name": "backend-core-worker-19",
+    "author_id": "emp-096",
+    "author_name": "Victor Ahmed",
+    "status": "open",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2025-05-30"
+  },
+  {
+    "id": "pr-0027",
+    "title": "Harden Cloud Migration Layer tests",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-111",
+    "author_name": "Daniel Sharma",
+    "status": "open",
+    "impacted_services": [
+      "Payments API",
+      "Reporting Service",
+      "Notification Service"
+    ],
+    "created_at": "2026-06-13"
+  },
+  {
+    "id": "pr-0028",
+    "title": "Fix Auth Service schema",
+    "repo_id": "repo-017",
+    "repo_name": "security-worker-17",
+    "author_id": "emp-069",
+    "author_name": "Kenji Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Recommendation Engine",
+      "Mobile Gateway",
+      "Payments API"
+    ],
+    "created_at": "2025-07-10"
+  },
+  {
+    "id": "pr-0029",
+    "title": "Fix Search Service caching",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-061",
+    "author_name": "Ivan Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Payments API"
+    ],
+    "created_at": "2025-07-30"
+  },
+  {
+    "id": "pr-0030",
+    "title": "Harden Database Migration Tool tests",
+    "repo_id": "repo-030",
+    "repo_name": "devops-app-30",
+    "author_id": "emp-117",
+    "author_name": "Jenna Wong",
+    "status": "open",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2026-05-28"
+  },
+  {
+    "id": "pr-0031",
+    "title": "Optimize Payments API auth flow",
+    "repo_id": "repo-003",
+    "repo_name": "security-worker-3",
+    "author_id": "emp-039",
+    "author_name": "Priya Silva",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Auth Service"
+    ],
+    "created_at": "2025-12-13"
+  },
+  {
+    "id": "pr-0032",
+    "title": "Migrate Cloud Migration Layer tests",
+    "repo_id": "repo-035",
+    "repo_name": "mobile-lib-35",
+    "author_id": "emp-054",
+    "author_name": "Diego Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Payments API",
+      "Auth Service",
+      "Search Service"
+    ],
+    "created_at": "2025-11-24"
+  },
+  {
+    "id": "pr-0033",
+    "title": "Harden Mobile Gateway query layer",
+    "repo_id": "repo-018",
+    "repo_name": "web-frontend-worker-18",
+    "author_id": "emp-005",
+    "author_name": "Ravi Santos",
+    "status": "open",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Mobile Gateway",
+      "Payments API",
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-12-14"
+  },
+  {
+    "id": "pr-0034",
+    "title": "Harden Mobile Gateway auth flow",
+    "repo_id": "repo-035",
+    "repo_name": "mobile-lib-35",
+    "author_id": "emp-116",
+    "author_name": "Keiko Ibrahim",
+    "status": "open",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Payments API",
+      "Auth Service"
+    ],
+    "created_at": "2026-05-05"
+  },
+  {
+    "id": "pr-0035",
+    "title": "Harden Search Service auth flow",
+    "repo_id": "repo-014",
+    "repo_name": "payments-service-14",
+    "author_id": "emp-083",
+    "author_name": "Mei Nguyen",
+    "status": "merged",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Security Review Service",
+      "Search Service"
+    ],
+    "created_at": "2026-03-07"
+  },
+  {
+    "id": "pr-0036",
+    "title": "Migrate Analytics Pipeline caching",
+    "repo_id": "repo-005",
+    "repo_name": "web-frontend-app-5",
+    "author_id": "emp-107",
+    "author_name": "Sarah Novak",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Reporting Service"
+    ],
+    "created_at": "2026-04-06"
+  },
+  {
+    "id": "pr-0037",
+    "title": "Refactor Feature Flag Service query layer",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-001",
+    "author_name": "Aisha Johnson",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Security Review Service",
+      "Payments API"
+    ],
+    "created_at": "2025-07-17"
+  },
+  {
+    "id": "pr-0038",
+    "title": "Fix Mobile Gateway query layer",
+    "repo_id": "repo-002",
+    "repo_name": "data-infrastructure-lib-2",
+    "author_id": "emp-017",
+    "author_name": "Ivan Rossi",
+    "status": "review",
+    "impacted_services": [
+      "User Service",
+      "Security Review Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-05-25"
+  },
+  {
+    "id": "pr-0039",
+    "title": "Optimize Billing Service auth flow",
+    "repo_id": "repo-009",
+    "repo_name": "mobile-app-9",
+    "author_id": "emp-095",
+    "author_name": "Kenji Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Reporting Service",
+      "Mobile Gateway",
+      "Billing Service"
+    ],
+    "created_at": "2025-08-21"
+  },
+  {
+    "id": "pr-0040",
+    "title": "Migrate Analytics Pipeline caching",
+    "repo_id": "repo-007",
+    "repo_name": "backend-core-worker-7",
+    "author_id": "emp-058",
+    "author_name": "Aisha Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Recommendation Engine",
+      "User Service"
+    ],
+    "created_at": "2026-05-20"
+  },
+  {
+    "id": "pr-0041",
+    "title": "Optimize Notification Service tests",
+    "repo_id": "repo-031",
+    "repo_name": "growth-lib-31",
+    "author_id": "emp-109",
+    "author_name": "Hana Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Auth Service",
+      "Payments API",
+      "Feature Flag Service"
+    ],
+    "created_at": "2026-01-07"
+  },
+  {
+    "id": "pr-0042",
+    "title": "Fix Security Review Service schema",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-019",
+    "author_name": "Nadia Khan",
+    "status": "review",
+    "impacted_services": [
+      "Notification Service",
+      "Search Service",
+      "Billing Service"
+    ],
+    "created_at": "2026-01-21"
+  },
+  {
+    "id": "pr-0043",
+    "title": "Migrate Notification Service auth flow",
+    "repo_id": "repo-030",
+    "repo_name": "devops-app-30",
+    "author_id": "emp-065",
+    "author_name": "Julia Sharma",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Auth Service"
+    ],
+    "created_at": "2026-02-24"
+  },
+  {
+    "id": "pr-0044",
+    "title": "Optimize Notification Service retry logic",
+    "repo_id": "repo-027",
+    "repo_name": "growth-api-27",
+    "author_id": "emp-044",
+    "author_name": "Alex Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Mobile Gateway",
+      "Recommendation Engine"
+    ],
+    "created_at": "2026-02-10"
+  },
+  {
+    "id": "pr-0045",
+    "title": "Harden Auth Service auth flow",
+    "repo_id": "repo-024",
+    "repo_name": "devops-app-24",
+    "author_id": "emp-020",
+    "author_name": "Lucas Hassan",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API"
+    ],
+    "created_at": "2025-11-11"
+  },
+  {
+    "id": "pr-0046",
+    "title": "Harden Mobile Gateway query layer",
+    "repo_id": "repo-007",
+    "repo_name": "backend-core-worker-7",
+    "author_id": "emp-096",
+    "author_name": "Victor Ahmed",
+    "status": "review",
+    "impacted_services": [
+      "Search Service"
+    ],
+    "created_at": "2025-09-06"
+  },
+  {
+    "id": "pr-0047",
+    "title": "Harden Payments API retry logic",
+    "repo_id": "repo-036",
+    "repo_name": "backend-core-api-36",
+    "author_id": "emp-043",
+    "author_name": "Sofia Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Cloud Migration Layer",
+      "User Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-08-17"
+  },
+  {
+    "id": "pr-0048",
+    "title": "Fix Search Service caching",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-046",
+    "author_name": "Priya Kim",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Auth Service"
+    ],
+    "created_at": "2026-02-26"
+  },
+  {
+    "id": "pr-0049",
+    "title": "Migrate Mobile Gateway auth flow",
+    "repo_id": "repo-007",
+    "repo_name": "backend-core-worker-7",
+    "author_id": "emp-045",
+    "author_name": "Alex Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Notification Service"
+    ],
+    "created_at": "2025-09-06"
+  },
+  {
+    "id": "pr-0050",
+    "title": "Harden Recommendation Engine caching",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-079",
+    "author_name": "Aisha Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "User Service",
+      "Security Review Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-06-26"
+  },
+  {
+    "id": "pr-0051",
+    "title": "Refactor Mobile Gateway auth flow",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-118",
+    "author_name": "Victor Nguyen",
+    "status": "merged",
+    "impacted_services": [
+      "Search Service",
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-11-27"
+  },
+  {
+    "id": "pr-0052",
+    "title": "Harden Recommendation Engine auth flow",
+    "repo_id": "repo-005",
+    "repo_name": "web-frontend-app-5",
+    "author_id": "emp-019",
+    "author_name": "Nadia Khan",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Feature Flag Service"
+    ],
+    "created_at": "2025-10-31"
+  },
+  {
+    "id": "pr-0053",
+    "title": "Refactor Database Migration Tool tests",
+    "repo_id": "repo-022",
+    "repo_name": "mobile-api-22",
+    "author_id": "emp-021",
+    "author_name": "Nadia Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "User Service"
+    ],
+    "created_at": "2026-04-02"
+  },
+  {
+    "id": "pr-0054",
+    "title": "Migrate User Service tests",
+    "repo_id": "repo-011",
+    "repo_name": "backend-core-api-11",
+    "author_id": "emp-097",
+    "author_name": "Sarah Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Recommendation Engine",
+      "Notification Service"
+    ],
+    "created_at": "2025-10-15"
+  },
+  {
+    "id": "pr-0055",
+    "title": "Optimize Database Migration Tool query layer",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-057",
+    "author_name": "Noah Hassan",
+    "status": "review",
+    "impacted_services": [
+      "Mobile Gateway"
+    ],
+    "created_at": "2025-11-12"
+  },
+  {
+    "id": "pr-0056",
+    "title": "Harden Recommendation Engine caching",
+    "repo_id": "repo-008",
+    "repo_name": "payments-api-8",
+    "author_id": "emp-037",
+    "author_name": "Amara Santos",
+    "status": "open",
+    "impacted_services": [
+      "User Service",
+      "Analytics Pipeline",
+      "Notification Service"
+    ],
+    "created_at": "2025-08-18"
+  },
+  {
+    "id": "pr-0057",
+    "title": "Add Database Migration Tool query layer",
+    "repo_id": "repo-004",
+    "repo_name": "backend-core-app-4",
+    "author_id": "emp-001",
+    "author_name": "Aisha Johnson",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Mobile Gateway",
+      "Payments API"
+    ],
+    "created_at": "2026-06-17"
+  },
+  {
+    "id": "pr-0058",
+    "title": "Optimize Security Review Service query layer",
+    "repo_id": "repo-032",
+    "repo_name": "platform-lib-32",
+    "author_id": "emp-096",
+    "author_name": "Victor Ahmed",
+    "status": "open",
+    "impacted_services": [
+      "Billing Service",
+      "Feature Flag Service"
+    ],
+    "created_at": "2025-07-13"
+  },
+  {
+    "id": "pr-0059",
+    "title": "Optimize Feature Flag Service tests",
+    "repo_id": "repo-023",
+    "repo_name": "mobile-service-23",
+    "author_id": "emp-010",
+    "author_name": "Wei Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "User Service",
+      "Auth Service",
+      "Payments API",
+      "Mobile Gateway"
+    ],
+    "created_at": "2025-08-30"
+  },
+  {
+    "id": "pr-0060",
+    "title": "Optimize Cloud Migration Layer tests",
+    "repo_id": "repo-028",
+    "repo_name": "payments-service-28",
+    "author_id": "emp-074",
+    "author_name": "Julia Ibrahim",
+    "status": "open",
+    "impacted_services": [
+      "Payments API",
+      "Notification Service",
+      "User Service"
+    ],
+    "created_at": "2026-01-05"
+  },
+  {
+    "id": "pr-0061",
+    "title": "Migrate Auth Service tests",
+    "repo_id": "repo-011",
+    "repo_name": "backend-core-api-11",
+    "author_id": "emp-103",
+    "author_name": "Daniel Johnson",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service"
+    ],
+    "created_at": "2026-04-27"
+  },
+  {
+    "id": "pr-0062",
+    "title": "Migrate Notification Service caching",
+    "repo_id": "repo-016",
+    "repo_name": "backend-core-service-16",
+    "author_id": "emp-056",
+    "author_name": "Wei Weiss",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Database Migration Tool",
+      "Cloud Migration Layer",
+      "Mobile Gateway"
+    ],
+    "created_at": "2026-02-27"
+  },
+  {
+    "id": "pr-0063",
+    "title": "Add Payments API caching",
+    "repo_id": "repo-022",
+    "repo_name": "mobile-api-22",
+    "author_id": "emp-100",
+    "author_name": "Noah Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Mobile Gateway"
+    ],
+    "created_at": "2025-12-23"
+  },
+  {
+    "id": "pr-0064",
+    "title": "Fix Security Review Service schema",
+    "repo_id": "repo-010",
+    "repo_name": "mobile-app-10",
+    "author_id": "emp-031",
+    "author_name": "Ivan Ahmed",
+    "status": "merged",
+    "impacted_services": [
+      "Search Service",
+      "Security Review Service"
+    ],
+    "created_at": "2025-05-27"
+  },
+  {
+    "id": "pr-0065",
+    "title": "Harden Auth Service retry logic",
+    "repo_id": "repo-005",
+    "repo_name": "web-frontend-app-5",
+    "author_id": "emp-023",
+    "author_name": "Daniel Novak",
+    "status": "review",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Search Service",
+      "Feature Flag Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-08-05"
+  },
+  {
+    "id": "pr-0066",
+    "title": "Harden Mobile Gateway query layer",
+    "repo_id": "repo-021",
+    "repo_name": "web-frontend-api-21",
+    "author_id": "emp-111",
+    "author_name": "Daniel Sharma",
+    "status": "open",
+    "impacted_services": [
+      "Auth Service"
+    ],
+    "created_at": "2025-11-06"
+  },
+  {
+    "id": "pr-0067",
+    "title": "Refactor Search Service auth flow",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-102",
+    "author_name": "Julia Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-10-27"
+  },
+  {
+    "id": "pr-0068",
+    "title": "Fix Mobile Gateway schema",
+    "repo_id": "repo-029",
+    "repo_name": "analytics-worker-29",
+    "author_id": "emp-005",
+    "author_name": "Ravi Santos",
+    "status": "merged",
+    "impacted_services": [
+      "Search Service"
+    ],
+    "created_at": "2025-08-20"
+  },
+  {
+    "id": "pr-0069",
+    "title": "Optimize Search Service caching",
+    "repo_id": "repo-033",
+    "repo_name": "platform-service-33",
+    "author_id": "emp-050",
+    "author_name": "Lucas Sharma",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Search Service",
+      "Recommendation Engine",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2026-01-07"
+  },
+  {
+    "id": "pr-0070",
+    "title": "Migrate Security Review Service auth flow",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-061",
+    "author_name": "Ivan Petrov",
+    "status": "open",
+    "impacted_services": [
+      "Reporting Service"
+    ],
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "pr-0071",
+    "title": "Harden Security Review Service auth flow",
+    "repo_id": "repo-006",
+    "repo_name": "mobile-api-6",
+    "author_id": "emp-065",
+    "author_name": "Julia Sharma",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Billing Service",
+      "Reporting Service",
+      "Search Service"
+    ],
+    "created_at": "2026-03-31"
+  },
+  {
+    "id": "pr-0072",
+    "title": "Refactor Notification Service retry logic",
+    "repo_id": "repo-024",
+    "repo_name": "devops-app-24",
+    "author_id": "emp-048",
+    "author_name": "Nadia Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service"
+    ],
+    "created_at": "2025-08-01"
+  },
+  {
+    "id": "pr-0073",
+    "title": "Refactor Payments API caching",
+    "repo_id": "repo-022",
+    "repo_name": "mobile-api-22",
+    "author_id": "emp-009",
+    "author_name": "Tomas Garcia",
+    "status": "open",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Cloud Migration Layer",
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-08-16"
+  },
+  {
+    "id": "pr-0074",
+    "title": "Fix Search Service tests",
+    "repo_id": "repo-010",
+    "repo_name": "mobile-app-10",
+    "author_id": "emp-043",
+    "author_name": "Sofia Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Recommendation Engine",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-07-16"
+  },
+  {
+    "id": "pr-0075",
+    "title": "Migrate Cloud Migration Layer auth flow",
+    "repo_id": "repo-026",
+    "repo_name": "backend-core-worker-26",
+    "author_id": "emp-017",
+    "author_name": "Ivan Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Reporting Service",
+      "Mobile Gateway",
+      "Security Review Service"
+    ],
+    "created_at": "2025-07-12"
+  },
+  {
+    "id": "pr-0076",
+    "title": "Harden Recommendation Engine retry logic",
+    "repo_id": "repo-034",
+    "repo_name": "analytics-service-34",
+    "author_id": "emp-012",
+    "author_name": "Lila Costa",
+    "status": "review",
+    "impacted_services": [
+      "User Service",
+      "Mobile Gateway",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-03-20"
+  },
+  {
+    "id": "pr-0077",
+    "title": "Optimize Analytics Pipeline query layer",
+    "repo_id": "repo-014",
+    "repo_name": "payments-service-14",
+    "author_id": "emp-044",
+    "author_name": "Alex Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-04-30"
+  },
+  {
+    "id": "pr-0078",
+    "title": "Migrate Feature Flag Service tests",
+    "repo_id": "repo-033",
+    "repo_name": "platform-service-33",
+    "author_id": "emp-099",
+    "author_name": "Nadia Chen",
+    "status": "review",
+    "impacted_services": [
+      "Recommendation Engine"
+    ],
+    "created_at": "2025-12-30"
+  },
+  {
+    "id": "pr-0079",
+    "title": "Migrate Notification Service query layer",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-017",
+    "author_name": "Ivan Rossi",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-05-22"
+  },
+  {
+    "id": "pr-0080",
+    "title": "Add Cloud Migration Layer retry logic",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-104",
+    "author_name": "Keiko Brown",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Recommendation Engine",
+      "Cloud Migration Layer",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2025-11-05"
+  },
+  {
+    "id": "pr-0081",
+    "title": "Harden Reporting Service retry logic",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-037",
+    "author_name": "Amara Santos",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Reporting Service"
+    ],
+    "created_at": "2025-10-23"
+  },
+  {
+    "id": "pr-0082",
+    "title": "Harden Search Service retry logic",
+    "repo_id": "repo-013",
+    "repo_name": "data-infrastructure-api-13",
+    "author_id": "emp-048",
+    "author_name": "Nadia Kaur",
+    "status": "open",
+    "impacted_services": [
+      "Reporting Service",
+      "Notification Service",
+      "Billing Service"
+    ],
+    "created_at": "2025-09-23"
+  },
+  {
+    "id": "pr-0083",
+    "title": "Add Reporting Service caching",
+    "repo_id": "repo-027",
+    "repo_name": "growth-api-27",
+    "author_id": "emp-021",
+    "author_name": "Nadia Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "User Service",
+      "Recommendation Engine",
+      "Auth Service"
+    ],
+    "created_at": "2025-12-12"
+  },
+  {
+    "id": "pr-0084",
+    "title": "Fix Cloud Migration Layer caching",
+    "repo_id": "repo-036",
+    "repo_name": "backend-core-api-36",
+    "author_id": "emp-120",
+    "author_name": "Sam Wong",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Reporting Service",
+      "Security Review Service"
+    ],
+    "created_at": "2026-02-01"
+  },
+  {
+    "id": "pr-0085",
+    "title": "Migrate Security Review Service retry logic",
+    "repo_id": "repo-029",
+    "repo_name": "analytics-worker-29",
+    "author_id": "emp-116",
+    "author_name": "Keiko Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Auth Service"
+    ],
+    "created_at": "2025-12-24"
+  },
+  {
+    "id": "pr-0086",
+    "title": "Fix Notification Service caching",
+    "repo_id": "repo-002",
+    "repo_name": "data-infrastructure-lib-2",
+    "author_id": "emp-054",
+    "author_name": "Diego Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Payments API"
+    ],
+    "created_at": "2025-12-11"
+  },
+  {
+    "id": "pr-0087",
+    "title": "Refactor Payments API tests",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-004",
+    "author_name": "Sarah Kim",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service",
+      "User Service"
+    ],
+    "created_at": "2026-01-25"
+  },
+  {
+    "id": "pr-0088",
+    "title": "Add Reporting Service tests",
+    "repo_id": "repo-031",
+    "repo_name": "growth-lib-31",
+    "author_id": "emp-090",
+    "author_name": "Fatima Garcia",
+    "status": "open",
+    "impacted_services": [
+      "Search Service",
+      "User Service",
+      "Payments API",
+      "Reporting Service"
+    ],
+    "created_at": "2026-02-09"
+  },
+  {
+    "id": "pr-0089",
+    "title": "Add Billing Service tests",
+    "repo_id": "repo-014",
+    "repo_name": "payments-service-14",
+    "author_id": "emp-107",
+    "author_name": "Sarah Novak",
+    "status": "review",
+    "impacted_services": [
+      "Payments API",
+      "Reporting Service",
+      "Database Migration Tool",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2026-01-17"
+  },
+  {
+    "id": "pr-0090",
+    "title": "Add Notification Service tests",
+    "repo_id": "repo-008",
+    "repo_name": "payments-api-8",
+    "author_id": "emp-007",
+    "author_name": "Sofia Novak",
+    "status": "review",
+    "impacted_services": [
+      "Payments API",
+      "Feature Flag Service",
+      "Auth Service",
+      "Search Service"
+    ],
+    "created_at": "2025-09-19"
+  },
+  {
+    "id": "pr-0091",
+    "title": "Migrate Search Service query layer",
+    "repo_id": "repo-002",
+    "repo_name": "data-infrastructure-lib-2",
+    "author_id": "emp-081",
+    "author_name": "Nadia Costa",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "User Service",
+      "Search Service"
+    ],
+    "created_at": "2025-12-22"
+  },
+  {
+    "id": "pr-0092",
+    "title": "Optimize Security Review Service tests",
+    "repo_id": "repo-016",
+    "repo_name": "backend-core-service-16",
+    "author_id": "emp-074",
+    "author_name": "Julia Ibrahim",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Billing Service",
+      "Reporting Service"
+    ],
+    "created_at": "2025-10-04"
+  },
+  {
+    "id": "pr-0093",
+    "title": "Fix Notification Service retry logic",
+    "repo_id": "repo-033",
+    "repo_name": "platform-service-33",
+    "author_id": "emp-071",
+    "author_name": "Miguel Nguyen",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Database Migration Tool",
+      "Cloud Migration Layer",
+      "User Service"
+    ],
+    "created_at": "2025-12-20"
+  },
+  {
+    "id": "pr-0094",
+    "title": "Add Cloud Migration Layer tests",
+    "repo_id": "repo-005",
+    "repo_name": "web-frontend-app-5",
+    "author_id": "emp-045",
+    "author_name": "Alex Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service",
+      "User Service",
+      "Mobile Gateway"
+    ],
+    "created_at": "2025-09-14"
+  },
+  {
+    "id": "pr-0095",
+    "title": "Harden Security Review Service tests",
+    "repo_id": "repo-022",
+    "repo_name": "mobile-api-22",
+    "author_id": "emp-105",
+    "author_name": "Ivan Zhang",
+    "status": "open",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Security Review Service",
+      "Reporting Service",
+      "Payments API"
+    ],
+    "created_at": "2025-06-19"
+  },
+  {
+    "id": "pr-0096",
+    "title": "Refactor Analytics Pipeline auth flow",
+    "repo_id": "repo-030",
+    "repo_name": "devops-app-30",
+    "author_id": "emp-005",
+    "author_name": "Ravi Santos",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway"
+    ],
+    "created_at": "2026-01-13"
+  },
+  {
+    "id": "pr-0097",
+    "title": "Migrate Auth Service schema",
+    "repo_id": "repo-033",
+    "repo_name": "platform-service-33",
+    "author_id": "emp-051",
+    "author_name": "Miguel Patel",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Mobile Gateway"
+    ],
+    "created_at": "2025-05-17"
+  },
+  {
+    "id": "pr-0098",
+    "title": "Harden Mobile Gateway schema",
+    "repo_id": "repo-004",
+    "repo_name": "backend-core-app-4",
+    "author_id": "emp-111",
+    "author_name": "Daniel Sharma",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Feature Flag Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-11-07"
+  },
+  {
+    "id": "pr-0099",
+    "title": "Add Auth Service tests",
+    "repo_id": "repo-025",
+    "repo_name": "backend-core-lib-25",
+    "author_id": "emp-044",
+    "author_name": "Alex Kaur",
+    "status": "open",
+    "impacted_services": [
+      "Reporting Service",
+      "Billing Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-05-09"
+  },
+  {
+    "id": "pr-0100",
+    "title": "Optimize Search Service query layer",
+    "repo_id": "repo-028",
+    "repo_name": "payments-service-28",
+    "author_id": "emp-011",
+    "author_name": "Jenna Petrov",
+    "status": "review",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Payments API",
+      "Reporting Service"
+    ],
+    "created_at": "2026-01-04"
+  },
+  {
+    "id": "pr-0101",
+    "title": "Optimize Search Service tests",
+    "repo_id": "repo-019",
+    "repo_name": "backend-core-worker-19",
+    "author_id": "emp-040",
+    "author_name": "Diego Chen",
+    "status": "open",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Auth Service"
+    ],
+    "created_at": "2025-12-23"
+  },
+  {
+    "id": "pr-0102",
+    "title": "Harden Feature Flag Service schema",
+    "repo_id": "repo-029",
+    "repo_name": "analytics-worker-29",
+    "author_id": "emp-006",
+    "author_name": "Keiko Garcia",
+    "status": "review",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Recommendation Engine",
+      "User Service",
+      "Payments API"
+    ],
+    "created_at": "2025-07-12"
+  },
+  {
+    "id": "pr-0103",
+    "title": "Migrate Reporting Service tests",
+    "repo_id": "repo-026",
+    "repo_name": "backend-core-worker-26",
+    "author_id": "emp-047",
+    "author_name": "Victor Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2025-08-13"
+  },
+  {
+    "id": "pr-0104",
+    "title": "Add Payments API query layer",
+    "repo_id": "repo-029",
+    "repo_name": "analytics-worker-29",
+    "author_id": "emp-005",
+    "author_name": "Ravi Santos",
+    "status": "merged",
+    "impacted_services": [
+      "Notification Service",
+      "Search Service",
+      "User Service"
+    ],
+    "created_at": "2025-08-15"
+  },
+  {
+    "id": "pr-0105",
+    "title": "Optimize Mobile Gateway schema",
+    "repo_id": "repo-010",
+    "repo_name": "mobile-app-10",
+    "author_id": "emp-087",
+    "author_name": "Lucas Ibrahim",
+    "status": "open",
+    "impacted_services": [
+      "Search Service"
+    ],
+    "created_at": "2026-04-11"
+  },
+  {
+    "id": "pr-0106",
+    "title": "Optimize Mobile Gateway tests",
+    "repo_id": "repo-034",
+    "repo_name": "analytics-service-34",
+    "author_id": "emp-047",
+    "author_name": "Victor Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "User Service"
+    ],
+    "created_at": "2025-06-09"
+  },
+  {
+    "id": "pr-0107",
+    "title": "Migrate Notification Service caching",
+    "repo_id": "repo-012",
+    "repo_name": "analytics-app-12",
+    "author_id": "emp-064",
+    "author_name": "Lila Ahmed",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Database Migration Tool",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-11-04"
+  },
+  {
+    "id": "pr-0108",
+    "title": "Refactor Cloud Migration Layer retry logic",
+    "repo_id": "repo-014",
+    "repo_name": "payments-service-14",
+    "author_id": "emp-079",
+    "author_name": "Aisha Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2026-05-14"
+  },
+  {
+    "id": "pr-0109",
+    "title": "Harden Auth Service auth flow",
+    "repo_id": "repo-029",
+    "repo_name": "analytics-worker-29",
+    "author_id": "emp-023",
+    "author_name": "Daniel Novak",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Payments API",
+      "Billing Service"
+    ],
+    "created_at": "2025-09-16"
+  },
+  {
+    "id": "pr-0110",
+    "title": "Refactor Feature Flag Service query layer",
+    "repo_id": "repo-019",
+    "repo_name": "backend-core-worker-19",
+    "author_id": "emp-115",
+    "author_name": "Priya Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service",
+      "Analytics Pipeline",
+      "Payments API"
+    ],
+    "created_at": "2026-03-10"
+  },
+  {
+    "id": "pr-0111",
+    "title": "Optimize User Service schema",
+    "repo_id": "repo-009",
+    "repo_name": "mobile-app-9",
+    "author_id": "emp-031",
+    "author_name": "Ivan Ahmed",
+    "status": "review",
+    "impacted_services": [
+      "Auth Service",
+      "Reporting Service",
+      "Billing Service"
+    ],
+    "created_at": "2026-04-15"
+  },
+  {
+    "id": "pr-0112",
+    "title": "Fix Payments API schema",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-114",
+    "author_name": "Julia Kaur",
+    "status": "open",
+    "impacted_services": [
+      "Billing Service",
+      "Notification Service",
+      "Reporting Service",
+      "Search Service"
+    ],
+    "created_at": "2026-05-14"
+  },
+  {
+    "id": "pr-0113",
+    "title": "Harden Payments API retry logic",
+    "repo_id": "repo-009",
+    "repo_name": "mobile-app-9",
+    "author_id": "emp-041",
+    "author_name": "Mei Zhang",
+    "status": "open",
+    "impacted_services": [
+      "Security Review Service",
+      "Reporting Service",
+      "Billing Service"
+    ],
+    "created_at": "2025-07-28"
+  },
+  {
+    "id": "pr-0114",
+    "title": "Add Notification Service caching",
+    "repo_id": "repo-038",
+    "repo_name": "data-infrastructure-app-38",
+    "author_id": "emp-024",
+    "author_name": "Sofia Hassan",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service"
+    ],
+    "created_at": "2026-04-03"
+  },
+  {
+    "id": "pr-0115",
+    "title": "Add Mobile Gateway tests",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-022",
+    "author_name": "Lucas Chen",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service",
+      "Database Migration Tool",
+      "Payments API"
+    ],
+    "created_at": "2026-02-12"
+  },
+  {
+    "id": "pr-0116",
+    "title": "Migrate Database Migration Tool query layer",
+    "repo_id": "repo-013",
+    "repo_name": "data-infrastructure-api-13",
+    "author_id": "emp-082",
+    "author_name": "Elena Ahmed",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service"
+    ],
+    "created_at": "2025-07-27"
+  },
+  {
+    "id": "pr-0117",
+    "title": "Migrate Security Review Service query layer",
+    "repo_id": "repo-011",
+    "repo_name": "backend-core-api-11",
+    "author_id": "emp-076",
+    "author_name": "Elena Ibrahim",
+    "status": "review",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Search Service",
+      "User Service"
+    ],
+    "created_at": "2026-06-06"
+  },
+  {
+    "id": "pr-0118",
+    "title": "Harden Reporting Service caching",
+    "repo_id": "repo-006",
+    "repo_name": "mobile-api-6",
+    "author_id": "emp-006",
+    "author_name": "Keiko Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Reporting Service",
+      "Search Service"
+    ],
+    "created_at": "2025-11-19"
+  },
+  {
+    "id": "pr-0119",
+    "title": "Fix Auth Service tests",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-082",
+    "author_name": "Elena Ahmed",
+    "status": "review",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Database Migration Tool",
+      "Auth Service"
+    ],
+    "created_at": "2026-02-15"
+  },
+  {
+    "id": "pr-0120",
+    "title": "Optimize Payments API tests",
+    "repo_id": "repo-026",
+    "repo_name": "backend-core-worker-26",
+    "author_id": "emp-039",
+    "author_name": "Priya Silva",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Notification Service"
+    ],
+    "created_at": "2025-10-16"
+  },
+  {
+    "id": "pr-0121",
+    "title": "Refactor Search Service query layer",
+    "repo_id": "repo-030",
+    "repo_name": "devops-app-30",
+    "author_id": "emp-027",
+    "author_name": "Carl Brown",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Mobile Gateway",
+      "Notification Service"
+    ],
+    "created_at": "2026-04-15"
+  },
+  {
+    "id": "pr-0122",
+    "title": "Migrate Payments API schema",
+    "repo_id": "repo-024",
+    "repo_name": "devops-app-24",
+    "author_id": "emp-066",
+    "author_name": "Amara Weiss",
+    "status": "merged",
+    "impacted_services": [
+      "Payments API",
+      "Database Migration Tool",
+      "Auth Service",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2026-04-09"
+  },
+  {
+    "id": "pr-0123",
+    "title": "Refactor Notification Service caching",
+    "repo_id": "repo-007",
+    "repo_name": "backend-core-worker-7",
+    "author_id": "emp-007",
+    "author_name": "Sofia Novak",
+    "status": "open",
+    "impacted_services": [
+      "Feature Flag Service",
+      "Security Review Service"
+    ],
+    "created_at": "2026-01-04"
+  },
+  {
+    "id": "pr-0124",
+    "title": "Refactor Analytics Pipeline query layer",
+    "repo_id": "repo-037",
+    "repo_name": "devops-service-37",
+    "author_id": "emp-093",
+    "author_name": "Sofia Silva",
+    "status": "open",
+    "impacted_services": [
+      "Auth Service",
+      "Database Migration Tool",
+      "Feature Flag Service",
+      "User Service"
+    ],
+    "created_at": "2026-05-05"
+  },
+  {
+    "id": "pr-0125",
+    "title": "Optimize Analytics Pipeline query layer",
+    "repo_id": "repo-026",
+    "repo_name": "backend-core-worker-26",
+    "author_id": "emp-065",
+    "author_name": "Julia Sharma",
+    "status": "review",
+    "impacted_services": [
+      "User Service",
+      "Feature Flag Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-10-10"
+  },
+  {
+    "id": "pr-0126",
+    "title": "Harden Recommendation Engine retry logic",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-113",
+    "author_name": "Daniel Garcia",
+    "status": "merged",
+    "impacted_services": [
+      "Feature Flag Service"
+    ],
+    "created_at": "2026-04-26"
+  },
+  {
+    "id": "pr-0127",
+    "title": "Refactor Cloud Migration Layer schema",
+    "repo_id": "repo-028",
+    "repo_name": "payments-service-28",
+    "author_id": "emp-018",
+    "author_name": "Priya Johnson",
+    "status": "open",
+    "impacted_services": [
+      "User Service",
+      "Notification Service",
+      "Feature Flag Service"
+    ],
+    "created_at": "2025-09-02"
+  },
+  {
+    "id": "pr-0128",
+    "title": "Refactor Billing Service schema",
+    "repo_id": "repo-036",
+    "repo_name": "backend-core-api-36",
+    "author_id": "emp-025",
+    "author_name": "Grace Novak",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service",
+      "Auth Service",
+      "Feature Flag Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-08-05"
+  },
+  {
+    "id": "pr-0129",
+    "title": "Add Payments API retry logic",
+    "repo_id": "repo-040",
+    "repo_name": "growth-service-40",
+    "author_id": "emp-016",
+    "author_name": "Julia Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service",
+      "Mobile Gateway",
+      "Security Review Service"
+    ],
+    "created_at": "2026-03-11"
+  },
+  {
+    "id": "pr-0130",
+    "title": "Optimize Billing Service auth flow",
+    "repo_id": "repo-039",
+    "repo_name": "security-lib-39",
+    "author_id": "emp-066",
+    "author_name": "Amara Weiss",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2025-06-20"
+  },
+  {
+    "id": "pr-0131",
+    "title": "Optimize Billing Service retry logic",
+    "repo_id": "repo-022",
+    "repo_name": "mobile-api-22",
+    "author_id": "emp-103",
+    "author_name": "Daniel Johnson",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Search Service"
+    ],
+    "created_at": "2026-01-08"
+  },
+  {
+    "id": "pr-0132",
+    "title": "Migrate Cloud Migration Layer schema",
+    "repo_id": "repo-011",
+    "repo_name": "backend-core-api-11",
+    "author_id": "emp-051",
+    "author_name": "Miguel Patel",
+    "status": "review",
+    "impacted_services": [
+      "Billing Service",
+      "Feature Flag Service",
+      "Reporting Service"
+    ],
+    "created_at": "2025-10-13"
+  },
+  {
+    "id": "pr-0133",
+    "title": "Optimize Feature Flag Service auth flow",
+    "repo_id": "repo-037",
+    "repo_name": "devops-service-37",
+    "author_id": "emp-039",
+    "author_name": "Priya Silva",
+    "status": "merged",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Payments API",
+      "Notification Service"
+    ],
+    "created_at": "2025-08-26"
+  },
+  {
+    "id": "pr-0134",
+    "title": "Harden Feature Flag Service tests",
+    "repo_id": "repo-020",
+    "repo_name": "analytics-service-20",
+    "author_id": "emp-102",
+    "author_name": "Julia Petrov",
+    "status": "merged",
+    "impacted_services": [
+      "Database Migration Tool",
+      "Recommendation Engine",
+      "Search Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2026-02-24"
+  },
+  {
+    "id": "pr-0135",
+    "title": "Optimize Security Review Service caching",
+    "repo_id": "repo-004",
+    "repo_name": "backend-core-app-4",
+    "author_id": "emp-075",
+    "author_name": "Ravi Nguyen",
+    "status": "review",
+    "impacted_services": [
+      "Security Review Service",
+      "Recommendation Engine",
+      "Analytics Pipeline",
+      "User Service"
+    ],
+    "created_at": "2025-08-31"
+  },
+  {
+    "id": "pr-0136",
+    "title": "Fix Auth Service schema",
+    "repo_id": "repo-008",
+    "repo_name": "payments-api-8",
+    "author_id": "emp-025",
+    "author_name": "Grace Novak",
+    "status": "open",
+    "impacted_services": [
+      "Notification Service",
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2026-03-08"
+  },
+  {
+    "id": "pr-0137",
+    "title": "Migrate Auth Service tests",
+    "repo_id": "repo-027",
+    "repo_name": "growth-api-27",
+    "author_id": "emp-065",
+    "author_name": "Julia Sharma",
+    "status": "merged",
+    "impacted_services": [
+      "Billing Service",
+      "Analytics Pipeline"
+    ],
+    "created_at": "2025-09-06"
+  },
+  {
+    "id": "pr-0138",
+    "title": "Optimize Billing Service retry logic",
+    "repo_id": "repo-021",
+    "repo_name": "web-frontend-api-21",
+    "author_id": "emp-085",
+    "author_name": "Sam Chen",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Billing Service"
+    ],
+    "created_at": "2025-12-27"
+  },
+  {
+    "id": "pr-0139",
+    "title": "Harden Reporting Service tests",
+    "repo_id": "repo-035",
+    "repo_name": "mobile-lib-35",
+    "author_id": "emp-046",
+    "author_name": "Priya Kim",
+    "status": "merged",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Feature Flag Service",
+      "Database Migration Tool",
+      "Billing Service"
+    ],
+    "created_at": "2026-01-19"
+  },
+  {
+    "id": "pr-0140",
+    "title": "Refactor Cloud Migration Layer query layer",
+    "repo_id": "repo-015",
+    "repo_name": "analytics-service-15",
+    "author_id": "emp-039",
+    "author_name": "Priya Silva",
+    "status": "open",
+    "impacted_services": [
+      "Auth Service",
+      "Mobile Gateway",
+      "Billing Service"
+    ],
+    "created_at": "2025-06-16"
+  },
+  {
+    "id": "pr-0141",
+    "title": "Fix Search Service tests",
+    "repo_id": "repo-018",
+    "repo_name": "web-frontend-worker-18",
+    "author_id": "emp-037",
+    "author_name": "Amara Santos",
+    "status": "review",
+    "impacted_services": [
+      "Notification Service",
+      "Mobile Gateway",
+      "Security Review Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-05-30"
+  },
+  {
+    "id": "pr-0142",
+    "title": "Fix Mobile Gateway retry logic",
+    "repo_id": "repo-019",
+    "repo_name": "backend-core-worker-19",
+    "author_id": "emp-092",
+    "author_name": "Sam Brown",
+    "status": "merged",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Feature Flag Service",
+      "Billing Service",
+      "Database Migration Tool"
+    ],
+    "created_at": "2025-09-06"
+  },
+  {
+    "id": "pr-0143",
+    "title": "Fix Search Service tests",
+    "repo_id": "repo-018",
+    "repo_name": "web-frontend-worker-18",
+    "author_id": "emp-018",
+    "author_name": "Priya Johnson",
+    "status": "review",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "User Service"
+    ],
+    "created_at": "2025-07-13"
+  },
+  {
+    "id": "pr-0144",
+    "title": "Harden Analytics Pipeline auth flow",
+    "repo_id": "repo-034",
+    "repo_name": "analytics-service-34",
+    "author_id": "emp-029",
+    "author_name": "Nadia Costa",
+    "status": "merged",
+    "impacted_services": [
+      "Mobile Gateway",
+      "Cloud Migration Layer",
+      "Auth Service",
+      "Payments API"
+    ],
+    "created_at": "2025-07-07"
+  },
+  {
+    "id": "pr-0145",
+    "title": "Migrate Security Review Service retry logic",
+    "repo_id": "repo-009",
+    "repo_name": "mobile-app-9",
+    "author_id": "emp-001",
+    "author_name": "Aisha Johnson",
+    "status": "open",
+    "impacted_services": [
+      "Recommendation Engine",
+      "Analytics Pipeline",
+      "Database Migration Tool",
+      "Mobile Gateway"
+    ],
+    "created_at": "2026-01-25"
+  },
+  {
+    "id": "pr-0146",
+    "title": "Fix Recommendation Engine caching",
+    "repo_id": "repo-004",
+    "repo_name": "backend-core-app-4",
+    "author_id": "emp-117",
+    "author_name": "Jenna Wong",
+    "status": "merged",
+    "impacted_services": [
+      "Security Review Service"
+    ],
+    "created_at": "2025-11-19"
+  },
+  {
+    "id": "pr-0147",
+    "title": "Fix Feature Flag Service retry logic",
+    "repo_id": "repo-012",
+    "repo_name": "analytics-app-12",
+    "author_id": "emp-120",
+    "author_name": "Sam Wong",
+    "status": "open",
+    "impacted_services": [
+      "Cloud Migration Layer",
+      "Database Migration Tool"
+    ],
+    "created_at": "2026-06-01"
+  },
+  {
+    "id": "pr-0148",
+    "title": "Migrate Search Service auth flow",
+    "repo_id": "repo-001",
+    "repo_name": "security-api-1",
+    "author_id": "emp-039",
+    "author_name": "Priya Silva",
+    "status": "merged",
+    "impacted_services": [
+      "Auth Service",
+      "Recommendation Engine",
+      "Billing Service"
+    ],
+    "created_at": "2025-09-25"
+  },
+  {
+    "id": "pr-0149",
+    "title": "Add Feature Flag Service caching",
+    "repo_id": "repo-032",
+    "repo_name": "platform-lib-32",
+    "author_id": "emp-114",
+    "author_name": "Julia Kaur",
+    "status": "open",
+    "impacted_services": [
+      "Analytics Pipeline",
+      "Reporting Service",
+      "Payments API"
+    ],
+    "created_at": "2026-01-02"
+  },
+  {
+    "id": "pr-0150",
+    "title": "Optimize Recommendation Engine schema",
+    "repo_id": "repo-011",
+    "repo_name": "backend-core-api-11",
+    "author_id": "emp-094",
+    "author_name": "Tomas Kaur",
+    "status": "merged",
+    "impacted_services": [
+      "Cloud Migration Layer"
+    ],
+    "created_at": "2025-12-30"
+  }
+]

@@ -1,0 +1,29 @@
+display_information:
+  name: OrgPulse AI
+  description: The AI that remembers your company, understands how work flows, and prevents delays before they happen.
+  background_color: "#2f5233"
+features:
+  bot_user:
+    display_name: OrgPulse
+    always_online: true
+  slash_commands:
+    - command: /orgpulse
+      description: Query OrgPulse AI (status, risks, experts <topic>)
+      usage_hint: "status | risks | experts <topic>"
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - chat:write
+      - commands
+      - channels:history
+      - im:history
+      - users:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - app_home_opened
+  interactivity:
+    is_enabled: true
+  socket_mode_enabled: true
