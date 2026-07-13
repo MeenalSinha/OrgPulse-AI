@@ -39,7 +39,36 @@ When you `@OrgPulse can we ship the Mobile App on Friday?` in Slack:
 3. Calls `/api/chat` → graph service → dependency chain analysis
 4. **Synthesis** posts rich Block Kit verdict with agent provenance:
    `🤖 OrgPulse Agent — intent: release_readiness · tools called: release_readiness_check`
-5. Calls `assistant_threads_setTitle` + `assistant_threads_setStatus` to register as a **Slack AI** participant
+5. Calls `assistant_threads_setTitle` + `assistant_threads_setStatus` to register as a **Slack AI** participant---
+
+## 🛠️ Built With
+
+### Slack Platform
+- **[Slack Bolt for Python](https://slack.dev/bolt-python/)** — Slack app framework (Socket Mode)
+- **[Slack Assistants API](https://api.slack.com/docs/assistant)** — `assistant_threads_setTitle`, `assistant_threads_setStatus` for Slack AI thread registration
+- **[Slack Block Kit](https://api.slack.com/block-kit)** — Rich interactive message formatting
+- **[Slack Slash Commands](https://api.slack.com/interactivity/slash-commands)** — `/orgpulse status | risks | experts <topic>`
+- **[Slack App Home](https://api.slack.com/surfaces/app-home)** — Personal org health dashboard per user
+- **[Slack Socket Mode](https://api.slack.com/apis/connections/socket)** — No public URL required
+
+### MCP (Model Context Protocol)
+- **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** (`mcp>=1.0.0`) — `sse_client` + `ClientSession` for real `list_tools()` / `call_tool()` protocol calls
+- **11 MCP Connectors** — GitHub, Jira, Notion, Confluence, Google Drive, Slack, Google Calendar, Linear, Figma, GitLab, Azure DevOps
+
+### AI & Backend
+- **[Anthropic Claude](https://www.anthropic.com/)** (`claude-sonnet-4-5`) — Evidence-grounded answer synthesis (optional, falls back to deterministic template)
+- **[FastAPI](https://fastapi.tiangolo.com/)** — REST API backend (17 route groups)
+- **[NetworkX](https://networkx.org/)** — Dependency graph reasoning (blocker chains, downstream impact, risk scoring)
+
+### Frontend
+- **[Next.js 15](https://nextjs.org/)** — React framework (App Router, Server Components)
+- **[React Flow](https://reactflow.dev/)** — Interactive dependency & knowledge graph explorer
+- **[Recharts](https://recharts.org/)** — Analytics charts (velocity, PR throughput, incident trend)
+- **[Tailwind CSS](https://tailwindcss.com/)** — Styling
+
+### Infrastructure
+- **[Docker](https://www.docker.com/)** — Multi-service compose (frontend, backend, Redis, PostgreSQL)
+- **[PostgreSQL](https://www.postgresql.org/)** — Production data store (architected, not yet wired in prototype)
 
 ---
 
